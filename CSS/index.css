@@ -1,0 +1,149 @@
+/* Modify the background color */
+.navbar-custom {
+  background-color: #87b3cc;
+}
+
+.navbar-custom .navbar-brand {
+  color: #efe7e7;
+}
+
+.navbar-custom .navbar-text {
+  color: #f4e9e9;
+}
+
+/* Set the border color */
+
+.custom-toggler.navbar-toggler {
+  border-color: #0e3458;
+  color: #b8cdd8;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(239, 231, 231, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.nav-item :active {
+  color: #efe7e7;
+}
+
+.nav-link {
+  color: #f0f0f5;
+}
+
+#linkedInNavBar {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+
+
+
+#textInTheMiddle {
+  background-color: #0e1012;
+}
+
+#textInTheMiddle p {
+  font-size: 1.2em;
+  color: #ffffff;
+}
+
+main {
+  background-color: #0e1012;
+  padding-top: 25%;
+}
+
+#photosUnderDescription {
+  background-color: #ffffff;
+  margin-top: 2%;
+}
+
+.btn {
+  background-color: #052a3f;
+  margin-top: 1.2%;
+}
+
+.navbar {
+  background-color: #0e1012;
+}
+
+#photoAndButtonAutomationsAndRobotics {
+  text-align: center;
+}
+
+#photoAndButtonMobileRobots {
+  text-align: center;
+}
+
+#photoAndButtonSoftwareDevelopment {
+  text-align: center;
+}
+
+img {
+  margin-top: 0.1%;
+  margin-bottom: 2%;
+  transition: all 2s, transform 0.5s, box-shadow 0.5s;
+  border-radius: 3%;
+}
+
+img:hover {
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.6);
+  transform: scale(1.02);
+}
+
+img:focus {
+  box-shadow: 12px 12px 25px rgba(0, 0, 0, 0.7);
+  width: 86%;
+  transform: none;
+}
+
+footer {
+  padding-top: 3%;
+  background-color: #f0f0f5;
+  text-align: center;
+  font-size: 1em;
+  padding-bottom: 3%;
+}
+
+#linkedInFooter {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.bi {
+  margin-top: 1%;
+}
+h1 {
+  font-size: 1.6em;
+  color: #ffffff;
+  padding-bottom: 0.5%;
+}
+
+
+.smartluggageFrame {
+  width: 10px;
+  height: 10px;
+}
+
+
+
+/* Material icons */
+
+
+/* .material-icons { 
+  padding: 0px; 
+  font-size: 30px; 
+  width: 50px; 
+  text-decoration: none; 
+  margin: 2px 0px; 
+}  */
+
+
+/* .facebook { 
+  background: white; 
+  color: grey; 
+}  */
+
+
+/* .bi bi-facebook{
+  color: wheat;
+} */

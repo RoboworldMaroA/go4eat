@@ -1,0 +1,201 @@
+/* Contact form W3SCHOOL CSS STYLE WITH MY MODIFICATON */
+
+ /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 9px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 6px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+
+/* TOP PHOTO */
+
+#chessOnTopIndex{
+	width:100%;
+    height: Auto;
+}
+
+#content{
+	margin-top: 5px;
+}
+
+/* google maps location NCI*/
+
+.nci-location{
+    margin-top: 50px;
+	margin-bottom: 50px;
+    
+}
+
+
+.nci-location h3{
+    color: #f2f2f2;
+    font-size: 1.4em;
+	padding-left: 40px;
+    
+}
+.nci-location p{
+    color: #f2f2f2;
+   
+}
+
+
+#searchNavbar{
+	color: grey;
+}
+
+body,td,th { 
+	color: #00020A;
+	background-color: #000000;}
+
+
+
+#welcome {
+	padding-top:25px;
+}
+
+#welcome h2{
+	color: white;
+    font-size: 1.7em;
+}
+#welcome p{
+	color: white;
+}
+
+#navigation {
+    background-color: #1A1110;
+    color: azure
+}
+
+
+#main_content_index {
+    
+    background-color:#000000;
+    color: aliceblue
+    }
+
+
+#navigation_text {
+    color: aliceblue;
+ }
+
+
+a{
+    color: aliceblue
+ }
+
+#google-map{
+width:400px;
+height:300px;
+border:0; 
+ }
+
+
+/* footer */
+
+#footer{
+    padding-top: 5px;
+	margin-top: 30px;
+	margin-left: 30px;
+	text-align: justify;
+	float: right;
+	background-color:#0f0504;
+	font-size:0.7em;
+	color:#737373;
+  
+}
+
+#footerMid{
+	padding-left: 50px;
+    
+
+}
+
+#footerRight{
+   
+   padding-left: 50px;
+
+}
+#footerRight p{
+   
+   padding-top: 20px;
+
+}
+	
+#footer h6{ 
+    padding-left: 30px;
+	text-align: center;
+	color: white;
+	font-size:1.0em;
+	text-transform:uppercase;
+	margin-top:2px;
+	letter-spacing:2px;
+}
+
+
+#footer li{
+    text-align: center;
+	list-style-type: none;
+}
+
+
+/* social media */
+.fa {
+  margin-right: 15px;
+  padding: 10px;
+  font-size: 1px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  margin-top: 20px;
+}
+
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+

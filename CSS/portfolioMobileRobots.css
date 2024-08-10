@@ -1,0 +1,259 @@
+/* Modify the background color */
+.navbar-custom {
+  background-color: #87b3cc;
+}
+
+.navbar-custom .navbar-brand {
+  color: #efe7e7;
+}
+
+.navbar-custom .navbar-text {
+  color: #f4e9e9;
+}
+
+/* Set the border color */
+
+.custom-toggler.navbar-toggler {
+  border-color: #0e3458;
+  color: #b8cdd8;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(239, 231, 231, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.nav-item :active {
+  color: #efe7e7;
+}
+
+.nav-link {
+  color: #f0f0f5;
+}
+
+#textInTheMiddle {
+  background-color: #052a3f;
+  margin-bottom: 2%;
+}
+
+#textInTheMiddle p {
+  font-size: 1.2em;
+  color: #f0f0f5;
+}
+
+#textInTensorflow {
+  background-color: #052a3f;
+  padding-bottom: 2%;
+  margin-top: 2%;
+  padding-top: 2%;
+}
+
+#textInTensorflow p {
+  font-size: 1.2em;
+  color: #f0f0f5;
+}
+
+#textInFourWheelsRobot {
+  background-color: #052a3f;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-top: 2%;
+  padding-top: 2%;
+}
+
+#textInFourWheelsRobot p {
+  font-size: 1.2em;
+  color: #f0f0f5;
+}
+
+#textInMobileRobotsIntroduction {
+  background-color: #052a3f;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+#textInMobileRobotsIntroduction p {
+  font-size: 1.2em;
+  color: #f0f0f5;
+}
+
+#textInLineFollower {
+  background-color: #052a3f;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-top: 2%;
+}
+
+#textInLineFollower p {
+  font-size: 1.2em;
+  color: #f0f0f5;
+}
+
+#textInWebAppPythonAndFlask {
+  background-color: #052a3f;
+  margin-bottom: 2%;
+  padding-top: 2%;
+}
+
+#textInWebAppPythonAndFlask p {
+  font-size: 1.2em;
+  color: #f0f0f5;
+}
+
+#textInTheMiddleRobotics {
+  background-color: #052a3f;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+#textInTheMiddleRobotics p {
+  font-size: 1.2em;
+  color: #f0f0f5;
+}
+
+#textInTrainModel {
+  background-color: #052a3f;
+  margin-top: 2%;
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+
+#textInTrainModel p {
+  font-size: 1.2em;
+  color: #f0f0f5;
+}
+
+/* Train model reconize Start Stop etc and driving robots */
+#textInTrainModelStartStop {
+  background-color: #052a3f;
+  margin-top: 2%;
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+
+#textInTrainModelStartStop p {
+  font-size: 1.2em;
+  color: #f0f0f5;
+}
+
+
+main {
+  background-color: #052a3f;
+  padding-top: 25%;
+}
+
+.automationsTab {
+  margin-left: 2%;
+}
+
+#photosUnderDescriptionSixWheelVehicles {
+  background-color: #ffffff;
+  margin-bottom: 2%;
+}
+
+#videoUnderDescription {
+  background-color: #ffffff;
+  padding-top: 3%;
+}
+
+#videosUnderDescriptionTensorflow {
+  background-color: #ffffff;
+  margin-top: 2%;
+}
+
+.videoUnderDescription {
+  background-color: #ffffff;
+  color: #ffffff;
+  padding-top: 8%;
+  margin-bottom: 2%;
+}
+
+#videoUnderDescription2 {
+  background-color: #ffffff;
+  margin-top: 2%;
+}
+
+#photosUnderDescription {
+  background-color: #ffffff;
+  margin-top: 2%;
+}
+
+#photosUnderDescription2 {
+  background-color: #ffffff;
+  margin-top: 2%;
+}
+
+#photosUnderDescriptionRobotics {
+  background-color: #ffffff;
+  margin-top: 2%;
+}
+
+#photosFourWheelsRobot {
+  background-color: #ffffff;
+  margin-top: 2%;
+}
+
+.btn {
+  background-color: #052a3f;
+  margin-top: 1.2%;
+}
+
+.navbar {
+  background-color: #052a3f;
+}
+
+article {
+  text-align: center;
+  color: #9b9797;
+}
+
+img {
+  margin-top: 0.1%;
+  margin-bottom: 2%;
+  transition: all 2s, transform 0.5s, box-shadow 0.5s;
+  border-radius: 3%;
+}
+
+img:hover {
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.6);
+  transform: scale(1.02);
+}
+
+img:focus {
+  box-shadow: 12px 12px 25px rgba(0, 0, 0, 0.7);
+  width: 86%;
+  transform: none;
+}
+
+footer {
+  background-color: #f0f0f5;
+  text-align: center;
+  font-size: 1em;
+  padding-bottom: 0.5%;
+}
+
+#linkedInFooter {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.bi {
+  margin-top: 1%;
+}
+h1 {
+  font-size: 1.6em;
+  color: #ffffff;
+  padding-bottom: 0.5%;
+}
+
+.heading2inAutomations {
+  margin-left: 1%;
+  margin-right: 5%;
+}
+
+.embed-responsive {
+  margin-bottom: 2%;
+}
+
+.btn a {
+  color: #f0f0f5;
+}

@@ -1,0 +1,367 @@
+article {
+  text-align: center;
+  color: #9b9797;
+}
+
+/* Modify the background color */
+.navbar-custom {
+  background-color: #87b3cc;
+}
+
+.navbar-custom .navbar-brand {
+  color: #efe7e7;
+}
+
+.navbar-custom .navbar-text {
+  color: #f4e9e9;
+}
+
+/* Set the border color */
+
+.custom-toggler.navbar-toggler {
+  border-color: #0e3458;
+  color: #b8cdd8;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(239, 231, 231, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.nav-item :active {
+  color: #efe7e7;
+}
+
+.nav-link {
+  color: #f0f0f5;
+}
+
+#textInTheMiddle {
+  background-color: #052a3f;
+  margin-bottom: 3%;
+}
+
+#textInTheMiddle p {
+  font-size: 1.2em;
+  color: #f0f0f5;
+}
+
+#textInTensorflow {
+  background-color: #052a3f;
+  padding-bottom: 1%;
+  padding-top: 2%;
+}
+
+#textInTensorflow p {
+  font-size: 1.2em;
+  color: #f0f0f5;
+}
+
+#textInFourWheelsRobot {
+  background-color: #052a3f;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#textInFourWheelsRobot p {
+  font-size: 1.2em;
+  color: #f0f0f5;
+}
+
+#textInSoftwareDevelopmentIntroduction {
+  background-color: #052a3f;
+}
+
+#textInSoftwareDevelopmentIntroduction p {
+  font-size: 1.2em;
+  color: #f0f0f5;
+}
+
+#textInVisionSystem {
+  background-color: #052a3f;
+}
+
+#textInVisionSystem p {
+  font-size: 1.2em;
+  color: #f0f0f5;
+}
+
+#textInVisionSystem2 {
+  background-color: #052a3f;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+#textInVisionSystem2 p {
+  font-size: 1.2em;
+  color: #f0f0f5;
+}
+
+#textInVisionSystem3 {
+  background-color: #052a3f;
+}
+
+#textInVisionSystem3 p {
+  font-size: 1.2em;
+  color: #f0f0f5;
+}
+
+#textInVisionSystem4 {
+  background-color: #052a3f;
+}
+
+#textInVisionSystem4 p {
+  font-size: 1.2em;
+  color: #f0f0f5;
+}
+
+#textInVisionSystem5 {
+  background-color: #052a3f;
+}
+
+#textInVisionSystem5 p {
+  font-size: 1.2em;
+  color: #f0f0f5;
+}
+#textInVisionSystem6 {
+  background-color: #052a3f;
+}
+
+#textInVisionSystem6 p {
+  font-size: 1.2em;
+  color: #f0f0f5;
+}
+#textInVisionSystem7 {
+  background-color: #052a3f;
+}
+
+#textInVisionSystem7 p {
+  font-size: 1.2em;
+  color: #f0f0f5;
+}
+#textInVisionSystem8 {
+  background-color: #052a3f;
+}
+
+#textInVisionSystem8 p {
+  font-size: 1.2em;
+  color: #f0f0f5;
+}
+#textInVisionSystem9 {
+  background-color: #052a3f;
+}
+
+#textInVisionSystem9 p {
+  font-size: 1.2em;
+  color: #f0f0f5;
+}
+#textInVisionSystem10 {
+  background-color: #052a3f;
+}
+
+#textInVisionSystem10 p {
+  font-size: 1.2em;
+  color: #f0f0f5;
+}
+#textInVisionSystem11 {
+  background-color: #052a3f;
+}
+
+#textInVisionSystem11 p {
+  font-size: 1.2em;
+  color: #f0f0f5;
+}
+
+#textInWebDesign {
+  background-color: #052a3f;
+}
+
+#textInWebDesign p {
+  font-size: 1.2em;
+  color: #f0f0f5;
+}
+
+main {
+  background-color: #052a3f;
+  padding-top: 25%;
+}
+
+.automationsTab {
+  margin-left: 2%;
+}
+
+#photosUnderIntroductionSoftwareDevelopment {
+  background-color: #052a3f;
+  padding-top: 2%;
+}
+
+#photosUnderSoftwareDevelopmentRunVisionSystem {
+  background-color: #052a3f;
+  padding-top: 2%;
+}
+
+#photosUnderSoftwareDevelopmentRunVisionSystem2 {
+  background-color: #052a3f;
+  padding-top: 2%;
+}
+
+#photosUnderSoftwareDevelopmentRunVisionSystem3 {
+  background-color: #052a3f;
+  padding-top: 2%;
+}
+#photosUnderSoftwareDevelopmentRunVisionSystem4 {
+  background-color: #052a3f;
+  padding-top: 2%;
+}
+#photosUnderSoftwareDevelopmentRunVisionSystem5 {
+  background-color: #052a3f;
+  padding-top: 2%;
+}
+#photosUnderSoftwareDevelopmentRunVisionSystem6 {
+  background-color: #052a3f;
+  padding-top: 2%;
+}
+#photosUnderSoftwareDevelopmentRunVisionSystem7 {
+  background-color: #052a3f;
+  padding-top: 2%;
+}
+#photosUnderSoftwareDevelopmentRunVisionSystem8 {
+  background-color: #052a3f;
+  padding-top: 2%;
+}
+#photosUnderSoftwareDevelopmentRunVisionSystem9 {
+  background-color: #052a3f;
+  padding-top: 2%;
+}
+#photosUnderSoftwareDevelopmentRunVisionSystem10 {
+  background-color: #052a3f;
+  padding-top: 2%;
+}
+#photosUnderSoftwareDevelopmentRunVisionSystem11 {
+  background-color: #052a3f;
+  padding-top: 2%;
+}
+
+#photosUnderSoftwareDevelopmentWebDesign {
+  background-color: #052a3f;
+  padding-top: 2%;
+}
+
+#videoUnderDescription {
+  background-color: #ffffff;
+  padding-top: 3%;
+}
+
+#videosUnderDescriptionTensorflow {
+  background-color: #ffffff;
+  margin-top: 2%;
+}
+
+.videoUnderDescription {
+  background-color: #ffffff;
+  color: #ffffff;
+  padding-top: 8%;
+  margin-bottom: 2%;
+}
+
+#photosUnderDescription2 {
+  background-color: #052a3f;
+  padding-top: 2%;
+}
+
+#photosUnderDescription {
+  background-color: #ffffff;
+  margin-top: 2%;
+}
+
+#photosUnderDescription2 {
+  background-color: #ffffff;
+}
+
+#photosUnderDescriptionRobotics {
+  background-color: #ffffff;
+  margin-top: 2%;
+}
+
+#photosFourWheelsRobot {
+  background-color: #ffffff;
+  margin-top: 2%;
+}
+
+.btn {
+  background-color: #052a3f;
+  margin-top: 1.2%;
+}
+
+.navbar {
+  background-color: #052a3f;
+}
+
+img {
+  margin-top: 0.1%;
+  margin-bottom: 2%;
+  transition: all 2s, transform 0.5s, box-shadow 0.5s;
+  border-radius: 3%;
+}
+
+img:hover {
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.6);
+  transform: scale(1.01);
+}
+
+img:focus {
+  box-shadow: 12px 12px 25px rgba(0, 0, 0, 0.7);
+  width: 86%;
+  transform: none;
+}
+
+footer {
+  background-color: #f0f0f5;
+  text-align: center;
+  font-size: 1em;
+  padding-bottom: 0.5%;
+}
+
+#linkedInFooter {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.bi {
+  margin-top: 1%;
+}
+h1 {
+  font-size: 1.7em;
+  color: #ffffff;
+  padding-bottom: 0.5%;
+}
+
+h2 {
+  font-size: 1.4em;
+  color: #ffffff;
+  padding-bottom: 0.5%;
+}
+
+.heading2inAutomations {
+  margin-left: 1%;
+  margin-right: 5%;
+}
+
+.embed-responsive {
+  margin-bottom: 2%;
+}
+
+.btn a {
+  color: #f0f0f5;
+}
+
+.selectCode{
+
+  display: block;
+  width: 100%;
+  height: 100px;
+  padding: 15px;
+  border: 2px solid lightgrey;
+  background-color: #15181F;
+  color: white;
+  white-space: pre;
+}
