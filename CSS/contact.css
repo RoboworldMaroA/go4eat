@@ -14,7 +14,7 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: #4e524e;
   color: white;
   padding: 10px 18px;
   border: none;
@@ -24,17 +24,33 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #4e524e;
 }
+
+
+
+.custom-toggler.navbar-toggler {
+  /* border-color: #0e3458; */
+  border-color: #434546;
+  
+  color: #505356;
+}
+
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(239, 231, 231, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
 
 
 
 /* TOP PHOTO */
-
+/* 
 #chessOnTopIndex{
 	width:100%;
     height: Auto;
-}
+} */
 
 #content{
 	margin-top: 5px;
