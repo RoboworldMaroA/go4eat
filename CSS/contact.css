@@ -4,6 +4,10 @@
 }
 
 
+#navbarContact{
+  background-color: #060606;
+}
+
 
  /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -49,7 +53,7 @@ input[type=submit]:hover {
 
 
 #navItemInstagram{
-  margin-left: 2%;
+  margin-top: 2%;
 }
 
 
@@ -79,7 +83,8 @@ input[type=submit]:hover {
 	padding-left: 40px;
     
 }
-.nci-location p{
+.go4eat-location p{
+    text-align: center;
     color: #f2f2f2;
    
 }
@@ -95,9 +100,18 @@ body,td,th {
 
 
 
-#welcome {
+/* #welcome {
 	padding-top:25px;
+} */
+
+#contactUs{
+  padding-top: 30%;
+  font-size: 2.2em;
+  text-align: center;
+  font-family: cursive;
 }
+
+
 
 #welcome h2{
 	color: white;

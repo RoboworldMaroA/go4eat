@@ -4,9 +4,7 @@
   margin-left: auto;
 }
 
-#navbarIndex{
-  background-color: #060606;
-}
+
 
 
 /* Modify the background color */
@@ -18,7 +16,6 @@
 
 .navbar-custom .navbar-brand {
   color: #efe7e7;
-  padding-left: 0%;
 }
 
 .navbar-custom .navbar-text {
@@ -105,48 +102,14 @@ svg {
   color: or#ffa500;
 }
 
-#welcomeToIndex{
-  font-size: 2.2em;
-  text-align: center;
-  font-family: cursive;
-}
-
-
-#go4eatLogoAfterWelcome{
-
-  font-size: 3.0em;
-  text-align: center;
-  font-style: italic;
-
-}
-
-
-#go4eatNutrition{
-
-  font-size: 2.1em;
-  text-align: center;
-
-}
-
-#go4eatLogoOnlineCoaching{
-
-  font-size: 1.5em;
-  text-align: center;
-
-}
-
 
 #textInTheMiddle {
   background-color: #060606;
-  text-align: center;
 }
 
 #textInTheMiddle p {
   font-size: 1.2em;
   color: #ffffff;
- 
-
-
 }
 
 main {
@@ -163,15 +126,7 @@ main {
   /* background-color: #2c2e30; */
   background-color: #060606;
   border-color: #656060;
-  border-width: 0.2em;
   margin-top: 1.2%;
-  color: #ff8c00;
-  border-radius: 8%;
-  
-}
-
-.btn:hover{
-  color: #ff8c00;
 }
 
 .navbar {
@@ -213,6 +168,13 @@ img:focus {
 #message_us{
 
   padding-bottom: 30%;
+  background-color: #060606;
+}
+
+
+#weWelcomeYouAboutUs{
+  text-align: center;
+  color:azure;
   background-color: #060606;
 }
 
