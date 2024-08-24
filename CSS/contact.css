@@ -9,6 +9,23 @@
 }
 
 
+#textInTheMiddle {
+  background-color: #060606;
+  text-align: center;
+}
+
+#textInTheMiddle p {
+  font-size: 1.2em;
+  color: #ffffff;
+ 
+
+
+}
+
+
+
+
+
  /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
   width: 100%; /* Full width */
@@ -90,6 +107,14 @@ input[type=submit]:hover {
 }
 
 
+
+.addressAndMap{
+  padding-top: 30%;
+  text-align: center;
+  color: #f2f2f2;
+ 
+}
+
 #searchNavbar{
 	color: grey;
 }
@@ -109,17 +134,55 @@ body,td,th {
   font-size: 2.2em;
   text-align: center;
   font-family: cursive;
+  color: azure;
+}
+#contactUsForm p{
+  font-size: 1.5;
+  text-align: center;
+  color: azure;
+}
+
+
+#addressContactUs{
+  padding-top: 3%;
+  font-size: 2.0em;
+  
+  font-family: cursive;
+  color: azure;
+}
+#addressContactUsForm p{
+  font-size: 1.3em;
+  margin-left: 10%;
+  color: azure;
 }
 
 
 
-#welcome h2{
+/* #welcome h2{
 	color: white;
     font-size: 1.7em;
-}
-#welcome p{
+} */
+/* #welcome p{
 	color: white;
+} */
+
+
+
+
+.btn {
+  /* background-color: #2c2e30; */
+  background-color: #060606;
+  border-color: #656060;
+  border-width: 0.2em;
+  margin-top: 1.2%;
+  color: #ff8c00;
+  border-radius: 8%;
+  
 }
+
+
+
+
 
 #navigation {
     background-color: #1A1110;
@@ -139,63 +202,55 @@ body,td,th {
  }
 
 
-a{
-    color: aliceblue
- }
 
-#google-map{
+
+ a {
+  color: azure;
+}
+
+footer a {
+  color: #302b2b;
+}
+
+footer a:hover{
+  color: #302b2b;
+}
+
+/* #google-map{
 width:400px;
 height:300px;
 border:0; 
- }
+ } */
+
+
+ #googleMap {
+  background-color: #060606;
+  text-align: center;
+  padding-bottom: 20%;
+}
+
+#googleMap p {
+  font-size: 1.2em;
+  color: #ffffff;
+ 
+
+
+}
+
+
 
 
 /* footer */
-
-#footer{
-    padding-top: 5px;
-	margin-top: 30px;
-	margin-left: 30px;
-	text-align: justify;
-	float: right;
-	background-color:#0f0504;
-	font-size:0.7em;
-	color:#737373;
-  
-}
-
-#footerMid{
-	padding-left: 50px;
-    
-
-}
-
-#footerRight{
-   
-   padding-left: 50px;
-
-}
-#footerRight p{
-   
-   padding-top: 20px;
-
-}
-	
-#footer h6{ 
-    padding-left: 30px;
-	text-align: center;
-	color: white;
-	font-size:1.0em;
-	text-transform:uppercase;
-	margin-top:2px;
-	letter-spacing:2px;
+footer {
+  padding-top: 2%;
+  color: #464242;
+  background-color: #060606;
+  text-align: center;
+  font-size: 1em;
+  padding-bottom: 0.1%;
 }
 
 
-#footer li{
-    text-align: center;
-	list-style-type: none;
-}
 
 
 /* social media */

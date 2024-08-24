@@ -23,8 +23,7 @@
 	<!-- javacript to validation allerts -->
 	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
-	<!-- Validation script Marek -->
-	<script src="js/contact.js"></script>
+
 
 	<!-- Font Type from google-->
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
@@ -44,7 +43,7 @@
 
 	<header class="container-fluid">
 		<section class="row justify-content-md-center" id="navbarContact">
-			<div class="col-sm-12 col-md-10 col-lg-8 ">
+			<div class="col-sm-12 col-md-10 col-lg-6 ">
 
 				<nav class="navbar navbar-expand-lg navbar-custom">
 					<a class="navbar-brand" href="index.html">
@@ -102,19 +101,15 @@
 	</header>
 
 
+	<!-- 
+	Form with customer contact details -->
+	<main role="main" class="container-fluid">
+		<section class="row justify-content-md-center" id="contactUsForm">
+			<div class="col-sm-8 col-md-10 col-lg-6">
 
 
-	<!-- content in the middle of the page -->
-	<div class="container-fluid" id="main-content-index">
-		<div class="row">
-			<!-- column 1 -->
-			<div class="col">
-				<!-- firts column leave empty -->
-			</div>
-			<!-- column 2 -->
-			<div class="col-lg-6 col-md-6 col-sm-5" id="welcome">
 				<div>
-					<h2 id="contactUs">Contact us</h2>
+					<p id="contactUs">Contact us</p>
 					<p>If you have any questions you can reach us using below
 						contact form. We answer for any query within 24 hours. </p>
 				</div>
@@ -123,14 +118,7 @@
 					<form name="myform" method="post" action="mailto:augustynmarek@yahoo.com">
 						<label for="name">First Name</label>
 						<input type="text" id="name" name="name" placeholder="Your name..">
-						<!-- <label for="surname">Last Name</label> -->
-						<!-- <input type="text" id="surname" name="surname" placeholder="Your last name..">
-						<label for="country">Country</label>
-						<select id="country" name="country">
-							<option value="ireland">Ireland</option>
-							<option value="poland">Poland</option>
-							<option value="uk">UK</option>
-						</select> -->
+
 						<div class="form-group">
 							<label for="inputEmail4">Email</label>
 							<input name="email" type="email" class="form-control" id="inputEmail4" placeholder="Email">
@@ -140,18 +128,35 @@
 						<label for="message">Subject</label>
 						<textarea id="message" name="message" placeholder="Write something.."
 							style="height:200px"></textarea>
-						<input id="button_password" type="submit" value="Send" onclick="return validateName()">
+
+						<!-- <input id="buttonContactUs" type="submit" value="Send" onclick="return validateName()"> -->
+						<section class="row justify-content-md-center" id="textInTheMiddle">
+							<div class="col-sm-10 col-md-10 col-lg-4">
+								<a class="btn btn-primary btn-md" href="contact.html" role="button">Send</a>
+								<p>&nbsp;</p>
+						</section>
+
+
+
 					</form>
 				</div>
-			</div><!-- End of the column 2 -->
-			<!-- column 3 -->
-			<div class="col-lg-4 col-md-4">
-				<div class="go4eat-location">
+
+
+			</div>
+		</section>
+	</main>
+	<!-- 
+	Address -->
+
+	<main role="middle" class="container-fluid">
+		<section class="row justify-content-md-center" id="addressContactUsForm">
+			<div class="col-sm-8 col-md-10 col-lg-6">
+				<div>
 					<!-- Address -->
-					<h3>Address:</h3>
+					<h1 id="addressContactUs">Address:</h1>
 					<ul>
 						<li>
-							<p>go4eat</p>
+							<p>Go 4 Eat</p>
 						</li>
 						<li>
 							<p>Tallagth</p>
@@ -160,72 +165,59 @@
 							<p>Dublin 24</p>
 						</li>
 						<li>
-							<p>Dublin</p>
+							<p>Dublin, Ireland</p>
 						</li>
 					</ul>
 				</div>
+			</div>
+		</section>
+		</middle>
 
-				<!-- Google map with current location -->
-				<div>
-					<!-- <iframe
-						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.683109387281!2d-6.245172784538123!3d53.34892858221941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e8cd86e97e7%3A0x6d51b774ee7fa935!2sNational%20College%20of%20Ireland!5e0!3m2!1sen!2sie!4v1608247655700!5m2!1sen!2sie"
-						id="google-map"></iframe> -->
 
-					<!-- <div style="width: 100%"> -->
-					<iframe width="90%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-						src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=tallaght+(go4eat)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
-						<a href="https://www.gps.ie/">gps systems</a>
-					</iframe>
-					<!-- </div> -->
+		<main role="last" class="container-fluid">
+			<section class="row justify-content-md-center" id="googleMap">
+				<div class="col-sm-8 col-md-10 col-lg-6">
 
+					<!-- Google map with current location -->
+					<div>
+						<iframe width="90%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+							src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=tallaght+(go4eat)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+							<a href="https://www.gps.ie/">gps systems</a>
+						</iframe>
+					</div>
 				</div>
-			</div>
-		</div>
-	</div><!-- End of mine content -->
-
-	<!--  footer -->
-	<div class="container-fluid" id="footer">
-		<div class="row">
-			<div class="col-lg-4 col-md-3 col-sm-3" id="leftCol">
-				<h6>Social Media</h6>
-				<!-- Add font awesome icons -->
-				<ul>
-					<li><a href="https://facebook.com/" class="fa fa-facebook"></a><a href="https://www.youtube.com/"
-							class="fa fa-youtube"></a><a href="https://www.instagram.com/" class="fa fa-instagram"></a>
-					</li>
-				</ul>
-
-			</div>
-			<div class="col-lg-4 col-md-6 col-sm-6" id="footerMid">
-				<h6>Quick Links</h6>
-				<ul class="footerLinkmenu">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about_us.html">About Us</a></li>
-					<li><a href="offer.html">Training</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</div>
-		</div>
-	</div><!-- end footer -->
+			</section>
+			</last>
 
 
 
-	<!-- cookies java script -->
-	<!-- Creator cookies from https://www.osano.com -->
-	<!-- <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script> -->
-	<!-- <script src="js/cookies.js"></script> -->
+			<!--  Footer -->
+			<footer class="col-lg-12 col-sm-10 col-md-10">
 
-	<!-- EXTERNAL JQUERRY SCRIPT TO VALIDATION SUBSCRIPTION -->
-	<script src="javascript/validation-subscription.js"></script>
+				<p>2024 Powered by <a href="https://marekaugustyn.whshost.com/index.html"> Marek Augustyn</a></p>
+			</footer>
 
 
-	<!-- Java script to JQUERRY and BOOTSTRAP SCRIPT-->
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-		crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-		crossorigin="anonymous"></script>
+
+			<!-- cookies java script -->
+			<!-- Creator cookies from https://www.osano.com -->
+			<!-- <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script> -->
+			<!-- <script src="js/cookies.js"></script> -->
+
+
+
+			<script src="js/contact.js"></script>
+			<!-- EXTERNAL JQUERRY SCRIPT TO VALIDATION SUBSCRIPTION -->
+			<script src="javascript/validation-subscription.js"></script>
+
+
+			<!-- Java script to JQUERRY and BOOTSTRAP SCRIPT-->
+			<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+				integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+				crossorigin="anonymous"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+				integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+				crossorigin="anonymous"></script>
 </body>
 
 </html>
