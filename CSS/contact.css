@@ -1,4 +1,9 @@
-/* Contact form W3SCHOOL CSS STYLE WITH MY MODIFICATON */
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+
 
  /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -43,6 +48,9 @@ input[type=submit]:hover {
 
 
 
+#navItemInstagram{
+  margin-left: 2%;
+}
 
 
 /* TOP PHOTO */

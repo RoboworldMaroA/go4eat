@@ -1,3 +1,11 @@
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+
+
+
 /* Modify the background color */
 .navbar-custom {
   /* background-color: #424d52; */
@@ -28,8 +36,8 @@
 
 .nav-item {
 
-  padding-left: 1%;
-  padding-right: 1%;
+  padding-left: 0%;
+  padding-right: 0%;
 }
 
 .custom-toggler.navbar-toggler {
@@ -51,7 +59,7 @@
 #navbar-icon{
   color: white;
   margin-top: 2%;
-  margin-left: 1%;
+  margin-left: 0%;
 
 }
 
@@ -66,6 +74,7 @@ svg {
  
 
   color:white;
+  position: relative;
 }
 
 .nav-link {
@@ -76,8 +85,16 @@ svg {
 }
 
 #linkedInNavBar {
-  padding-left: 2%;
-  padding-left: 2%;
+  padding-left: 0%;
+  padding-left: 0%;
+}
+
+#navItemContact{
+  margin-right: 0%;
+}
+
+#navItemOffer{
+  margin-right: 0%;
 }
 
 
@@ -85,6 +102,7 @@ svg {
 
 #textInTheMiddle {
   background-color: #060606;
+  color: azure;
 }
 
 #textInTheMiddle p {
@@ -147,10 +165,17 @@ img:focus {
 
 #message_us{
 
+  padding-top: 1%;
   padding-bottom: 30%;
   background-color: #060606;
 }
 
+#ourGoalOnOffer{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: #060606;
+  color: azure;
+}
 
 
 /* Use this as a standard background color
@@ -217,3 +242,9 @@ h1 {
 #text_after_press_button_in_collapse p{
   color: #efe7e7;
 }
+
+a {
+  color: azure;
+  
+}
+
