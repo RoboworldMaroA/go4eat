@@ -5,7 +5,9 @@
 }
 
 
-
+#navbarIndex{
+  background-color: #060606;
+}
 
 /* Modify the background color */
 .navbar-custom {
