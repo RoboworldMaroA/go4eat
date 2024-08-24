@@ -216,17 +216,17 @@ footer a:hover{
   color: #302b2b;
 }
 
-/* #google-map{
+#google-map{
 width:400px;
 height:300px;
 border:0; 
- } */
+ }
 
 
  #googleMap {
   background-color: #060606;
   text-align: center;
-  padding-bottom: 20%;
+  padding-bottom: 0%;
 }
 
 #googleMap p {

@@ -103,13 +103,13 @@ svg {
 }
 
 
-#textInTheMiddle {
+#tmainSectionAboutUs {
   background-color: #060606;
 }
 
-#textInTheMiddle p {
+#mainSectionAboutUs p {
   font-size: 1.2em;
-  color: #ffffff;
+  color: azure;
 }
 
 main {
@@ -121,6 +121,12 @@ main {
   background-color: #ffffff;
   margin-top: 2%;
 }
+
+
+
+
+
+
 
 .btn {
   /* background-color: #2c2e30; */
@@ -165,18 +171,34 @@ img:focus {
 }
 
 
-#message_us{
-
-  padding-bottom: 30%;
-  background-color: #060606;
-}
-
-
 #weWelcomeYouAboutUs{
   text-align: center;
+  font-size: 2.2em;
+  font-family:cursive;
   color:azure;
   background-color: #060606;
 }
+
+#about_us{
+  padding-top: 3%;
+  font-size: 2.2em;
+  text-align: center;
+  font-family: cursive;
+  color: azure;
+}
+
+
+#intoOurWorldAboutUs{
+
+  color:azure;
+  background-color: #060606;
+  font-size: 1.5em;
+  text-align: center;
+  color: #ffa500;
+  padding-bottom: 25%;
+
+}
+
 
 
 
