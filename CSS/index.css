@@ -106,7 +106,7 @@ svg {
 }
 
 #welcomeToIndex{
-  font-size: 2.2em;
+  font-size: 2.1em;
   text-align: center;
   font-family: cursive;
 }
@@ -114,7 +114,7 @@ svg {
 
 #go4eatLogoAfterWelcome{
 
-  font-size: 3.0em;
+  font-size: 2.9em;
   text-align: center;
   font-style: italic;
 
@@ -123,14 +123,14 @@ svg {
 
 #go4eatNutrition{
 
-  font-size: 2.1em;
+  font-size: 2.0em;
   text-align: center;
 
 }
 
 #go4eatLogoOnlineCoaching{
 
-  font-size: 1.5em;
+  font-size: 1.4em;
   text-align: center;
 
 }
@@ -159,37 +159,24 @@ main {
   margin-top: 2%;
 }
 
-.btn {
-  /* background-color: #2c2e30; */
-  background-color: #060606;
-  border-color: #656060;
-  border-width: 0.2em;
-  margin-top: 1.2%;
-  color: #ff8c00;
-  border-radius: 8%;
-  
-}
 
-.btn:hover{
-  color: #ff8c00;
-}
 
 .navbar {
   /* background-color: #0e1012; */
   background-color: #060606;
 }
 
-#photoAndButtonAutomationsAndRobotics {
+/* #photoAndButtonAutomationsAndRobotics {
   text-align: center;
-}
+} */
 
-#photoAndButtonMobileRobots {
+/* #photoAndButtonMobileRobots {
   text-align: center;
-}
+} */
 
-#photoAndButtonSoftwareDevelopment {
+/* #photoAndButtonSoftwareDevelopment {
   text-align: center;
-}
+} */
 
 img {
   margin-top: 0.1%;
@@ -210,11 +197,45 @@ img:focus {
 }
 
 
-#message_us{
+/* Button message us and arrow */
+
+#articleMessageUs{
 
   padding-bottom: 30%;
   background-color: #060606;
 }
+
+#sectionMessageUs{
+  background-color: #060606;
+  text-align: center;
+  font-size: 1.5em;
+
+}
+
+
+#sectionMessageUs a {
+  font-size: 1.0em;
+ 
+}
+
+
+.btn {
+  /* background-color: #2c2e30; */
+  background-color: #060606;
+  border-color: #656060;
+  border-width: 0.00em;
+  margin-top: 1.2%;
+  color: #ff8c00;
+  border-radius: 0%;
+  
+}
+
+.btn:hover{
+  background-color: #060606;
+  color: #ff8c00;
+}
+
+
 
 
 
@@ -229,6 +250,15 @@ footer {
   text-align: center;
   font-size: 1em;
   padding-bottom: 0.1%;
+}
+
+
+footer a, footer p {
+  color: #1f1e1e;
+}
+
+footer a:hover{
+  color: #1f1e1e;
 }
 
 /* #linkedInFooter {

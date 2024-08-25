@@ -18,8 +18,6 @@
   font-size: 1.2em;
   color: #ffffff;
  
-
-
 }
 
 
@@ -48,7 +46,7 @@ input[type=submit] {
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+/* When moving the mouse over the submit button, add a darker color */
 input[type=submit]:hover {
   background-color: #4e524e;
 }
@@ -87,19 +85,19 @@ input[type=submit]:hover {
 
 /* google maps location NCI*/
 
-.nci-location{
+/* .nci-location{
     margin-top: 50px;
 	margin-bottom: 50px;
     
-}
+} */
 
 
-.nci-location h3{
+/* .nci-location h3{
     color: #f2f2f2;
     font-size: 1.4em;
 	padding-left: 40px;
     
-}
+} */
 .go4eat-location p{
     text-align: center;
     color: #f2f2f2;
@@ -208,13 +206,6 @@ body,td,th {
   color: azure;
 }
 
-footer a {
-  color: #302b2b;
-}
-
-footer a:hover{
-  color: #302b2b;
-}
 
 #google-map{
 width:400px;
@@ -226,7 +217,7 @@ border:0;
  #googleMap {
   background-color: #060606;
   text-align: center;
-  padding-bottom: 0%;
+  padding-bottom: 10%;
 }
 
 #googleMap p {
@@ -238,6 +229,9 @@ border:0;
 }
 
 
+#last {
+  padding-bottom: 25%;
+}
 
 
 /* footer */
@@ -251,6 +245,13 @@ footer {
 }
 
 
+footer a, footer p {
+  color: #1f1e1e;
+}
+
+footer a:hover{
+  color: #1f1e1e;
+}
 
 
 /* social media */
