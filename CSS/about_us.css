@@ -217,6 +217,18 @@ footer {
   padding-bottom: 0.1%;
 }
 
+footer a, footer p {
+  color: #1f1e1e;
+}
+
+footer a:hover{
+  color: #1f1e1e;
+}
+
+
+
+
+
 #linkedInFooter {
   margin-left: 2%;
   margin-right: 2%;

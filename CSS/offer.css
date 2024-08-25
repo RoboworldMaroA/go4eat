@@ -1,4 +1,6 @@
 
+
+
 .navbar-nav {
   margin-left: auto;
 }
@@ -115,8 +117,8 @@ svg {
 
 main {
   background-color: #060606;
-  padding-top: 20%;
-  padding-bottom: 30%;
+  padding-top: 25%;
+  padding-bottom: 50%;
 }
 
 #photosUnderDescription {
@@ -242,6 +244,39 @@ a {
 
 
 /* offers */
+
+
+
+
+#panelFreeConsultation{
+  padding-bottom: 3%;
+
+}
+
+a:hover {
+  text-decoration: none;
+  
+  
+}
+
+#panelPtSession{
+  padding-bottom: 3%;
+}
+
+
+
+#panelDietCoaching{
+  padding-bottom: 3%;
+}
+
+
+#ppanelDietTrainingCoaching{
+  padding-bottom: 3%;
+}
+
+
+
+
 h1 {
 
   font-size: 1.9em;
@@ -317,14 +352,14 @@ h1 {
   font-style:normal;
   text-align: left;
   color: azure;
-  padding-bottom: 3%;
+  padding-bottom: 8%;
 }
 
 #panelHeadingPtSession{
 
   font-size: 0.8em;
   margin-left: 0%;
-  font-style:normal;
+  font-style:italic;
   text-align: left;
   color: azure;
   padding-bottom: 3%;
@@ -369,7 +404,7 @@ h1 {
 
 
 footer {
-  padding-top: 0.5%;
+  padding-top: 42%;
   
   background-color: #060606;
   text-align: center;
