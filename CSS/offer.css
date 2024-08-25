@@ -117,7 +117,7 @@ svg {
 
 main {
   background-color: #060606;
-  padding-top: 25%;
+  padding-top: 20%;
   padding-bottom: 50%;
 }
 
@@ -280,11 +280,11 @@ a:hover {
 h1 {
 
   font-size: 1.9em;
-  margin-left: 0%;
-  text-align: left;
+  margin-left: 35%;
+  text-align:none;
   font-family: cursive;
   color: azure;
-  padding-bottom: 3%;
+  padding-bottom: 10%;
 }
 
 

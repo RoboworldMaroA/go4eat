@@ -207,17 +207,18 @@ body,td,th {
 }
 
 
-#google-map{
+/* #google-map{
 width:400px;
 height:300px;
 border:0; 
- }
+ } */
 
 
  #googleMap {
   background-color: #060606;
   text-align: center;
   padding-bottom: 10%;
+  border: 0;
 }
 
 #googleMap p {
