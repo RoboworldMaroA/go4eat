@@ -138,9 +138,16 @@ body,td,th {
   color: azure;
 }
 #contactUsForm p{
-  font-size: 1.5;
+  font-size: 1.5em;
   text-align: center;
   color: azure;
+}
+
+
+/* Icon adress */
+
+.bi-geo-alt{
+  color: #ff8c00;
 }
 
 
@@ -152,12 +159,19 @@ body,td,th {
   color: azure;
 }
 #addressContactUsForm p{
-  font-size: 1.3em;
+  font-size: 1.0em;
   margin-left: 10%;
   color: azure;
 }
 
+#addressContactUsForm svg{
+  color: #ff8c00;
+  margin-right: 5%;
+}
 
+#locationContactPage{
+  font-size: 1.2;
+}
 
 /* #welcome h2{
 	color: white;

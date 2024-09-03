@@ -115,23 +115,29 @@ svg {
 
 #go4eatLogoAfterWelcome{
 
-  font-size: 2.9em;
+  font-size: 2.6em;
   text-align: center;
   font-style: italic;
+  padding-bottom: 100%;
 
 }
 
 
+#secondParagrapthOnIndexPage{
+  font-size: 1.6em; 
+  padding-bottom: 100%; 
+}
+
 #go4eatNutrition{
 
-  font-size: 2.0em;
+  font-size: 1.7em;
   text-align: center;
 
 }
 
 #go4eatLogoOnlineCoaching{
 
-  font-size: 1.4em;
+  font-size: 1.3em;
   text-align: center;
 
 }
@@ -226,7 +232,7 @@ img:focus {
 
 #arrowDown{
   margin-right: 7%;
-  color: green;
+  color: rgb(102, 220, 55);
 }
 
 
