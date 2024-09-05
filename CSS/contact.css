@@ -188,13 +188,19 @@ body,td,th {
   /* background-color: #2c2e30; */
   background-color: #060606;
   border-color: #656060;
-  border-width: 0.2em;
+  border-width: 0em;
   margin-top: 1.2%;
   color: #ff8c00;
   border-radius: 8%;
   
 }
 
+
+
+.btn:hover{
+  background-color: #060606;
+  color: #ff8c00;
+}
 
 
 

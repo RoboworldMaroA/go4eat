@@ -43,9 +43,10 @@ formLogin.addEventListener("submit", (event) => {
   const body = formData.get("body");
 
   //Post request used for Login a user
-  fetch("http://localhost:8080/api/v1/email", {
-//    fetch("https://smartluggagebackendjwt-c266cf5456e9.herokuapp.com/api/v1/auth/authenticate", {
-  // fetch("http://159.65.88.48:8080/api/v1/auth/authenticate", {
+  
+
+//   fetch("http://localhost:8080/api/v1/email", {
+  fetch("https://smartluggagebackendjwt-c266cf5456e9.herokuapp.com/api/v1/email", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
