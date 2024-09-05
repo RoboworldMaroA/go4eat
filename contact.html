@@ -115,24 +115,29 @@
 				</div>
 				<!-- contact form -->
 				<div>
-					<form name="myform" method="post" action="mailto:augustynmarek@yahoo.com">
-						<label for="name">First Name</label>
-						<input type="text" id="name" name="name" placeholder="Your name..">
-
+					<form class="form">
 						<div class="form-group">
-							<label for="inputEmail4">Email</label>
-							<input name="email" type="email" class="form-control" id="inputEmail4" placeholder="Email">
+
+
+							<label for="subject">First Name</label>
+							<input type="text" id="subject" name="subject" placeholder="Your name..">
 						</div>
 
 
-						<label for="message">Subject</label>
-						<textarea id="message" name="message" placeholder="Write something.."
-							style="height:200px"></textarea>
+						<div class="form-group">
+							<label for="inputEmail4">Email</label>
+							<input name="toEmail" type="toEmail" class="form-control" id="inputEmail4"
+								placeholder="Email">
+						</div>
+
+
+						<label for="body">Body</label>
+						<textarea id="body" name="body" placeholder="Write something.." style="height:200px"></textarea>
 
 						<!-- <input id="buttonContactUs" type="submit" value="Send" onclick="return validateName()"> -->
 						<section class="row justify-content-md-center" id="textInTheMiddle">
 							<div class="col-sm-10 col-md-10 col-lg-4">
-								<a class="btn btn-primary btn-md" href="contact.html" role="button">Send</a>
+								<button class="btn btn-primary btn-md" role="button" type="submit">Send</button>
 								<p>&nbsp;</p>
 						</section>
 
@@ -262,9 +267,9 @@
 
 
 
-	<script src="js/contact.js"></script>
+	<script src="javascript/contact.js"></script>
 	<!-- EXTERNAL JQUERRY SCRIPT TO VALIDATION SUBSCRIPTION -->
-	<script src="javascript/validation-subscription.js"></script>
+	<!-- <script src="javascript/validation-subscription.js"></script> -->
 
 
 	<!-- Java script to JQUERRY and BOOTSTRAP SCRIPT-->
