@@ -80,6 +80,7 @@ svg {
 
   color:white;
   position: relative;
+  padding-right: 0%;
 }
 
 .nav-link {
@@ -419,4 +420,26 @@ footer a, footer p {
 
 footer a:hover{
   color: #1f1e1e;
+}
+
+
+
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+}
+
+
+
+#spanFreeConsultation {
+  padding-left: 12%;
+}
+
+#spanPtSession{
+  padding-left: 12%;
+}
+
+#spanDietPlan{
+  padding-left: 12%;
 }
