@@ -433,13 +433,17 @@ footer a:hover{
 
 
 #spanFreeConsultation {
-  padding-left: 12%;
+  padding-left: 10%;
 }
 
 #spanPtSession{
-  padding-left: 12%;
+  padding-left: 13%;
 }
 
 #spanDietPlan{
-  padding-left: 12%;
+  padding-left: 8%;
+}
+
+#spanFullPackage{
+  padding-left: 6%;
 }
