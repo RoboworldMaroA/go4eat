@@ -283,7 +283,8 @@ h1 {
   font-size: 1.9em;
   margin-left: 35%;
   text-align:none;
-  font-family: cursive;
+  /* font-family: cursive; */
+  font-family: "Caveat", cursive;
   color: azure;
   padding-bottom: 10%;
 }
