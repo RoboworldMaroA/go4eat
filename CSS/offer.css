@@ -288,9 +288,9 @@ h1 {
   padding-bottom: 10%;
 }
 
-.panel-title{
+.panel-title, p{
   font-family: "Caveat", cursive;
-  font-weight: <weight>;
+  
   font-style: normal;
 }
 
