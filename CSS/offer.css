@@ -289,7 +289,9 @@ h1 {
 }
 
 .panel-title{
-  font-family: cursive;
+  font-family: "Caveat", cursive;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 #panelBodyFreeConsultation {
@@ -372,7 +374,7 @@ h1 {
 
   font-size: 0.8em;
   margin-left: 0%;
-  font-style:italic;
+  font-style:none;
   text-align: left;
   color: azure;
   padding-bottom: 3%;
