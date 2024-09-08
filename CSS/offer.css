@@ -281,7 +281,7 @@ a:hover {
 h1 {
 
   font-size: 1.9em;
-  margin-left: 35%;
+  margin-left: 42%;
   text-align:none;
   /* font-family: cursive; */
   font-family: "Caveat", cursive;
@@ -293,6 +293,8 @@ h1 {
   font-family: "Caveat", cursive;
   
   font-style: normal;
+  text-align:left;
+  padding-left: 13%;
 }
 
 #panelBodyFreeConsultation {
