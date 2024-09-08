@@ -1,4 +1,9 @@
 
+header{
+  font-family: "Caveat", cursive;
+  font-size: 1.4em;
+}
+
 
 p{
 
@@ -117,7 +122,7 @@ svg {
 }
 
 #mainSectionAboutUs p {
-  font-size: 1.5em;
+  font-size: 1.7em;
   color: azure;
 }
 

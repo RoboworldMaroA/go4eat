@@ -1,4 +1,9 @@
 
+header{
+  font-family: "Caveat", cursive;
+  font-size: 1.4em;
+}
+
 p{
 
   font-family: "Caveat", cursive;
@@ -129,7 +134,7 @@ svg {
 
 
 #secondParagrapthOnIndexPage{
-  font-size: 1.6em; 
+  font-size: 1.7em; 
   padding-bottom: 100%; 
 }
 
@@ -142,7 +147,7 @@ svg {
 
 #go4eatLogoOnlineCoaching{
 
-  font-size: 1.3em;
+  font-size: 1.5em;
   text-align: center;
 
 }
@@ -154,7 +159,7 @@ svg {
 }
 
 #textInTheMiddle p {
-  font-size: 1.2em;
+  font-size: 1.6em;
   color: #ffffff;
  
 
@@ -221,12 +226,14 @@ img:focus {
   background-color: #060606;
   text-align: center;
   font-size: 1.5em;
+  font-family: "Caveat", cursive;
+
 
 }
 
 
 #sectionMessageUs a {
-  font-size: 1.0em;
+  font-size: 1.5em;
   
  
 }
