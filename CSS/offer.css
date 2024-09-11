@@ -80,7 +80,7 @@ li {
 
 svg {
  
-
+  /* color: #a0cb37; */
   color:white;
   position: relative;
   padding-right: 0%;
@@ -311,7 +311,7 @@ h1 {
 }
 
 #panelBodyFreeConsultation p {
-  font-size: 1.2em;
+  font-size: 1.3em;
   color: #ffffff;
  
 }
@@ -326,7 +326,7 @@ h1 {
 }
 
 #panelBodyPtSesion p {
-  font-size: 1.2em;
+  font-size: 1.3em;
   color: #ffffff;
  
 }
@@ -341,7 +341,7 @@ h1 {
 }
 
 #panelBodyDietCoaching p {
-  font-size: 1.2em;
+  font-size: 1.3em;
   color: #ffffff;
  
 }
@@ -360,7 +360,7 @@ h1 {
 }
 
 #panelBodyDietTrainingCoaching p {
-  font-size: 1.2em;
+  font-size: 1.3em;
   color: #ffffff;
  
 }
@@ -368,7 +368,7 @@ h1 {
 
 #panelHeadingFreeConsultation{
 
-  font-size: 0.8em;
+  font-size: 0.9em;
   margin-left: 0%;
   font-style:normal;
   text-align: left;
@@ -378,7 +378,7 @@ h1 {
 
 #panelHeadingPtSession{
 
-  font-size: 0.8em;
+  font-size: 0.9em;
   margin-left: 0%;
   font-style:none;
   text-align: left;
@@ -388,7 +388,7 @@ h1 {
 
 #panelHeadingDietCoaching{
 
-  font-size: 0.8em;
+  font-size: 0.9em;
   margin-left: 0%;
   font-style:normal;
   text-align: left;
@@ -398,7 +398,7 @@ h1 {
 
 #panelHeadingDietTrainingCoaching{
 
-  font-size: 0.8em;
+  font-size: 0.9em;
   margin-left: 0%;
   font-style:normal;
   text-align: left;
@@ -445,8 +445,8 @@ footer a:hover{
 
 
 .icon {
-  width: 1em;
-  height: 1em;
+  width: 1.1em;
+  height: 1.1em;
   vertical-align: -0.125em;
 }
 
