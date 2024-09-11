@@ -112,7 +112,7 @@ svg {
 }
 
 #youOnIndexPage{
-  color: or#ffa500;
+  color: #e4662b;
 }
 
 #welcomeToIndex{
@@ -244,7 +244,7 @@ img:focus {
 
 #arrowDown{
   margin-right: 7%;
-  color: rgb(102, 220, 55);
+  color: #a0cb37;
 }
 
 
@@ -254,14 +254,14 @@ img:focus {
   border-color: #656060;
   border-width: 0.00em;
   margin-top: 1.2%;
-  color: #ff8c00;
+  color: #e4662b;
   border-radius: 0%;
   
 }
 
 .btn:hover{
   background-color: #060606;
-  color: #ff8c00;
+  color: #e4662b;
 }
 
 
