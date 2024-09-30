@@ -1,5 +1,6 @@
 body{
-  background-color: azure;
+  /* background-color: azure; */
+  background-color: #f2efea;
 }
 
 
@@ -22,6 +23,7 @@ header{
   /* background-color: #060606; */
   /* background-color: azure; */
   background-color: #f2efea;
+  padding-bottom: 8%;
 }
 
 #mainSectionAboutUs p {
@@ -69,11 +71,13 @@ p{
 }
 
 .navbar-custom .navbar-brand {
-  color: #efe7e7;
+  /* color: #efe7e7; */
+  color: #f2efea;
 }
 
 .navbar-custom .navbar-text {
-  color: #f4e9e9;
+  /* color: #f4e9e9; */
+  color: #f2efea;
 }
 
 
@@ -118,7 +122,8 @@ p{
 }
 
 #navbar-icon{
-  color: white;
+  /* color: white; */
+  color: #f2efea;
   margin-top: 2%;
   margin-left: 0%;
 
@@ -224,9 +229,10 @@ svg {
   font-size: 2.2em;
   text-align: center;
   font-family: cursive;
-  color: azure;
+  /* color: azure; */
+  color: #f2efea;
   color: #060606;
-  padding-bottom: 8%;
+  padding-bottom: 4%;
 }
 
 
