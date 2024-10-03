@@ -140,8 +140,14 @@ p{
 }
 
 .nav-item :active {
-  color: #1b1919;
+  color: #e45817;
 }
+
+a:hover {
+  color: #e45817;
+  /* background-color: #99c627; */
+}
+
 
 #navbar-icon{
   /* color: white; */
@@ -150,6 +156,7 @@ p{
   margin-left: 0%;
 
 }
+
 
 
 li {
@@ -263,6 +270,9 @@ svg {
   padding-bottom: 4%;
 }
 
+.typewriter{
+  font-family: cursive;
+}
 
 #intoOurWorldAboutUs{
 
