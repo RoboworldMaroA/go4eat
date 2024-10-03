@@ -129,18 +129,26 @@ p{
 
 .custom-toggler.navbar-toggler {
   /* border-color: #0e3458; */
-  border-color: #434546;
+  /* border-color: #434546;
   
-  color: #505356;
+  color: #505356; */
+  border-color: #e49875;
+  
+  color: #e49875;
 }
 
-
-.custom-toggler .navbar-toggler-icon {
+/* Grey version */
+/* .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(239, 231, 231, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+} */
+
+/* Orange Version */
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(228,152,117, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .nav-item :active {
-  color: #e45817;
+  color: #e49875;
 }
 
 a:hover {
@@ -270,8 +278,10 @@ svg {
   padding-bottom: 4%;
 }
 
-.typewriter{
+#typewriter{
   font-family: cursive;
+  text-align: center;
+
 }
 
 #intoOurWorldAboutUs{
