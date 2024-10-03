@@ -281,8 +281,15 @@ svg {
 #typewriter{
   font-family: cursive;
   text-align: center;
+  overflow: hidden;
 
 }
+
+.hidden {
+  visibility: hidden;
+}
+
+
 
 #intoOurWorldAboutUs{
 
