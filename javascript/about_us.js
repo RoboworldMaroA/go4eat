@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (entry.isIntersecting) {
                 const element = entry.target;
                 element.classList.remove('hidden');
-                typeWriter("Into Our World", "typewriter", 100);
+                typeWriter("Into Our World", "typewriter", 200);
                 observer.unobserve(element);
             }
         });
