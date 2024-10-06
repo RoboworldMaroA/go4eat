@@ -3,11 +3,14 @@
 
 /* BLACK : #060606 
     White: #f2efea
+
+    new white: e8d3bf 
+    e8e1d9
 */
 
 
 :root {
-  --my-background-color : #f2efea;
+  --my-background-color : #e2d5c9;
   --my-text-color:  #060606; 
  
 }
