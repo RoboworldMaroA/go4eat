@@ -313,7 +313,12 @@ svg {
   position: relative;
   left: -100%;
   /* font-size: 24px; */
-  animation: moveToCenter 5s forwards;
+  animation: moveToCenter 17s forwards;
+}
+
+#movingText.animate {
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 @keyframes moveToCenter {

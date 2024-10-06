@@ -60,3 +60,21 @@ document.addEventListener('DOMContentLoaded', () => {
     const target = document.getElementById('typewriter');
     observer.observe(target);
 });
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const movingText = document.getElementById('movingText');
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                movingText.classList.add('animate');
+                observer.unobserve(movingText);
+            }
+        });
+    });
+
+    observer.observe(movingText);
+});
+
+
