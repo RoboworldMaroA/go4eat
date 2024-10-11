@@ -36,7 +36,7 @@ header{
 #topImageAboutUs{
 	
 	width:100%;
-    height: Auto;
+  height: Auto;
 
 }
 
@@ -314,7 +314,7 @@ svg {
   position: relative;
   left: -100%;
   /* font-size: 24px; */
-  animation: moveToCenter 17s forwards;
+  animation: moveToCenter 18s forwards;
 }
 
 #movingText.animate {
