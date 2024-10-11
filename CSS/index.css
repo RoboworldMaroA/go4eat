@@ -18,7 +18,9 @@
 }
 
 
-
+body{
+  font-family: cursive;
+}
 
 
 header{
@@ -154,10 +156,10 @@ svg {
 
 }
 
-#linkedInNavBar {
+/* #linkedInNavBar {
   padding-left: 0%;
   padding-left: 0%;
-}
+} */
 
 #youOnIndexPage{
   color: #e4662b;
@@ -182,7 +184,9 @@ svg {
 
 
 #secondParagrapthOnIndexPage{
-  font-size: 1.7em; 
+  font-family: cursive;
+  font-size: 1.7em;
+  font-weight: 500; 
   padding-bottom: 100%; 
 }
 
@@ -267,6 +271,7 @@ img:focus {
 }
 
 
+
 /* Button message us and arrow */
 
 #articleMessageUs{
@@ -286,6 +291,7 @@ img:focus {
 
 
 }
+
 
 
 #sectionMessageUs a {

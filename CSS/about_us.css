@@ -375,6 +375,34 @@ svg {
 
 
 
+.womanOnTheBench {
+  /* margin-top: 0.1%; */
+  /* margin-bottom: 2%; */
+  width:100%;
+  height: Auto;
+  transition: all 2s, transform 0.5s, box-shadow 0.5s;
+  border-radius: 2% 2% 1% 1%;
+
+
+
+
+}
+
+.womanOnTheBench:hover {
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.6);
+  transform: scale(1.004);
+}
+
+.womanOnTheBench:focus {
+  box-shadow: 2px 12px 25px rgba(0, 0, 0.7, 0.7);
+  width: 86%;
+  transform: none;
+}
+
+
+
+
+
 
 /* Use this as a standard background color
 background-color: #060606;
@@ -382,7 +410,6 @@ background-color: #060606;
 
 footer {
   padding-top: 25.5%;
-  
   background-color: var(--my-background-color);
   text-align: center;
   font-size: 1em;
