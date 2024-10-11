@@ -175,7 +175,7 @@ svg {
 
 #go4eatLogoAfterWelcome{
 
-  font-size: 2.6em;
+  /* font-size: 1.7em; */
   text-align: center;
   /* font-style: italic; */
   padding-bottom: 100%;
@@ -185,8 +185,8 @@ svg {
 
 #secondParagrapthOnIndexPage{
   font-family: cursive;
-  font-size: 1.7em;
-  font-weight: 500; 
+  font-size: 2.2em;
+  font-weight: 150; 
   padding-bottom: 100%; 
 }
 
@@ -212,7 +212,7 @@ svg {
 }
 
 #textInTheMiddle p {
-  font-size: 1.6em;
+  /* font-size: 1.6em; */
   color: var(--my-text-color);
   /* color: #ffffff; */
  
@@ -418,5 +418,19 @@ h1 {
 /* .bi bi-facebook{
   color: wheat;
 } */
+
+
+#paragraphGo4Eat{
+  font-family: cursive;
+  font-size: 1.8em;
+}
+
+
+/* Changing color in the letter to orange */
+.highlight {
+  color: #e45817;
+  font-family: cursive;
+  font-size: 1.8em;
+}
 
 
