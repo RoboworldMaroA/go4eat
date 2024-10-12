@@ -183,9 +183,9 @@ svg {
 }
 
 
-#secondParagrapthOnIndexPage{
+#secondParagrapthOnIndexPage {
   font-family: cursive;
-  font-size: 2.2em;
+  font-size: 2.0em;
   font-weight: 150; 
   padding-bottom: 100%; 
 }
@@ -212,7 +212,7 @@ svg {
 }
 
 #textInTheMiddle p {
-  /* font-size: 1.6em; */
+  font-size: 1.6em;
   color: var(--my-text-color);
   /* color: #ffffff; */
  
@@ -252,7 +252,7 @@ main {
   text-align: center;
 } */
 
-img {
+/* img {
   margin-top: 0.1%;
   margin-bottom: 2%;
   transition: all 2s, transform 0.5s, box-shadow 0.5s;
@@ -268,7 +268,7 @@ img:focus {
   box-shadow: 12px 12px 25px rgba(0, 0, 0, 0.7);
   width: 86%;
   transform: none;
-}
+} */
 
 
 
@@ -419,10 +419,20 @@ h1 {
   color: wheat;
 } */
 
-
-#paragraphGo4Eat{
-  font-family: cursive;
+/* span{
   font-size: 1.8em;
+} */
+
+.default {
+  color: #060606;
+  font-family: cursive;
+  font-size: 2em;
+}
+
+
+#paragraphGo4Eat span{
+  font-family: cursive;
+  font-size: 2em;
 }
 
 
@@ -430,7 +440,7 @@ h1 {
 .highlight {
   color: #e45817;
   font-family: cursive;
-  font-size: 1.8em;
+  font-size: 2em;
 }
 
 
