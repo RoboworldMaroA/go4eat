@@ -14,6 +14,7 @@
 :root {
   --my-background-color : #e8e1d9;
   --my-text-color:  #060606; 
+  --my-text-color-white:  #e8e1d9; 
  
 }
 
@@ -21,6 +22,16 @@
 body{
   font-family: cursive;
 }
+
+/* photo on top page */
+#topImageAboutUs{
+	
+	width:100%;
+  height: Auto;
+
+}
+
+
 
 
 header{
@@ -178,7 +189,7 @@ svg {
   /* font-size: 1.7em; */
   text-align: center;
   /* font-style: italic; */
-  padding-bottom: 100%;
+  padding-bottom: 10%;
 
 }
 
@@ -187,13 +198,28 @@ svg {
   font-family: cursive;
   font-size: 2.0em;
   font-weight: 150; 
-  padding-bottom: 100%; 
+  padding-top: 60%; 
+  color: var(--my-text-color-white);
+  background-image: url(/images/index_page_in_the_middle.jpg);
+  padding-bottom: 10%;
+  width:100%;
+  /* height: Auto; */
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+  margin: 0%;
+  padding-right: 0%;
+  padding-left: 0%;
+  
+
 }
 
 #go4eatNutrition{
 
+  padding-top: 10%;
   font-size: 1.7em;
   text-align: center;
+
 
 }
 
@@ -209,6 +235,8 @@ svg {
   /* background-color: #060606; */
   background-color: var(--my-background-color);
   text-align: center;
+  padding-left: 0%;
+  padding-right: 0%;
 }
 
 #textInTheMiddle p {
@@ -223,7 +251,9 @@ svg {
 main {
   /* background-color: #060606; */
   background-color: var(--my-background-color);
-  padding-top: 25%;
+  padding-top: 5%;
+  padding-left: 0%;
+  padding-right: 0%;
 }
 
 #photosUnderDescription {
@@ -426,13 +456,13 @@ h1 {
 .default {
   color: #060606;
   font-family: cursive;
-  font-size: 2em;
+  font-size: 2.1em;
 }
 
 
 #paragraphGo4Eat span{
   font-family: cursive;
-  font-size: 2em;
+  font-size: 2.1em;
 }
 
 
@@ -440,7 +470,7 @@ h1 {
 .highlight {
   color: #e45817;
   font-family: cursive;
-  font-size: 2em;
+  font-size: 2.1em;
 }
 
 
