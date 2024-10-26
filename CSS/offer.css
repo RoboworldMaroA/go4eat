@@ -1,32 +1,71 @@
 
+
+
+/* My background color */
+
+/* BLACK : #060606 
+    White: #f2efea
+
+    new white: e8d3bf 
+    e8e1d9
+    #e2d5c9
+*/
+
+
+:root {
+  --my-background-color : #e8e1d9;
+  --my-text-color:  #060606; 
+  --my-text-color-white:  #e8e1d9; 
+ 
+}
+
+
+
+body{
+  font-family: cursive;
+}
+
+
 header{
-  font-family: "Caveat", cursive;
+  /* font-family: "Caveat", cursive; */
+  font-family: cursive;
   font-size: 1.4em;
 }
+
+p{
+  color: var(--my-text-color);
+  font-family: cursive;
+  /* font-family: "Caveat", cursive; */
+}
+
+
+
 
 .navbar-nav {
   margin-left: auto;
 }
 
-
 #navbarIndex{
-  background-color: #060606;
+  background-color: var(--my-background-color);
 }
 
 
 /* Modify the background color */
 .navbar-custom {
   /* background-color: #424d52; */
-  background-color: #484343;
-
+  /* background-color: #484343; */
+  background-color: var(--my-background-color);
 }
 
 .navbar-custom .navbar-brand {
-  color: #efe7e7;
+  /* color: #efe7e7; */
+  color: var(--my-text-color);
+  padding-left: 0%;
 }
 
 .navbar-custom .navbar-text {
-  color: #f4e9e9;
+  color: var(--my-text-color);
+  /* color: #f4e9e9; */
 }
 
 
@@ -39,28 +78,46 @@ header{
 /* Set the border color */
 
 .dropdown-item.active {
-  background-color: #303032;
+  /* background-color: #303032; */
+  background-color: #5f5f6b;
+
 }
 
 .nav-item {
 
-  padding-left: 0%;
+  margin-left: 0%;
+  padding-right: 0%;
+}
+
+.nav-item.dropdown-item.active {
+
+  margin-left: 1%;
   padding-right: 0%;
 }
 
 .custom-toggler.navbar-toggler {
   /* border-color: #0e3458; */
-  border-color: #434546;
+  /* border-color: #434546; */
   
-  color: #505356;
+  /* color: #505356; */
+
+  border-color: #e49875;
+  
+  color: #e49875;
 }
 
 
-.custom-toggler .navbar-toggler-icon {
+/* .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(239, 231, 231, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+} */
+
+
+/* Orange Version */
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(228,152,117, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-.nav-item :active {
+/* .nav-item :active {
   color: #1b1919;
 }
 
@@ -69,6 +126,16 @@ header{
   margin-top: 2%;
   margin-left: 0%;
 
+} */
+
+
+.nav-item :active {
+  color: #e49875;
+}
+
+a:hover {
+  color: #e45817;
+  /* background-color: #99c627; */
 }
 
 
@@ -77,17 +144,19 @@ li {
   margin-right: 0%;
 }
 
+a {
+  color: #292727;
+}
 
 svg {
- 
-  /* color: #a0cb37; */
-  color:white;
-  position: relative;
-  padding-right: 0%;
+  color: var(--my-text-color);
+
+  /* color:white; */
 }
 
 .nav-link {
-  color: #f0f0f5;
+  color: var(--my-text-color);
+  /* color: #f0f0f5; */
   /* margin-left: 5%; */
   
 
@@ -98,61 +167,52 @@ svg {
   padding-left: 0%;
 } */
 
-#navItemContact{
-  margin-right: 0%;
-}
 
-#navItemOffer{
-  margin-right: 0%;
-}
+
+/* After Navbar */
 
 
 
 
 #textInTheMiddle {
-  background-color: #060606;
-  color: azure;
+  /* background-color: #060606; */
+  background-color: var(--my-background-color);
+  /* color: azure; */
+  color: var(--my-text-color);
 }
 
 #textInTheMiddle p {
-  font-size: 1.2em;
-  color: #ffffff;
+  font-size: 1.4em;
+  /* color: #ffffff; */
+  color: var(--my-text-color);
 }
 
 main {
-  background-color: #060606;
+  /* background-color: #060606; */
+  background-color: var(--my-background-color);
   padding-top: 20%;
   padding-bottom: 50%;
 }
 
-#photosUnderDescription {
+/* #photosUnderDescription {
   background-color: #ffffff;
   margin-top: 2%;
-}
+} */
 
 .btn {
   /* background-color: #2c2e30; */
-  background-color: #060606;
+  /* background-color: #060606; */
+  background-color: var(--my-background-color);
   border-color: #656060;
   margin-top: 1.2%;
 }
 
 .navbar {
   /* background-color: #0e1012; */
-  background-color: #060606;
+  /* background-color: #060606; */
+  background-color: var(--my-background-color);
 }
 
-/* #photoAndButtonAutomationsAndRobotics {
-  text-align: center;
-} */
-
-/* #photoAndButtonMobileRobots {
-  text-align: center;
-} */
-
-/* #photoAndButtonSoftwareDevelopment {
-  text-align: center;
-} */
 
 img {
   margin-top: 0.1%;
@@ -172,78 +232,16 @@ img:focus {
   transform: none;
 }
 
-/* Use this as a standard background color
-background-color: #060606;
-*/
-
-/* footer {
-  padding-top: 0.5%;
-  
-  background-color: #060606;
-  text-align: center;
-  font-size: 1em;
-  padding-bottom: 0.1%;
-} */
-
-
-
-/* #linkedInFooter {
-  margin-left: 2%;
-  margin-right: 2%;
-} */
-
-/* .bi {
-  margin-top: 1%;
-} */
-
-
-/* 
-.smartluggageFrame {
-  width: 10px;
-  height: 10px;
-} */
-
-
-
-/* Material icons */
-
-
-/* .material-icons { 
-  padding: 0px; 
-  font-size: 30px; 
-  width: 50px; 
-  text-decoration: none; 
-  margin: 2px 0px; 
-}  */
-
-
-/* .facebook { 
-  background: white; 
-  color: grey; 
-}  */
-
-
-/* .bi bi-facebook{
-  color: wheat;
-} */
-
-
-
-
 
 #text_after_press_button_in_collapse p{
-  color: #efe7e7;
+  /* color: #efe7e7; */
+  color: var(--my-text-color);
 }
 
 a {
-  color: azure;
+  /* color: azure; */
+  color: var(--my-text-color);
 }
-
-
-
-
-
-
 
 
 
@@ -283,17 +281,18 @@ a:hover {
 
 h1 {
 
-  font-size: 1.9em;
+  font-size: 2.1em;
   margin-left: 42%;
   text-align:none;
-  /* font-family: cursive; */
-  font-family: "Caveat", cursive;
-  color: azure;
+  font-family: cursive;
+  /* font-family: "Caveat", cursive; */
+  /* color: azure; */
+  color: var(--my-text-color);
   padding-bottom: 10%;
 }
 
-.panel-title, p{
-  font-family: "Caveat", cursive;
+.panel-title p{
+  font-family: cursive;
   
   font-style: normal;
   text-align:left;
@@ -303,7 +302,8 @@ h1 {
 #panelBodyFreeConsultation {
   padding-top: 4%;
   margin-left: 15%;
-  background-color: #060606;
+  /* background-color: #060606; */
+  background-color: var(--my-background-color);
   text-align: left;
 
   padding-bottom: 4%;
@@ -311,8 +311,9 @@ h1 {
 }
 
 #panelBodyFreeConsultation p {
-  font-size: 1.3em;
-  color: #ffffff;
+  font-size: 1.5em;
+  /* color: #ffffff; */
+  color: var(--my-text-color);
  
 }
 
@@ -320,14 +321,16 @@ h1 {
 #panelBodyPtSesion{
   padding-top: 4%;
   margin-left: 16%;
-  background-color: #060606;
+  /* background-color: #060606; */
+  background-color: var(--my-background-color);
   text-align: left;
   padding-bottom: 4%;
 }
 
 #panelBodyPtSesion p {
-  font-size: 1.3em;
-  color: #ffffff;
+  font-size: 1.5em;
+  /* color: #ffffff; */
+  color: var(--my-text-color);
  
 }
 
@@ -335,14 +338,16 @@ h1 {
 #panelBodyDietCoaching{
   padding-top: 4%;
   margin-left: 20%;
-  background-color: #060606;
+  /* background-color: #060606; */
+  background-color: var(--my-background-color);
   text-align: left;
   padding-bottom: 4%;
 }
 
 #panelBodyDietCoaching p {
-  font-size: 1.3em;
-  color: #ffffff;
+  font-size: 1.5em;
+  /* color: #ffffff; */
+  color: var(--my-text-color);
  
 }
 
@@ -354,92 +359,85 @@ h1 {
 #panelBodyDietTrainingCoaching{
   padding-top: 4%;
   margin-left: 20%;
-  background-color: #060606;
+  /* background-color: #060606; */
+  background-color: var(--my-background-color);
   text-align: left;
   padding-bottom: 4%;
 }
 
 #panelBodyDietTrainingCoaching p {
-  font-size: 1.3em;
-  color: #ffffff;
+  font-size: 1.5em;
+  /* color: #ffffff; */
+  color: var(--my-text-color);
  
 }
 
 
 #panelHeadingFreeConsultation{
 
-  font-size: 0.9em;
+  font-size: 1.1em;
   margin-left: 0%;
   font-style:normal;
   text-align: left;
-  color: azure;
+  /* color: azure; */
+  color: var(--my-text-color);
   padding-bottom: 8%;
 }
 
 #panelHeadingPtSession{
 
-  font-size: 0.9em;
+  font-size: 1.1em;
   margin-left: 0%;
   font-style:none;
   text-align: left;
-  color: azure;
+  /* color: azure; */
+  color: var(--my-text-color);
   padding-bottom: 3%;
 }
 
 #panelHeadingDietCoaching{
 
-  font-size: 0.9em;
+  font-size: 1.1em;
   margin-left: 0%;
   font-style:normal;
   text-align: left;
-  color: azure;
+  /* color: azure; */
+  color: var(--my-text-color);
   padding-bottom: 3%;
 }
 
 #panelHeadingDietTrainingCoaching{
 
-  font-size: 0.9em;
+  font-size: 1.1em;
   margin-left: 0%;
   font-style:normal;
   text-align: left;
-  color: azure;
+  /* color: azure; */
+  color: var(--my-text-color);
   padding-bottom: 3%;
 }
 
 
 /* After Offers */
 
-/* #message_us{
-
-  padding-top: 1%;
-  padding-bottom: 30%;
-  background-color: #060606;
-}
-
-#ourGoalOnOffer{
-  padding-top: 1%;
-  padding-bottom: 1%;
-  background-color: #060606;
-  color: azure;
-} */
-
-
 footer {
-  padding-top: 42%;
+  padding-top: 5.5%;
   
-  background-color: #060606;
+  background-color: var(--my-background-color);
   text-align: center;
   font-size: 1em;
   padding-bottom: 0.1%;
 }
 
-
 footer a, footer p {
-  color: #1f1e1e;
+  /* color: #1f1e1e; */
+  color: var(--my-text-color);
+  text-align: center;
 }
 
 footer a:hover{
-  color: #1f1e1e;
+  /* color: #1f1e1e; */
+  color: var(--my-text-color);
 }
 
 

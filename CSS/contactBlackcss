@@ -1,0 +1,328 @@
+
+header{
+  font-family: "Caveat", cursive;
+  font-size: 1.4em;
+}
+
+p{
+
+  font-family: "Caveat", cursive;
+}
+
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+
+#navbarContact{
+  background-color: #060606;
+}
+
+
+#textInTheMiddle {
+  background-color: #060606;
+  text-align: center;
+}
+
+#textInTheMiddle p {
+  font-size: 1.2em;
+  color: #ffffff;
+ 
+}
+
+
+
+
+
+ /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 9px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 6px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4e524e;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker color */
+input[type=submit]:hover {
+  background-color: #4e524e;
+}
+
+
+
+.custom-toggler.navbar-toggler {
+  /* border-color: #0e3458; */
+  border-color: #434546;
+  
+  color: #505356;
+}
+
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(239, 231, 231, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+
+#navItemInstagram{
+  margin-top: 2%;
+}
+
+
+/* TOP PHOTO */
+/* 
+#chessOnTopIndex{
+	width:100%;
+    height: Auto;
+} */
+
+#content{
+	margin-top: 5px;
+}
+
+/* google maps location NCI*/
+
+/* .nci-location{
+    margin-top: 50px;
+	margin-bottom: 50px;
+    
+} */
+
+
+/* .nci-location h3{
+    color: #f2f2f2;
+    font-size: 1.4em;
+	padding-left: 40px;
+    
+} */
+.go4eat-location p{
+    text-align: center;
+    color: #f2f2f2;
+   
+}
+
+
+
+.addressAndMap{
+  padding-top: 30%;
+  text-align: center;
+  color: #f2f2f2;
+ 
+}
+
+#searchNavbar{
+	color: grey;
+}
+
+body,td,th { 
+	color: #00020A;
+	background-color: #000000;}
+
+
+
+/* #welcome {
+	padding-top:25px;
+} */
+
+#contactUs{
+  padding-top: 30%;
+  font-size: 2.2em;
+  text-align: center;
+  font-family: cursive;
+  color: azure;
+}
+#contactUsForm p{
+  font-size: 1.5em;
+  text-align: center;
+  color: azure;
+}
+
+
+/* Icon adress */
+
+.bi-geo-alt{
+  color: #ff8c00;
+}
+
+
+#addressContactUs{
+  padding-top: 3%;
+  font-size: 2.0em;
+  font-family: cursive;
+  color: azure;
+  padding-bottom: 3%;
+}
+#addressContactUsForm p{
+  font-size: 1.0em;
+  margin-left: 10%;
+  color: azure;
+}
+
+#addressContactUsForm svg{
+  color: #e4662b;
+  margin-right: 5%;
+}
+
+#locationContactPage{
+  font-size: 1.2;
+}
+
+/* #welcome h2{
+	color: white;
+    font-size: 1.7em;
+} */
+/* #welcome p{
+	color: white;
+} */
+
+
+
+
+.btn {
+  /* background-color: #2c2e30; */
+  background-color: #060606;
+  border-color: #656060;
+  border-width: 0em;
+  margin-top: 1.2%;
+  color: #ff8c00;
+  border-radius: 8%;
+  
+}
+
+
+
+.btn:hover{
+  background-color: #060606;
+  color: #e4662b;
+}
+
+
+
+
+#navigation {
+    background-color: #1A1110;
+    color: azure
+}
+
+
+#main_content_index {
+    
+    background-color:#000000;
+    color: aliceblue
+    }
+
+
+#navigation_text {
+    color: aliceblue;
+ }
+
+
+
+
+ a {
+  color: azure;
+}
+
+
+/* #google-map{
+width:400px;
+height:300px;
+border:0; 
+ } */
+
+
+ #googleMap {
+  padding-top: 6%;
+  background-color: #060606;
+  text-align: center;
+  padding-bottom: 10%;
+  border: 0;
+}
+
+#googleMap p {
+  font-size: 1.2em;
+  color: #ffffff;
+ 
+
+
+}
+
+
+#last {
+  padding-bottom: 25%;
+}
+
+
+/* footer */
+footer {
+  padding-top: 2%;
+  color: #464242;
+  background-color: #060606;
+  text-align: center;
+  font-size: 1em;
+  padding-bottom: 0.1%;
+}
+
+
+footer a, footer p {
+  color: #1f1e1e;
+}
+
+footer a:hover{
+  color: #1f1e1e;
+}
+
+
+/* social media */
+.fa {
+  margin-right: 15px;
+  padding: 10px;
+  font-size: 1px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.fa-youtube {
+  background: #e4662b;
+  color: white;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  margin-top: 20px;
+}
+
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+
