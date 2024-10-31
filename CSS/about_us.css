@@ -16,7 +16,12 @@
  
 }
 
-
+@font-face {
+  font-family: 'Snell Roundhand';
+  src: url('/fonts/snell-roundhand/SnellBT-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 
 
@@ -28,7 +33,7 @@ body{
 
 header{
   /* font-family: "Caveat", cursive; */
-  font-family: cursive;
+  font-family: 'Snell Roundhand', cursive;
   font-size: 1.4em;
 }
 
@@ -72,7 +77,7 @@ main {
 p{
 
   /* font-family: "Caveat", cursive; */
-  font-family: cursive;
+  font-family: 'Snell Roundhand',cursive;
 }
 
 
@@ -263,7 +268,7 @@ svg {
   padding-top: 20%;
   text-align: right;
   font-size: 2.2em;
-  font-family:cursive;
+  font-family: 'Snell Roundhand', cursive;
   /* font-family: Caveat; */
   /* color:azure; */
   /* background-color: #060606; */
@@ -288,7 +293,7 @@ svg {
   margin-top: 0%;
   text-align: center;
   font-size: 2.0rem;
-  font-family:cursive;
+  font-family: 'Snell Roundhand', cursive;
   /* font-family: Caveat; */
   /* color:azure; */
   /* background-color: #060606; */
@@ -341,7 +346,7 @@ svg {
   padding-top: 3%;
   font-size: 2.2em;
   text-align: center;
-  font-family: cursive;
+  font-family: 'Snell Roundhand', cursive;
   /* color: azure; */
   /* color: #f2efea; */
   color: var(--my-text-color);
@@ -349,7 +354,7 @@ svg {
 }
 
 #typewriter{
-  font-family: cursive;
+  font-family: 'Snell Roundhand', cursive;
   text-align: center;
   overflow: hidden;
 
