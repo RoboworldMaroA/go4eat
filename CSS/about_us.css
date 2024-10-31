@@ -12,13 +12,13 @@
 
 :root {
   --my-background-color : #e8e1d9;
-  --my-text-color:  #000000; 
+  --my-text-color:  #060606;
  
 }
 
 @font-face {
   font-family: 'Snell Roundhand';
-  src: url('../fonts/snell-roundhand/SnellBT-Regular.otf') format('opentype');
+  src: url('../fonts/snell-roundhand/SnellRoundhand-BoldScript.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
