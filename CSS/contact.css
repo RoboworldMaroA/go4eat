@@ -20,22 +20,28 @@
  
 }
 
+@font-face {
+  font-family: 'Snell Roundhand';
+  src: url('../fonts/snell-roundhand/SnellBT-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 
 body{
-  font-family: cursive;
+  font-family: 'Snell Roundhand', cursive;
 }
 
 
 header{
   /* font-family: "Caveat", cursive; */
-  font-family: cursive;
+  font-family: 'Snell Roundhand', cursive;
   font-size: 1.4em;
 }
 
 p{
   color: var(--my-text-color);
-  font-family: cursive;
+  font-family: 'Snell Roundhand', cursive;
   /* font-family: "Caveat", cursive; */
 }
 
@@ -310,7 +316,7 @@ body,td,th {
   padding-top: 30%;
   font-size: 2.4em;
   text-align: center;
-  font-family: cursive;
+  font-family: 'Snell Roundhand', cursive;
   /* color: azure; */
   color: var(--my-text-color);
 }
@@ -332,7 +338,7 @@ body,td,th {
 #addressContactUs{
   padding-top: 3%;
   font-size: 2.2em;
-  font-family: cursive;
+  font-family: 'Snell Roundhand', cursive;
   /* color: azure; */
   color: var(--my-text-color);
   padding-bottom: 3%;

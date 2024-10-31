@@ -17,10 +17,16 @@
   --my-text-color-white:  #e8e1d9; 
  
 }
+@font-face {
+  font-family: 'Snell Roundhand';
+  src: url('../fonts/snell-roundhand/SnellBT-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 
 body{
-  font-family: cursive;
+  font-family: 'Snell Roundhand', cursive;
 }
 
 /* photo on top page */
@@ -36,13 +42,13 @@ body{
 
 header{
   /* font-family: "Caveat", cursive; */
-  font-family: cursive;
+  font-family: 'Snell Roundhand', cursive;
   font-size: 1.4em;
 }
 
 p{
   color: var(--my-text-color);
-  font-family: cursive;
+  font-family: 'Snell Roundhand', cursive;
   /* font-family: "Caveat", cursive; */
 }
 
@@ -179,7 +185,7 @@ svg {
 #welcomeToIndex{
   font-size: 1.9em;
   text-align: center;
-  font-family: cursive;
+  font-family: 'Snell Roundhand', cursive;
   
 }
 
@@ -195,7 +201,7 @@ svg {
 
 
 #secondParagrapthOnIndexPage {
-  font-family: cursive;
+  font-family: 'Snell Roundhand', cursive;
   font-size: 1.9em;
   font-weight: 150; 
   padding-top: 60%; 
@@ -317,7 +323,7 @@ img:focus {
   text-align: center;
   font-size: 1.5em;
   /* font-family: "Caveat", cursive; */
-  font-family: cursive;
+  font-family: 'Snell Roundhand', cursive;
 
 
 }
@@ -455,13 +461,13 @@ h1 {
 
 .default {
   color: #060606;
-  font-family: cursive;
+  font-family: 'Snell Roundhand', cursive;
   font-size: 2.1em;
 }
 
 
 #paragraphGo4Eat span{
-  font-family: cursive;
+  font-family: 'Snell Roundhand', cursive;
   font-size: 2.1em;
 }
 
@@ -469,7 +475,7 @@ h1 {
 /* Changing color in the letter to orange */
 .highlight {
   color: #e45817;
-  font-family: cursive;
+  font-family: 'Snell Roundhand', cursive;
   font-size: 2.1em;
 }
 

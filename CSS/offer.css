@@ -18,23 +18,29 @@
   --my-text-color-white:  #e8e1d9; 
  
 }
+@font-face {
+  font-family: 'Snell Roundhand';
+  src: url('../fonts/snell-roundhand/SnellBT-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 
 
 body{
-  font-family: "Caveat", cursive;
+  font-family: 'Snell Roundhand', cursive;
 }
 
 
 header{
   /* font-family: "Caveat", cursive; */
-  font-family: cursive;
+  font-family: 'Snell Roundhand', cursive;
   font-size: 1.4em;
 }
 
 p{
   color: var(--my-text-color);
-  font-family: cursive;
+  font-family: 'Snell Roundhand', cursive;
   /* font-family: "Caveat", cursive; */
 }
 
@@ -284,7 +290,7 @@ h1 {
   font-size: 2.1em;
   margin-left: 42%;
   text-align:none;
-  font-family: cursive;
+  font-family: 'Snell Roundhand', cursive;
   /* font-family: "Caveat", cursive; */
   /* color: azure; */
   color: var(--my-text-color);
@@ -292,7 +298,7 @@ h1 {
 }
 
 .panel-title p{
-  font-family: cursive;
+  font-family: 'Snell Roundhand', cursive;
   
   font-style: normal;
   text-align:left;
