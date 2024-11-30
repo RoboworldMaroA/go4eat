@@ -347,8 +347,12 @@ img:focus {
 }
 
 #arrowDown{
-  margin-right: 7%;
+  padding-top: 3%;
+  margin-right: 3%;
   color: #a0cb37;
+}
+#arrowDown:hover{
+  transform: scale(1.1);
 }
 
 
