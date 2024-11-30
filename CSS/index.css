@@ -157,6 +157,7 @@ li {
 
 a {
   color: #292727;
+  
 }
 
 svg {
@@ -169,8 +170,13 @@ svg {
   color: var(--my-text-color);
   /* color: #f0f0f5; */
   /* margin-left: 5%; */
+ 
   
 
+}
+a.nav-link{
+  margin-left: 10px;
+  margin-right: 25px;
 }
 
 /* #linkedInNavBar {

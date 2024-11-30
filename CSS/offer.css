@@ -178,6 +178,11 @@ svg {
 
 }
 
+a.nav-link{
+  margin-left: 10px;
+  margin-right: 25px;
+}
+
 /* #linkedInNavBar {
   padding-left: 0%;
   padding-left: 0%;
