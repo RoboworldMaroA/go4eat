@@ -324,6 +324,7 @@ body,td,th {
   font-family: 'Snell Roundhand', cursive;
   /* color: azure; */
   color: var(--my-text-color);
+  padding-bottom: 10%;
 }
 #contactUsForm p{
   font-size: 1.7em;
