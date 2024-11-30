@@ -38,6 +38,16 @@ header{
   font-size: 1.4em;
 }
 
+
+
+/* photo on top page */
+#topImageOffer{
+	
+	width:100%;
+  height: Auto;
+
+}
+
 p{
   color: var(--my-text-color);
   font-family: 'Snell Roundhand', cursive;
@@ -196,7 +206,7 @@ svg {
 main {
   /* background-color: #060606; */
   background-color: var(--my-background-color);
-  padding-top: 20%;
+  padding-top: 5%;
   padding-bottom: 50%;
 }
 
@@ -219,13 +229,13 @@ main {
   background-color: var(--my-background-color);
 }
 
-
+/* 
 img {
   margin-top: 0.1%;
   margin-bottom: 2%;
   transition: all 2s, transform 0.5s, box-shadow 0.5s;
   border-radius: 3%;
-}
+} */
 
 /* img:hover {
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.6);
