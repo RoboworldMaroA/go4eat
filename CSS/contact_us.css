@@ -343,10 +343,6 @@ body,td,th {
   color: var(--my-text-color);
   padding-bottom: 3%;
 }
-
-#addressContactUsForm{
-  padding-top: 15%;
-}
 #addressContactUsForm p{
   font-size: 1.2em;
   margin-left: 10%;
@@ -373,9 +369,7 @@ body,td,th {
 
 
 
-.colorListItem{
-  color: var(--my-background-color);
-}
+
 
 
 
