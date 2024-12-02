@@ -1,0 +1,6 @@
+
+RewriteOptions inherit
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^go4eat\.eu$ "https\:\/\/go4eat-mih6g\.ondigitalocean\.app\/" [R=301,L]
