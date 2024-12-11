@@ -46,7 +46,8 @@ formLogin.addEventListener("submit", (event) => {
   
 
 //   fetch("http://localhost:8080/api/v1/email", {
-  fetch("https://smartluggagebackendjwt-c266cf5456e9.herokuapp.com/api/v1/email", {
+  // fetch("https://smartluggagebackendjwt-c266cf5456e9.herokuapp.com/api/v1/email", {
+    fetch("https://mareka.alwaysdata.net/api/v1/email", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
