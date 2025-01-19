@@ -30,10 +30,12 @@ body{
 }
 
 /* photo on top page */
-#topImageAboutUs{
+#topImageIndex{
 	
 	width:100%;
   height: Auto;
+  padding-bottom: 5%;
+  background-color: var(--my-background-color);
 
 }
 
@@ -192,6 +194,8 @@ a.nav-link{
   font-size: 1.9em;
   text-align: center;
   font-family: 'Snell Roundhand', cursive;
+  /* padding: 0 0 0 0 !important; */
+  /* margin: 0 0 0 0!important; */
   
 }
 
@@ -201,8 +205,9 @@ a.nav-link{
   /* font-size: 1.7em; */
   text-align: center;
   /* font-style: italic; */
-  padding-bottom: 10%;
-
+  /* padding-bottom: 10%; */
+  /* margin: 0 0 0 0 !important; */
+  /* padding:0 0 10% 0  !important; */
 }
 
 
@@ -210,18 +215,22 @@ a.nav-link{
   font-family: 'Snell Roundhand', cursive;
   font-size: 1.9em;
   font-weight: 150; 
-  padding-top: 60%; 
+  /* padding-top: 60%;  */
   color: var(--my-text-color-white);
   background-image: url(/images/index_page_in_the_middle.jpg);
-  padding-bottom: 10%;
+  /* padding-bottom: 10%; */
   width:100%;
   /* height: Auto; */
   background-repeat:no-repeat;
   background-size:contain;
   background-position:center;
   margin: 0%;
-  padding-right: 0%;
-  padding-left: 0%;
+  /* padding-right: 0%; */
+  /* padding-left: 0%;
+  padding-right: none; */
+  /* padding-left: 0; */
+  /* margin: 0 0 0 0 !important; */
+  /* padding: 60% 0% 0% 0% !important; */
   
 
 }
@@ -247,8 +256,9 @@ a.nav-link{
   /* background-color: #060606; */
   background-color: var(--my-background-color);
   text-align: center;
-  padding-left: 0%;
-  padding-right: 0%;
+  /* padding-left: 0%;
+  padding-right: none; */
+  /* padding: 0 0 0 0 !important; */
 }
 
 #textInTheMiddle p {
@@ -260,12 +270,38 @@ a.nav-link{
 
 }
 
+
+#containerWithWelcomeAndMiddleImage{
+  padding: 0 !important;
+}
+
+
+
+
+
+#textAfterMiddle {
+  /* background-color: #060606; */
+  background-color: var(--my-background-color);
+  text-align: center;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+#textAfterMiddle p {
+  font-size: 1.6em;
+  color: var(--my-text-color);
+  /* color: #ffffff; */
+ 
+
+
+}
+
 main {
   /* background-color: #060606; */
   background-color: var(--my-background-color);
-  padding-top: 5%;
-  padding-left: 0%;
-  padding-right: 0%;
+  /* padding-top: 5%; */
+  /* padding: 0 0 0 0!important; */
+  /* padding-right: 0%!important; */
 }
 
 #photosUnderDescription {
@@ -433,6 +469,8 @@ h1 {
   color: var(--my-text-color);
   /* color: #ffffff; */
   padding-bottom: 0.5%;
+  /* margin: 0 0 0 0 !important; */
+
 }
 
 /* 
@@ -476,9 +514,16 @@ h1 {
 }
 
 
+#paragraphGo4Eat{
+  margin: 0 0 0 0 !important;
+  padding: 0 0 0 0 !important;
+}
+
 #paragraphGo4Eat span{
   font-family: 'Snell Roundhand', cursive;
   font-size: 2.1em;
+  margin: 0 0 0 0 !important;
+  padding: 0 0 0 0 !important;
 }
 
 
