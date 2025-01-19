@@ -175,6 +175,14 @@ a.nav-link{
 /* After Navbar */
 
 
+/* Image on the top */
+
+#topImageAboutUs{
+	
+	width:100%;
+  height: Auto;
+
+}
 
 
 /* Button send */
@@ -341,8 +349,8 @@ body,td,th {
 
 
 #addressContactUs{
-  padding-top: 3%;
-  font-size: 2.2em;
+  padding-top: 5%;
+  font-size: 2.3em;
   font-family: 'Snell Roundhand', cursive;
   /* color: azure; */
   color: var(--my-text-color);
@@ -350,7 +358,7 @@ body,td,th {
 }
 
 #addressContactUsForm{
-  padding-top: 15%;
+  padding-top: 5%;
 }
 #addressContactUsForm p{
   font-size: 1.2em;
