@@ -386,6 +386,8 @@ img:focus {
   padding-top: 3%;
   margin-right: 3%;
   color: #a0cb37;
+  width: 80px;
+  height: 100px;
 }
 #arrowDown:hover{
   transform: scale(1.1);
