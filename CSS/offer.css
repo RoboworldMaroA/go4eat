@@ -304,7 +304,6 @@ h1 {
 
   font-size: 2.1em;
   margin-left: 42%;
-  text-align:none;
   font-family: 'Snell Roundhand', cursive;
   /* font-family: "Caveat", cursive; */
   /* color: azure; */
@@ -373,10 +372,6 @@ h1 {
 }
 
 
-
-
-
-
 #panelBodyDietTrainingCoaching{
   padding-top: 4%;
   margin-left: 20%;
@@ -406,10 +401,8 @@ h1 {
 }
 
 #panelHeadingPtSession{
-
   font-size: 1.1em;
   margin-left: 0%;
-  font-style:none;
   text-align: left;
   /* color: azure; */
   color: var(--my-text-color);

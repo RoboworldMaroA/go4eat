@@ -263,8 +263,8 @@ input[type=submit] {
   /* color: white; */
   color: var(--my-text-color);
   padding: 10px 18px;
-  border: none;
-  border-radius: none;
+  border: 0;
+  border-radius: 0;
   cursor: pointer;
 }
 
@@ -275,8 +275,8 @@ input[type=submit]:hover {
 
 input[type=submit]:after {
   background-color: #4e524e;
-  border: none;
-  border-radius: none;
+  border: 0;
+  border-radius: 0;
 }
 
 
@@ -373,7 +373,7 @@ body,td,th {
 }
 
 #locationContactPage{
-  font-size: 1.4;
+  font-size: 1.4em;
 }
 
 /* #welcome h2{
