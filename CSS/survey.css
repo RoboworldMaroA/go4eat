@@ -17,6 +17,7 @@
   --my-background-color : #e8e1d9;
   --my-text-color:  #060606; 
   --my-text-color-white:  #e8e1d9; 
+  --form-background-color:#f2ede8;
  
 }
 
@@ -49,11 +50,23 @@ p{
 }
 
 
+.form-group input{
+  background-color: var(--form-background-color);
+  font-size: 1.2em;
+}
 
 
+.form-check input{
+  background-color: var(--form-background-color);
+}
 
+/* .form-control{
+  background-color: #fcfcfa;
+} */
 
-
+textarea{
+  background-color: var(--form-background-color);
+}
 .navbar-nav {
   margin-left: auto;
 }
