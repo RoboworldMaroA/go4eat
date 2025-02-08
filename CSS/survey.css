@@ -1,0 +1,471 @@
+
+
+
+
+/* My background color */
+
+/* BLACK : #060606 
+    White: #f2efea
+
+    new white: e8d3bf 
+    e8e1d9
+    #e2d5c9
+*/
+
+
+:root {
+  --my-background-color : #e8e1d9;
+  --my-text-color:  #060606; 
+  --my-text-color-white:  #e8e1d9; 
+ 
+}
+
+@font-face {
+  font-family: 'Snell Roundhand';
+  src: url('../fonts/snell-roundhand/SnellBT-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body{
+  font-family: 'Snell Roundhand', cursive;
+}
+
+
+header{
+  /* font-family: "Caveat", cursive; */
+  font-family: 'Snell Roundhand', cursive;
+  font-size: 1.4em;
+}
+
+h1{
+  text-align: center;
+}
+p{
+  color: var(--my-text-color);
+  font-family: 'Snell Roundhand', cursive;
+  /* font-family: "Caveat", cursive; */
+}
+
+
+
+
+
+
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+#navbarIndex{
+  background-color: var(--my-background-color);
+}
+
+
+/* Modify the background color */
+.navbar-custom {
+  /* background-color: #424d52; */
+  /* background-color: #484343; */
+  background-color: var(--my-background-color);
+}
+
+.navbar-custom .navbar-brand {
+  /* color: #efe7e7; */
+  color: var(--my-text-color);
+  padding-left: 0%;
+}
+
+.navbar-custom .navbar-text {
+  color: var(--my-text-color);
+  /* color: #f4e9e9; */
+}
+
+
+
+#navbarSupportedContent{
+  margin-left: 5%;
+}
+
+
+/* Set the border color */
+
+.dropdown-item.active {
+  /* background-color: #303032; */
+  background-color: #5f5f6b;
+  
+}
+
+.nav-item {
+
+  margin-left: 0%;
+  padding-right: 0%;
+}
+
+.nav-item.dropdown-item.active {
+
+  margin-left: 1%;
+  padding-right: 0%;
+}
+
+.custom-toggler.navbar-toggler {
+  /* border-color: #0e3458; */
+  /* border-color: #434546; */
+  
+  /* color: #505356; */
+
+  border-color: #e49875;
+  
+  color: #e49875;
+}
+
+
+/* .custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(239, 231, 231, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+} */
+
+
+/* Orange Version */
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(228,152,117, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.nav-item :active {
+  color: #e49875;
+}
+
+a:hover {
+  color: #e45817;
+  /* background-color: #99c627; */
+}
+
+
+li {
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+a {
+  color: #292727;
+}
+
+svg {
+  color: var(--my-text-color);
+
+  /* color:white; */
+}
+
+.nav-link {
+  color: var(--my-text-color);
+  /* color: #f0f0f5; */
+  /* margin-left: 5%; */
+  
+
+}
+
+a.nav-link{
+  margin-left: 10px;
+  margin-right: 25px;
+}
+
+/* #linkedInNavBar {
+  padding-left: 0%;
+  padding-left: 0%;
+} */
+
+
+
+/* After Navbar */
+
+
+
+
+/* Button send */
+#textInTheMiddle {
+  /* background-color: #060606; */
+  background-color: var(--my-background-color);
+  /* color: azure; */
+  color: var(--my-text-color);
+  text-align: center;
+  /* font-size: 1.4em; */
+  
+}
+
+#textInTheMiddle button {
+  font-size: 1.9em;
+  /* border-width: 0em; */
+  /* color: #ffffff; */
+  /* color: var(--my-text-color); */
+}
+
+#textInTheMiddle button:active {
+  background-color: var(--my-background-color);
+  transform: translateY(2px);
+  border-color: var(--my-background-color);
+}
+
+/* #textInTheMiddle button:focus {
+  border-color: var(--my-background-color);
+
+} */
+
+.btn {
+  /* background-color: #2c2e30; */
+  /* background-color: #060606; */
+  background-color: var(--my-background-color);
+  border-color: #656060;
+  border-width: 0em;
+  margin-top: 1.2%;
+  color: #ff8c00;
+  border-radius: 8%;
+
+  
+}
+
+.btn:hover{
+  /* background-color: #060606; */
+  background-color: var(--my-background-color);
+  
+  color: #e4662b;
+  
+}
+
+.btn:after{
+
+  background-color: var(--my-background-color);
+  border-radius: 0%;
+  color: #e4662b;
+  
+}
+
+
+ /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 9px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 6px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  /* background-color: #4e524e; */
+  background-color: var(--my-background-color);
+  /* color: white; */
+  color: var(--my-text-color);
+  padding: 10px 18px;
+  border: none;
+  border-radius: none;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker color */
+input[type=submit]:hover {
+  background-color: #4e524e;
+}
+
+input[type=submit]:after {
+  background-color: #4e524e;
+  border: none;
+  border-radius: none;
+}
+
+
+
+
+
+
+/* TOP PHOTO */
+
+#content{
+	margin-top: 5px;
+}
+
+
+.go4eat-location p{
+    text-align: center;
+    /* color: #f2f2f2; */
+    color: var(--my-text-color);
+   
+}
+
+
+
+.addressAndMap{
+  padding-top: 30%;
+  text-align: center;
+  /* color: #f2f2f2; */
+  color: var(--my-text-color);
+ 
+}
+
+#searchNavbar{
+	color: grey;
+}
+
+body,td,th { 
+	/* color: #00020A; */
+  color: var(--my-text-color);
+	/* background-color: #000000; */
+  background-color: var(--my-background-color);
+}
+
+
+
+/* #welcome {
+	padding-top:25px;
+} */
+
+#contactUs{
+  padding-top: 30%;
+  font-size: 2.4em;
+  text-align: center;
+  font-family: 'Snell Roundhand', cursive;
+  /* color: azure; */
+  color: var(--my-text-color);
+  padding-bottom: 10%;
+}
+#contactUsForm p{
+  font-size: 1.7em;
+  text-align: center;
+  /* color: azure; */
+  color: var(--my-text-color);
+}
+
+
+/* Icon adress */
+
+.bi-geo-alt{
+  color: #ff8c00;
+}
+
+
+#addressContactUs{
+  padding-top: 3%;
+  font-size: 2.2em;
+  font-family: 'Snell Roundhand', cursive;
+  /* color: azure; */
+  color: var(--my-text-color);
+  padding-bottom: 3%;
+}
+#addressContactUsForm p{
+  font-size: 1.2em;
+  margin-left: 10%;
+  /* color: azure; */
+  color: var(--my-text-color);
+}
+
+#addressContactUsForm svg{
+  color: #e4662b;
+  margin-right: 5%;
+}
+
+#locationContactPage{
+  font-size: 1.4;
+}
+
+/* #welcome h2{
+	color: white;
+    font-size: 1.7em;
+} */
+/* #welcome p{
+	color: white;
+} */
+
+
+
+
+
+
+
+
+#navigation {
+    /* background-color: #1A1110; */
+    background-color: var(--my-background-color);
+    /* color: azure */
+    color: var(--my-text-color);
+}
+
+
+#main_content_index {
+    
+    /* background-color:#000000; */
+    background-color: var(--my-background-color);
+    /* color: aliceblue */
+    color: var(--my-text-color);
+    }
+
+
+#navigation_text {
+    /* color: aliceblue; */
+    color: var(--my-text-color);
+ }
+
+
+
+
+ a {
+  /* color: azure; */
+  color: var(--my-text-color);
+}
+
+
+/* #google-map{
+width:400px;
+height:300px;
+border:0; 
+ } */
+
+
+ #googleMap {
+  padding-top: 6%;
+  /* background-color: #060606; */
+  background-color: var(--my-background-color);
+  text-align: center;
+  padding-bottom: 10%;
+  border: 0;
+}
+
+#googleMap p {
+  font-size: 1.4em;
+  /* color: #ffffff; */
+  color: var(--my-text-color);
+ 
+
+
+}
+
+
+#last {
+  padding-bottom: 25%;
+}
+
+
+/* footer */
+
+
+footer {
+  padding-top: 25.5%;
+  
+  background-color: var(--my-background-color);
+  text-align: center;
+  font-size: 1.0em;
+  padding-bottom: 0.1%;
+}
+
+footer a, footer p {
+  color: #1f1e1e;
+}
+
+footer a:hover{
+  color: #1f1e1e;
+}
+
+
+
+
+
