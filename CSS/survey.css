@@ -55,6 +55,10 @@ p{
 }
 
 
+.form-control{
+  background-color: var(--form-background-color);
+
+}
 
 .form-group{
   padding-top: 3%;
@@ -76,15 +80,54 @@ p{
 
 }
 
-input{
+
+#inputSurveyEmail{
   background-color: var(--form-background-color);
 }
 
-#name{
-  /* position: relative; */
-  display: inline-block;
+#inputPhoneNumber{
+  background-color: var(--form-background-color);
+  
 
 }
+
+#inputBedTime{
+  background-color: var(--form-background-color);
+
+}
+
+#inputDateOfBirth{
+  background-color: var(--form-background-color);
+
+}
+
+#inputWeight{
+  background-color: var(--form-background-color);
+  border: none;
+}
+
+#inputHight{
+  background-color: var(--form-background-color);
+  border: none;
+}
+
+
+#inputTimeForFirstMeal{
+  background-color: var(--form-background-color);
+  border: none;
+}
+
+#inputHowManyDishesPerDay{
+  background-color: var(--form-background-color);
+  border: none;
+}
+
+/* Remove borer on some inputs */
+*:focus {
+  outline: none;
+}
+
+
 
 textarea{
   background-color: var(--form-background-color);
@@ -278,13 +321,58 @@ a.nav-link{
 input[type=text], select, textarea {
   width: 100%; /* Full width */
   padding: 9px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
+  border: 0.1px solid #ccc; /* Gray border */
   border-radius: 4px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 6px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  resize: vertical ;/* Allow the user to vertically resize the textarea (not horizontally) */
+  background-color: var(--form-background-color);
+
 }
+
+ /* Style inputs with type="text", select elements and textareas */
+ input[type=time], select, textarea {
+  width: 100%; /* Full width */
+  padding: 9px; /* Some padding */ 
+  border: 0.1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 6px; /* Bottom margin */
+  resize: vertical ;/* Allow the user to vertically resize the textarea (not horizontally) */
+  background-color: var(--form-background-color);
+
+}
+
+input[type=email], select, textarea {
+  width: 100%; /* Full width */
+  padding: 9px; /* Some padding */ 
+  border: none;
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 6px; /* Bottom margin */
+  resize: vertical ;/* Allow the user to vertically resize the textarea (not horizontally) */
+  background-color: var(--form-background-color);
+
+}
+
+
+
+input[type=date], select, textarea {
+  width: 100%; /* Full width */
+  padding: 9px; /* Some padding */ 
+  border: 0px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 6px; /* Bottom margin */
+  resize: vertical ;/* Allow the user to vertically resize the textarea (not horizontally) */
+  background-color: var(--form-background-color);
+
+}
+
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
