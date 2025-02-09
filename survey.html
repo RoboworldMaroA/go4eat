@@ -90,14 +90,21 @@
 				<!-- contact form -->
 				<div>
 					<form class="form">
+
+						<p>What do You want to achieve with this program?</p>
+						<textarea name="bodyYourGoal" id="bodyYourGoal" placeholder="Your goals"
+							style="height:100px"></textarea>
+
+						<p>Contact data</p>
+
 						<div class="form-group">
-							<label for="name">Name and Surname</label>
-							<input type="text" id="name" name="name" placeholder="Your name and surname">
+							<label for="inputName">Name and Surname</label>
+							<input name="toName" type="text" id="inputName" placeholder="Your name and surname">
 						</div>
 
 						<div class="form-group">
-							<label for="inputSurveyEmail4">Email</label>
-							<input name="toSurveyEmail" type="email" class="form-control" id="inputSurveyEmail4"
+							<label for="inputSurveyEmail">Email</label>
+							<input name="toSurveyEmail" type="email" class="form-control" id="inputSurveyEmail"
 								placeholder="Email">
 						</div>
 
@@ -107,319 +114,355 @@
 								placeholder="PhoneNumber">
 						</div>
 
-						<p>Gender</p>
 
+						<!-- Pick gender male or female -->
+						<p>Personal data</p>
+						<label for="inputGender">Gender:</label>
 						<div class="form-check">
-							<input class="form-check-input" type="radio" name="flexRadioDefault" id="inputMale">
-							<label class="form-check-label" for="inputMale">
+
+							<input name="option" class="form-check-input" type="radio" id="inputMale" value="male">
+							<label name="toMale" class="form-check-label" for="maleOption">
 								Male
 							</label>
 						</div>
 						<div class="form-check">
-							<input class="form-check-input" type="radio" name="flexRadioDefault" id="inputFemale"
-								checked>
-							<label class="form-check-label" for="flexRadioDefault2">
+							<input name="option" class="form-check-input" type="radio" id="inputFemale" value="female">
+							<label class="form-check-label" for="femaleOption">
 								Female
 							</label>
 						</div>
 
+
+						<!-- Date od birth -->
 						<div class="form-group">
 							<label for="inputDateOfBirth">Date of Birth</label>
 							<input type="date" id="inputDateOfBirth" name="toDateOfBirth" class="form-control"
 								placeholder="Date of birth">
 						</div>
 
+						<!-- Weight -->
 						<div class="form-group">
 							<label for="inputWeight">Weight</label>
 							<input name="toWeight" type="text" class="form-control" id="inputWeight"
-								placeholder="Email">
+								placeholder="Weight should me in kg.">
 						</div>
 
+						<!-- Height -->
 						<div class="form-group">
 							<label for="inputHight">Height</label>
 							<input name="toHight" type="text" class="form-control" id="inputHight"
-								placeholder="Customer Hight">
+								placeholder=" Customer hight should me in cm">
 						</div>
 
+						<!-- Time of your first meal -->
+						<p>Time of your first meal</p>
 						<div class="form-group">
-							<label for="inputTimeForMeal">Time of your first meal</label>
-							<input name="toInputTimeForMeal" type="time" class="form-control" id="inputTimeForMeal"
-								placeholder="Time first meal">
+							<!-- <label for="inputTimeForMeal">Time of your first meal</label> -->
+							<input name="toInputTimeForFirstMeal" type="time" class="form-control"
+								id="inputTimeForFirstMeal"
+								placeholder="Time of you first meal. Click a clock on the right">
 						</div>
 
+
+						<p>How many dishes do You wish per day?</p>
 						<div class="form-group">
-							<label for="inputHowManyDishesPerDay">How many dishes do You wish per day?</label>
+							<!-- <label for="inputHowManyDishesPerDay">How many dishes do You wish per day?</label> -->
 							<input name="toHowManyDishesPerDay" type="number" class="form-control"
-								id="inputHowManyDishesPerDay" placeholder="PhoneNumber">
+								id="inputHowManyDishesPerDay" placeholder="Pick Number">
 						</div>
 
 
+
+						<!-- Pick if is possible heat meal yes or not
+						answers are:
+						 iCanHeatAMeatAtWork
+						 iCanNotHeatAMealAtWork 
+						-->
 						<p>Is it possible to heat your meal at work?</p>
 
 						<div class="form-check">
-							<input class="form-check-input" type="radio" name="flexRadioDefault" id="inputYes">
+							<input class="form-check-input" type="radio" name="optionHeatMeal" id="inputYes"
+								value="iCanHeatAMeatAtWork">
 							<label class="form-check-label" for="inputYes">
 								Yes
 							</label>
 						</div>
 						<div class="form-check">
-							<input class="form-check-input" type="radio" name="flexRadioDefault" id="inputNo" checked>
+							<input class="form-check-input" type="radio" name="optionHeatMeal" id="inputNo"
+								value="iCanNotHeatAMeatAtWork">
 							<label class="form-check-label" for="inputNo">
 								No
 							</label>
 						</div>
 
+
+
+						<p>Bed time</p>
 						<div class="form-group">
-							<label for="inputBedTime">Bed time</label>
+							<!-- <label for="inputBedTime">Bed time</label> -->
 							<input name="toBedTime" type="time" class="form-control" id="inputBedTime"
-								placeholder="inputBedTime">
+								placeholder=" Input Bed Time">
 						</div>
 
-						<p>What kind of Food product's do You like best?</p>
 
+						<!-- What kind of Food product's do You like best? -->
+						<p>What kind of Food product's do You like best?</p>
 						<div class="form-check">
-							<input class="form-check-input" type="checkbox" value="" id="inputRice">
+							<input class="form-check-input" name="optionBestProduct" type="checkbox" value="rice"
+								id="inputRice">
 							<label class="form-check-label" for="inputRice">
 								Rice
 							</label>
 						</div>
 						<div class="form-check">
-							<input class="form-check-input" type="checkbox" value="" id="inputPotato" checked>
+							<input class="form-check-input" name="optionBestProduct" type="checkbox" value="potato"
+								id="inputPotato">
 							<label class="form-check-label" for="inputPotato">
-								Potato/ Sweet Potato
+								Potato/Sweet Potato
 							</label>
 						</div>
 
 						<div class="form-check">
-							<input class="form-check-input" type="checkbox" value="" id="inputPasta">
+							<input class="form-check-input" name="optionBestProduct" type="checkbox" value="pasta"
+								id="inputPasta">
 							<label class="form-check-label" for="inputPasta">
 								Pasta
 							</label>
 						</div>
 						<div class="form-check">
-							<input class="form-check-input" type="checkbox" value="" id="inputCouscous" checked>
+							<input class="form-check-input" name="optionBestProduct" type="checkbox" value="couscous"
+								id="inputCouscous">
 							<label class="form-check-label" for="inputCouscous">
 								Couscous
 							</label>
 						</div>
 						<div class="form-check">
-							<input class="form-check-input" type="checkbox" value="" id="inputWrap">
+							<input class="form-check-input" name="optionBestProduct" type="checkbox" value="wrap"
+								id="inputWrap">
 							<label class="form-check-label" for="inputWrap">
 								Wrap
 							</label>
 						</div>
 						<div class="form-check">
-							<input class="form-check-input" type="checkbox" value="" id="inputWhiteBread" checked>
+							<input class="form-check-input" name="optionBestProduct" type="checkbox" value="whiteBread"
+								id="inputWhiteBread">
 							<label class="form-check-label" for="inputWhiteBread">
 								White Bread
 							</label>
 						</div>
 						<div class="form-check">
-							<input class="form-check-input" type="checkbox" value="" id="inputBrownBread" checked>
+							<input class="form-check-input" name="optionBestProduct" type="checkbox" value="brownBread"
+								id="inputBrownBread">
 							<label class="form-check-label" for="inputBrownBread">
 								Brown Bread
 							</label>
 						</div>
 
 
+
+						<!-- Have you some favorite product's that you would like to find in your diet? -->
 						<p>Have you some favorite product's that you would like to find in your
 							diet?</p>
-						<textarea id="bodyFavouriteProducts" name="bodyFavoriteProducts"
-							placeholder="Write here your favorite products..." style="height:200px"></textarea>
+						<textarea id="bodyFavoriteProducts" name="bodyFavoriteProducts"
+							placeholder="Write here your favorite products..." style="height:100px"></textarea>
 
-						<div class="row justify-content-md-center" id="textInTheMiddle">
-							<div class="col-sm-10 col-md-10 col-lg-4">
-								<p>&nbsp;</p>
-							</div>
-						</div>
+
+						<!-- Do You drink coffee or Tea with milk and sugar? If yes describe how many time per day. -->
 
 						<p>Do You drink coffee or Tea with milk and sugar? If yes describe how many time per day. </p>
-						<textarea id="body" name="body" placeholder="Write something.." style="height:200px"></textarea>
+						<textarea id="body" name="bodyTeaOrCoffee" placeholder="Tea or Coffee?"
+							style="height:100px"></textarea>
 
 
-
-						<p>Is it possible to heat your meal at work?</p>
-
+						<!-- What type of meat or fish do You eat often? -->
+						<p>What type of meat or fish do You eat often?</p>
 						<div class="form-check">
-							<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-							<label class="form-check-label" for="flexRadioDefault1">
-								Yes
-							</label>
-						</div>
-						<div class="form-check">
-							<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
-								checked>
-							<label class="form-check-label" for="flexRadioDefault2">
-								No
-							</label>
-						</div>
-
-						<div class="form-group">
-							<label for="inputPhoneNuber">Bed time</label>
-							<input name="toTime" type="time" class="form-control" id="inputTime" placeholder="BedTime">
-						</div>
-
-						<p>What type of meet or fish do You eat often?</p>
-
-						<div class="form-check">
-							<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-							<label class="form-check-label" for="flexCheckDefault">
+							<input class="form-check-input" name="optionMeat" type="checkbox" value="Chicken"
+								id="inputChicken">
+							<label class="form-check-label" for="inputChicken">
 								Chicken
 							</label>
 						</div>
 						<div class="form-check">
-							<input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-							<label class="form-check-label" for="flexCheckChecked">
+							<input class="form-check-input" name="optionMeat" type="checkbox" value="Turkey"
+								id="inputTurkey">
+							<label class="form-check-label" for="inputTurkey">
 								Turkey
 							</label>
 						</div>
 
 						<div class="form-check">
-							<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-							<label class="form-check-label" for="flexCheckDefault">
+							<input class="form-check-input" name="optionMeat" type="checkbox" value="Beef"
+								id="inputBeef">
+							<label class="form-check-label" for="inputBeef">
 								Beef
 							</label>
 						</div>
 						<div class="form-check">
-							<input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-							<label class="form-check-label" for="flexCheckChecked">
+							<input class="form-check-input" name="optionMeat" type="checkbox" value="White Fish"
+								id="inputWhiteFish">
+							<label class="form-check-label" for="inputWhiteFish">
 								White Fish
 							</label>
 						</div>
 						<div class="form-check">
-							<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-							<label class="form-check-label" for="flexCheckDefault">
+							<input class="form-check-input" name="optionMeat" type="checkbox" value="Salmon"
+								id="inputSalmon">
+							<label class="form-check-label" for="inputSalmon">
 								Salmon
 							</label>
 						</div>
 						<div class="form-check">
-							<input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-							<label class="form-check-label" for="flexCheckChecked">
+							<input class="form-check-input" name="optionMeat" type="checkbox" value="Tuna"
+								id="inputTuna">
+							<label class="form-check-label" for="inputTuna">
 								Tuna
 							</label>
 						</div>
 						<div class="form-check">
-							<input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-							<label class="form-check-label" for="flexCheckChecked">
+							<input class="form-check-input" name="optionMeat" type="checkbox" value="Sea Food"
+								id="inputSeaFood">
+							<label class="form-check-label" for="inputSeaFood">
 								Sea food
 							</label>
 						</div>
 
 
+
+						<!-- Does the client suffer from any chronic disease? ... if Yes please describe. -->
 						<p>Does the client suffer from any chronic disease? ... if Yes please describe. </p>
-						<textarea id="body" name="body" placeholder="Write something.." style="height:200px"></textarea>
+						<textarea id="bodyChronicDisease" name="bodyChronicDisease"
+							placeholder="Write if you have any if not type NO" style="height:100px"></textarea>
 
-
+						<!-- Food intolerance or allergies? -->
 						<p>Food intolerance or allergies? </p>
-						<textarea id="body" name="body" placeholder="Write something.." style="height:200px"></textarea>
+						<textarea id="bodyAllergies" name="bodyAllergies" placeholder="Allergies?"
+							style="height:100px"></textarea>
 
+
+						<!-- What do You want to achieve with this program? -->
 						<p>What do You want to achieve with this program?</p>
-
 						<div class="form-check">
-							<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-							<label class="form-check-label" for="flexCheckDefault">
-								Bulking
+							<input class="form-check-input" name="optionAchieveWithThisProgram" type="checkbox"
+								value="Bulking" id="inputBulking">
+							<label class="form-check-label" for="inputBulking">
+								Bulking.
 							</label>
 						</div>
 						<div class="form-check">
-							<input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-							<label class="form-check-label" for="flexCheckChecked">
+							<input class="form-check-input" name="optionAchieveWithThisProgram" type="checkbox"
+								value="Reduction Body Weight" id="inputReductionBodyWeight">
+							<label class="form-check-label" for="inputReductionBodyWeight">
 								Reduction Body Weight.
 							</label>
 						</div>
 
 						<div class="form-check">
-							<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-							<label class="form-check-label" for="flexCheckDefault">
-								Control odf Body Weight/ Stay Fit/ Eat Healthy
+							<input class="form-check-input" name="optionAchieveWithThisProgram" type="checkbox"
+								value="Control of Body Weight/ Stay Fit/ Eat Healthy" id="inputStayFit">
+							<label class="form-check-label" for="inputStayFit">
+								Control of Body Weight/ Stay Fit/ Eat Healthy.
 							</label>
 						</div>
 
+						<!-- Time to achieve your goal?(bulking, reduction) -->
 						<p>Time to achieve your goal?(bulking, reduction) </p>
-						<textarea id="body" name="body" placeholder="Write something.." style="height:200px"></textarea>
+						<div class="form-group">
+							<input type="text" id="timeToAchieveYourGoal" name="timeToAchieveYourGoal"
+								placeholder="Time to achieve you goal in days or months">
+						</div>
 
 
 
-
-
+						<!-- Your physical activity -->
 						<p>Your physical activity</p>
-
 						<div class="form-check">
-							<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-							<label class="form-check-label" for="flexCheckDefault">
+							<input class="form-check-input" name="optionTypeActivities" type="checkbox" value="Walking"
+								id="inputWalking">
+							<label class="form-check-label" for="inputWalking">
 								Walking
 							</label>
 						</div>
 						<div class="form-check">
-							<input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-							<label class="form-check-label" for="flexCheckChecked">
+							<input class="form-check-input" name="optionTypeActivities" type="checkbox" value="Running"
+								id="inpoutRunning">
+							<label class="form-check-label" for="inputRunning">
 								Running
 							</label>
 						</div>
 
 						<div class="form-check">
-							<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-							<label class="form-check-label" for="flexCheckDefault">
+							<input class="form-check-input" name="optionTypeActivities" type="checkbox" value="Cycling"
+								id="inputCycling">
+							<label class="form-check-label" for="inputCycling">
 								Cycling
 							</label>
 						</div>
 						<div class="form-check">
-							<input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-							<label class="form-check-label" for="flexCheckChecked">
+							<input class="form-check-input" name="optionTypeActivities" type="checkbox" value="Swimming"
+								id="inputSwimming">
+							<label class="form-check-label" for="inputSwimming">
 								Swimming
 							</label>
 						</div>
 						<div class="form-check">
-							<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-							<label class="form-check-label" for="flexCheckDefault">
+							<input class="form-check-input" name="optionTypeActivities" type="checkbox" value="Boxing"
+								id="inputBoxing">
+							<label class="form-check-label" for="inputBoxing">
 								Boxing
 							</label>
 						</div>
 						<div class="form-check">
-							<input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-							<label class="form-check-label" for="flexCheckChecked">
+							<input class="form-check-input" name="optionTypeActivities" type="checkbox" value="Other"
+								id="inputOther">
+							<label class="form-check-label" for="inpuOther">
 								Other
 							</label>
+
+
 						</div>
 						<div class="form-check">
-							<input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-							<label class="form-check-label" for="flexCheckChecked">
+							<input class="form-check-input" name="optionTypeActivities" type="checkbox"
+								value="No Activities" id="inputNoActivities">
+							<label class="form-check-label" for="inputNoActivities">
 								No Activities
 							</label>
 						</div>
 
-
-
+						<!-- How many times a week is "Physical Activity" practiced? -->
+						<!-- Ratio how many time a week customer has exercises (Activitie) -->
 						<p>How many times a week is "Physical Activity" practiced?</p>
 
 						<div class="form-check">
-							<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-							<label class="form-check-label" for="flexRadioDefault1">
+							<input class="form-check-input" type="radio" name="optionActivities"
+								id="inputOneToTwoTimesAWeek" value="oneToTwoTimesAWeek">
+							<label class="form-check-label" for="inputOneToTwoTimesAWeek">
 								One to Two times a week
 							</label>
 						</div>
 						<div class="form-check">
-							<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
-								checked>
-							<label class="form-check-label" for="flexRadioDefault2">
+							<input class="form-check-input" type="radio" name="optionActivities"
+								id="inputThreeToFiveTimesAWeek" value="threeToFiveTimes">
+							<label class="form-check-label" for="inputThreeToFiveTimesAWeek">
 								Three to Five times a week
 							</label>
 						</div>
 						<div class="form-check">
-							<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-							<label class="form-check-label" for="flexRadioDefault1">
+							<input class="form-check-input" type="radio" name="optionActivities" id="inputEveryDay"
+								value="EveryDay">
+							<label class="form-check-label" for="inputEveryDay">
 								Every day
 							</label>
 						</div>
 						<div class="form-check">
-							<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
-								checked>
-							<label class="form-check-label" for="flexRadioDefault2">
+							<input class="form-check-input" type="radio" name="optionActivities" id="inputNotAtALL"
+								value="noneAtAll">
+							<label class="form-check-label" for="inputNotAtAll">
 								None at All
 							</label>
 						</div>
 
-						<p>After clicking Submit button, You will successfully become "GoforEat.Kcal", Your nutritionist
+						<p>After clicking Submit button, You will successfully become "Go4eat.eu", Your nutritionist
 							will contact with you as soon as possible. </p>
 						<!-- Button to send a form -->
 						<div class="row justify-content-md-center" id="textInTheMiddle">

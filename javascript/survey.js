@@ -36,19 +36,125 @@ formLogin.addEventListener("submit", (event) => {
   event.preventDefault();
 
   const formData = new FormData(formLogin);
-  console.log(formData.get("toEmail"));
-  console.log(formData.get("subject"));
-  console.log(formData.get("body"));
+  console.log(formData.get("bodyYourGoal"));
+  console.log(formData.get("toName"));
+  console.log(formData.get("toSurveyEmail"));
+  console.log(formData.get("toPhoneNumber"));
 
-  const toEmail = formData.get("toEmail");
-  const subject = formData.get("subject");
-  const body = formData.get("body");
+  // Get a value if customer is male or female
+  let selectedOption = document.querySelector('input[name="option"]:checked');
+    if (selectedOption) {
+        console.log('Selected option:', selectedOption.value);
+    } else {
+        console.log('No option selected');
+    }
 
-  //Post request used for Login a user
+
+  console.log(formData.get("toDateOfBirth"));
+  console.log(formData.get("toWeight"));
+  console.log(formData.get("toHight"));
+
+  // Time of your first meal
+  console.log(formData.get("toInputTimeForFirstMeal"));
+  console.log(formData.get("toHowManyDishesPerDay"));
+
+  // Get a value from the ratio check if customer can hat a meal at work  
+  let selectedOptionHeatAtHome = document.querySelector('input[name="optionHeatMeal"]:checked');
+    if (selectedOptionHeatAtHome) {
+        console.log('Selected option:', selectedOptionHeatAtHome.value);
+    } else {
+        console.log('No option selected');
+    }
+  
+
+    // Bed time
+    console.log(formData.get("toBedTime"));
+
+
+
+  // How many times a week is "Physical Activity" practiced?
+  let selectedOptionActivities = document.querySelector('input[name="optionActivities"]:checked');
+  if (selectedOptionActivities) {
+      console.log('Selected option:', selectedOptionActivities.value);
+  } else {
+      console.log('No option selected');
+  }
+
+  // What kind of Food product's do You like best?
+
+  function getCheckedItems() {
+    let checkedItems = [];
+    document.querySelectorAll('input[name="optionBestProduct"]:checked').forEach((checkbox) => {
+        checkedItems.push(checkbox.value);
+    });
+    console.log('Checked items:', checkedItems);
+  }
+
+  // Id display array of the items that was checked
+  getCheckedItems();
+
+  // Have you some favorite product's that you would like to find in your diet?
+  console.log(formData.get("bodyFavoriteProducts"));
+
+  // Do You drink coffee or Tea with milk and sugar? If yes describe how many time per day.
+  console.log(formData.get("bodyTeaOrCoffee"));
+
+  // What type of meat or fish do You eat often?
+  function getCheckedMeatItems() {
+    let checkedItems = [];
+    document.querySelectorAll('input[name="optionMeat"]:checked').forEach((checkbox) => {
+        checkedItems.push(checkbox.value);
+    });
+    console.log('Checked items:', checkedItems);
+  }
+
+  getCheckedMeatItems();
+
+  // Does the client suffer from any chronic disease? ... if Yes please describe.
+  console.log(formData.get("bodyChronicDisease"));
+
+  // Food intolerance or allergies?
+  console.log(formData.get("bodyAllergies"));
+
+  // What do You want to achieve with this program?
+  function getCheckedAchieveWithThisProgram() {
+    let checkedItems = [];
+    document.querySelectorAll('input[name="optionAchieveWithThisProgram"]:checked').forEach((checkbox) => {
+        checkedItems.push(checkbox.value);
+    });
+    console.log('Checked items:', checkedItems);
+  }
+
+  getCheckedAchieveWithThisProgram();
+
+
+  // Time to achieve your goal?(bulking, reduction)
+  console.log(formData.get("timeToAchieveYourGoal"));
+
+  // Your physical activity
+  function getCheckedActivities() {
+    let checkedItems = [];
+    document.querySelectorAll('input[name="optionTypeActivities"]:checked').forEach((checkbox) => {
+        checkedItems.push(checkbox.value);
+    });
+    console.log('Checked items:', checkedItems);
+  }
+
+  getCheckedActivities();
+
+  // How many times a week is "Physical Activity" practiced?
+
+
+
+  // Save to the variable fetched data from the form 
+  const name = formData.get("toName");
+  const surveyEmail = formData.get("toSurveyEmail");
+  const phoneNumber = formData.get("toPhoneNumber");
+
+
   
 
 //   fetch("http://localhost:8080/api/v1/email", {
-  
     fetch("https://go4eat.alwaysdata.net/api/v1/email", {
     method: "POST",
     headers: {
