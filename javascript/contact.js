@@ -25,9 +25,10 @@
  
 
 //*************************************/
-//********   LOGIN   ******************/
+//********  Contact form   ******************/
 //*************************************/
-//POST data- send data to the Back-End and validate response token JWT
+//Send data to the Back-End and 
+//Backend service send email to the go for eat
 const formLogin = document.querySelector(".form");
 
 formLogin.addEventListener("submit", (event) => {

@@ -24,8 +24,8 @@
 @font-face {
   font-family: 'Snell Roundhand';
   src: url('../fonts/snell-roundhand/SnellBT-Regular.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
+  font-weight:normal;
+  font-style:normal;
 }
 
 
@@ -40,6 +40,12 @@ header{
   font-size: 1.4em;
 }
 
+/* #survey{
+  margin-left: 0%;
+  padding: 0%;
+} */
+
+
 h1{
   text-align: center;
 }
@@ -50,19 +56,38 @@ p{
 }
 
 
+/* .form-group{
+  padding: 0%;
+  margin: 0%;
+} */
+
+
+
 .form-group input{
   background-color: var(--form-background-color);
-  font-size: 1.2em;
+  /* font-size: 1.2em; */
+  /* padding: 0%;
+  margin: 0%; */
 }
 
 
 .form-check input{
   background-color: var(--form-background-color);
+
+  /* font-size: 1.2em; */
+  /* padding-left: 0%;
+  margin: 0%; */
 }
 
 /* .form-control{
   background-color: #fcfcfa;
 } */
+
+#name{
+  /* position: relative; */
+  display: inline-block;
+  padding-left: 10%;
+}
 
 textarea{
   background-color: var(--form-background-color);
@@ -341,6 +366,7 @@ body,td,th {
   /* color: azure; */
   color: var(--my-text-color);
   padding-bottom: 10%;
+
 }
 #contactUsForm p{
   font-size: 1.7em;
@@ -434,23 +460,6 @@ border:0;
  } */
 
 
- #googleMap {
-  padding-top: 6%;
-  /* background-color: #060606; */
-  background-color: var(--my-background-color);
-  text-align: center;
-  padding-bottom: 10%;
-  border: 0;
-}
-
-#googleMap p {
-  font-size: 1.4em;
-  /* color: #ffffff; */
-  color: var(--my-text-color);
- 
-
-
-}
 
 
 #last {

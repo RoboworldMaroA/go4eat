@@ -74,7 +74,7 @@
 	Form with customer contact details -->
 	<main role="main" class="container-fluid">
 		<section class="row justify-content-md-center" id="contactUsForm">
-			<div class="col-sm-10 col-md-6 col-lg-6">
+			<div id="survey" class="col-sm-10 col-md-6 col-lg-6">
 
 				<div>
 					<p id="contactUs"></p>
@@ -91,32 +91,32 @@
 				<div>
 					<form class="form">
 						<div class="form-group">
-							<label for="subject">Name and Surname</label>
-							<input type="text" id="subject" name="subject" placeholder="Your name">
+							<label for="name">Name and Surname</label>
+							<input type="text" id="name" name="name" placeholder="Your name and surname">
 						</div>
 
 						<div class="form-group">
-							<label for="inputEmail4">Email</label>
-							<input name="toEmail" type="Email" class="form-control" id="inputEmail4"
+							<label for="inputSurveyEmail4">Email</label>
+							<input name="toSurveyEmail" type="email" class="form-control" id="inputSurveyEmail4"
 								placeholder="Email">
 						</div>
 
 						<div class="form-group">
-							<label for="inputPhoneNuber">Phone Number</label>
-							<input name="toEmail" type="number" class="form-control" id="inputPhoneNumber"
+							<label for="inputPhoneNumber">Phone Number</label>
+							<input name="toPhoneNumber" type="number" class="form-control" id="inputPhoneNumber"
 								placeholder="PhoneNumber">
 						</div>
 
 						<p>Gender</p>
 
 						<div class="form-check">
-							<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-							<label class="form-check-label" for="flexRadioDefault1">
+							<input class="form-check-input" type="radio" name="flexRadioDefault" id="inputMale">
+							<label class="form-check-label" for="inputMale">
 								Male
 							</label>
 						</div>
 						<div class="form-check">
-							<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+							<input class="form-check-input" type="radio" name="flexRadioDefault" id="inputFemale"
 								checked>
 							<label class="form-check-label" for="flexRadioDefault2">
 								Female
@@ -124,100 +124,99 @@
 						</div>
 
 						<div class="form-group">
-							<label for="subject">Date of Birth</label>
-							<input type="date" id="subject" name="subject" class="form-control"
+							<label for="inputDateOfBirth">Date of Birth</label>
+							<input type="date" id="inputDateOfBirth" name="toDateOfBirth" class="form-control"
 								placeholder="Date of birth">
 						</div>
 
 						<div class="form-group">
-							<label for="inputEmail4">Weight</label>
-							<input name="toEmail" type="Email" class="form-control" id="inputEmail4"
+							<label for="inputWeight">Weight</label>
+							<input name="toWeight" type="text" class="form-control" id="inputWeight"
 								placeholder="Email">
 						</div>
 
 						<div class="form-group">
-							<label for="inputPhoneNuber">Height</label>
-							<input name="toEmail" type="number" class="form-control" id="inputPhoneNumber"
-								placeholder="PhoneNumber">
+							<label for="inputHight">Height</label>
+							<input name="toHight" type="text" class="form-control" id="inputHight"
+								placeholder="Customer Hight">
 						</div>
 
 						<div class="form-group">
-							<label for="inputPhoneNuber">Time of your first meal</label>
-							<input name="toEmail" type="number" class="form-control" id="inputPhoneNumber"
-								placeholder="PhoneNumber">
+							<label for="inputTimeForMeal">Time of your first meal</label>
+							<input name="toInputTimeForMeal" type="time" class="form-control" id="inputTimeForMeal"
+								placeholder="Time first meal">
 						</div>
 
 						<div class="form-group">
-							<label for="inputPhoneNuber">How many dishes do You wish per day?</label>
-							<input name="toEmail" type="number" class="form-control" id="inputPhoneNumber"
-								placeholder="PhoneNumber">
+							<label for="inputHowManyDishesPerDay">How many dishes do You wish per day?</label>
+							<input name="toHowManyDishesPerDay" type="number" class="form-control"
+								id="inputHowManyDishesPerDay" placeholder="PhoneNumber">
 						</div>
 
 
 						<p>Is it possible to heat your meal at work?</p>
 
 						<div class="form-check">
-							<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-							<label class="form-check-label" for="flexRadioDefault1">
+							<input class="form-check-input" type="radio" name="flexRadioDefault" id="inputYes">
+							<label class="form-check-label" for="inputYes">
 								Yes
 							</label>
 						</div>
 						<div class="form-check">
-							<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
-								checked>
-							<label class="form-check-label" for="flexRadioDefault2">
+							<input class="form-check-input" type="radio" name="flexRadioDefault" id="inputNo" checked>
+							<label class="form-check-label" for="inputNo">
 								No
 							</label>
 						</div>
 
 						<div class="form-group">
-							<label for="inputPhoneNuber">Bed time</label>
-							<input name="toEmail" type="time" class="form-control" id="inputPhoneNumber"
-								placeholder="PhoneNumber">
+							<label for="inputBedTime">Bed time</label>
+							<input name="toBedTime" type="time" class="form-control" id="inputBedTime"
+								placeholder="inputBedTime">
 						</div>
 
 						<p>What kind of Food product's do You like best?</p>
 
 						<div class="form-check">
-							<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-							<label class="form-check-label" for="flexCheckDefault">
+							<input class="form-check-input" type="checkbox" value="" id="inputRice">
+							<label class="form-check-label" for="inputRice">
 								Rice
 							</label>
 						</div>
 						<div class="form-check">
-							<input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-							<label class="form-check-label" for="flexCheckChecked">
+							<input class="form-check-input" type="checkbox" value="" id="inputPotato" checked>
+							<label class="form-check-label" for="inputPotato">
 								Potato/ Sweet Potato
 							</label>
 						</div>
 
 						<div class="form-check">
-							<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-							<label class="form-check-label" for="flexCheckDefault">
+							<input class="form-check-input" type="checkbox" value="" id="inputPasta">
+							<label class="form-check-label" for="inputPasta">
 								Pasta
 							</label>
 						</div>
 						<div class="form-check">
-							<input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-							<label class="form-check-label" for="flexCheckChecked">
+							<input class="form-check-input" type="checkbox" value="" id="inputCouscous" checked>
+							<label class="form-check-label" for="inputCouscous">
 								Couscous
 							</label>
 						</div>
 						<div class="form-check">
-							<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-							<label class="form-check-label" for="flexCheckDefault">
+							<input class="form-check-input" type="checkbox" value="" id="inputWrap">
+							<label class="form-check-label" for="inputWrap">
 								Wrap
 							</label>
 						</div>
 						<div class="form-check">
-							<input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-							<label class="form-check-label" for="flexCheckChecked">
+							<input class="form-check-input" type="checkbox" value="" id="inputWhiteBread" checked>
+							<label class="form-check-label" for="inputWhiteBread">
 								White Bread
 							</label>
 						</div>
 						<div class="form-check">
-							<input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-							<label class="form-check-label" for="flexCheckChecked">
+							<input class="form-check-input" type="checkbox" value="" id="inputBrownBread" checked>
+							<label class="form-check-label" for="inputBrownBread">
 								Brown Bread
 							</label>
 						</div>
@@ -225,7 +224,8 @@
 
 						<p>Have you some favorite product's that you would like to find in your
 							diet?</p>
-						<textarea id="body" name="body" placeholder="Write something.." style="height:200px"></textarea>
+						<textarea id="bodyFavouriteProducts" name="bodyFavoriteProducts"
+							placeholder="Write here your favorite products..." style="height:200px"></textarea>
 
 						<div class="row justify-content-md-center" id="textInTheMiddle">
 							<div class="col-sm-10 col-md-10 col-lg-4">

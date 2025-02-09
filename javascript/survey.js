@@ -22,12 +22,14 @@
 // 	return true
 // 	}	
 // }
- 
+
 
 //*************************************/
-//********   LOGIN   ******************/
+//********   Survey form   ************/
 //*************************************/
-//POST data- send data to the Back-End and validate response token JWT
+//POST data to the backend 
+// then backend service send email to the user
+//and to the owner go4eat 
 const formLogin = document.querySelector(".form");
 
 formLogin.addEventListener("submit", (event) => {
