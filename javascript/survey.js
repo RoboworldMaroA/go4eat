@@ -1,28 +1,3 @@
-//Validation form contact
-// function validateName(){  
-// 	var name=document.myform.name.value;  
-// 	var surname=document.myform.surname.value;
-//     var message=document.myform.message.value; 	
-  
-// 	if (name == null || name == "")
-// 	{  
-// 		swal( "Input your name, please!" );  
-// 		return false ;  
-// 	  }
-// 	else if(surname == null||surname == ""){  
-// 		swal("Input Surname, please!");  
-// 		return false;  
-// 	} 
-//     else if(message==null || message==""){  
-// 		swal("Input your query, Please.");  
-// 	return false;  
-// 	}  	
-// 	else{
-// 		swal("Your message was sent, we back to you ASAP, Thank You.");  	
-// 	return true
-// 	}	
-// }
-
 
 //*************************************/
 //********   Survey form   ************/
@@ -36,12 +11,12 @@ formLogin.addEventListener("submit", (event) => {
   event.preventDefault();
 
   const formData = new FormData(formLogin);
-  console.log(formData.get("bodyYourGoal"));
-  console.log(formData.get("toName"));
-  console.log(formData.get("toSurveyEmail"));
-  console.log(formData.get("toPhoneNumber"));
+  console.log(formData.get("bodyYourExpectation"));// 1.
+  console.log(formData.get("toName"));// 2.
+  console.log(formData.get("toSurveyEmail")); // 3.
+  console.log(formData.get("toPhoneNumber"));// 4.
 
-  // Get a value if customer is male or female
+  // 5. Get a sex type if customer is male or female
   let selectedOption = document.querySelector('input[name="option"]:checked');
     if (selectedOption) {
         console.log('Selected option:', selectedOption.value);
@@ -50,15 +25,15 @@ formLogin.addEventListener("submit", (event) => {
     }
 
 
-  console.log(formData.get("toDateOfBirth"));
-  console.log(formData.get("toWeight"));
-  console.log(formData.get("toHight"));
+  console.log(formData.get("toDateOfBirth"));// 6
+  console.log(formData.get("toWeight"));// 7
+  console.log(formData.get("toHight"));// 8
 
   // Time of your first meal
-  console.log(formData.get("toInputTimeForFirstMeal"));
-  console.log(formData.get("toHowManyDishesPerDay"));
+  console.log(formData.get("toInputTimeForFirstMeal"));//9
+  console.log(formData.get("toHowManyDishesPerDay"));//10
 
-  // Get a value from the ratio check if customer can hat a meal at work  
+  // 11. Get a value from the ratio check if customer can hat a meal at work  
   let selectedOptionHeatAtHome = document.querySelector('input[name="optionHeatMeal"]:checked');
     if (selectedOptionHeatAtHome) {
         console.log('Selected option:', selectedOptionHeatAtHome.value);
@@ -68,11 +43,10 @@ formLogin.addEventListener("submit", (event) => {
   
 
     // Bed time
-    console.log(formData.get("toBedTime"));
+    console.log(formData.get("toBedTime"));// 12
 
 
-
-  // How many times a week is "Physical Activity" practiced?
+  // 13. How many times a week is "Physical Activity" practiced?
   let selectedOptionActivities = document.querySelector('input[name="optionActivities"]:checked');
   if (selectedOptionActivities) {
       console.log('Selected option:', selectedOptionActivities.value);
@@ -80,7 +54,7 @@ formLogin.addEventListener("submit", (event) => {
       console.log('No option selected');
   }
 
-  // What kind of Food product's do You like best?
+  // 14. What kind of Food product's do You like best?
 
   function getCheckedItems() {
     let checkedItems = [];
@@ -94,12 +68,12 @@ formLogin.addEventListener("submit", (event) => {
   getCheckedItems();
 
   // Have you some favorite product's that you would like to find in your diet?
-  console.log(formData.get("bodyFavoriteProducts"));
+  console.log(formData.get("bodyFavoriteProducts")); // 15
 
   // Do You drink coffee or Tea with milk and sugar? If yes describe how many time per day.
-  console.log(formData.get("bodyTeaOrCoffee"));
+  console.log(formData.get("bodyTeaOrCoffee")); // 16
 
-  // What type of meat or fish do You eat often?
+  // 17. What type of meat or fish do You eat often?
   function getCheckedMeatItems() {
     let checkedItems = [];
     document.querySelectorAll('input[name="optionMeat"]:checked').forEach((checkbox) => {
@@ -110,13 +84,13 @@ formLogin.addEventListener("submit", (event) => {
 
   getCheckedMeatItems();
 
-  // Does the client suffer from any chronic disease? ... if Yes please describe.
+  // 18. Does the client suffer from any chronic disease? ... if Yes please describe.
   console.log(formData.get("bodyChronicDisease"));
 
-  // Food intolerance or allergies?
+  // 19. Food intolerance or allergies?
   console.log(formData.get("bodyAllergies"));
 
-  // What do You want to achieve with this program?
+  // 20. What do You want to achieve with this program?
   function getCheckedAchieveWithThisProgram() {
     let checkedItems = [];
     document.querySelectorAll('input[name="optionAchieveWithThisProgram"]:checked').forEach((checkbox) => {
@@ -128,9 +102,10 @@ formLogin.addEventListener("submit", (event) => {
   getCheckedAchieveWithThisProgram();
 
 
-  // Time to achieve your goal?(bulking, reduction)
+  //21.  Time to achieve your goal?(bulking, reduction)
   console.log(formData.get("timeToAchieveYourGoal"));
 
+   // 22. How many times a week is "Physical Activity" practiced?
   // Your physical activity
   function getCheckedActivities() {
     let checkedItems = [];
@@ -142,17 +117,164 @@ formLogin.addEventListener("submit", (event) => {
 
   getCheckedActivities();
 
-  // How many times a week is "Physical Activity" practiced?
-
-
-
+ 
+  //***************************************************** */
+  //***************************************************** */
   // Save to the variable fetched data from the form 
+  // 1.
+  const yourExpectation = formData.get("bodyYourExpectation");
+  // 2.
   const name = formData.get("toName");
+  // 3.
   const surveyEmail = formData.get("toSurveyEmail");
+  // 4.
   const phoneNumber = formData.get("toPhoneNumber");
 
+  // 5. Get a value if customer is male or female
+  let sex = "";
+  let selectedOptionMaleOrFemale = document.querySelector('input[name="option"]:checked');
+    if (selectedOptionMaleOrFemale) {
+        console.log('Selected option:', selectedOption.value);
+        sex = selectedOption.value;
+    } else {
+        console.log('No option selected');
+    }
+  // 6.
+  const dateOfBirth = formData.get("toDateOfBirth");
+  // 7.
+  const weight = formData.get("toWeight");
+  // 8.
+  const hight = formData.get("toHight");
+  // 9.
+  const timeForFirstMeal = formData.get("toInputTimeForFirstMeal");
+  // 10.
+  const howManyDishesPerDay= formData.get("toHowManyDishesPerDay");
 
-  
+  // 11. Heat At Work 
+  let heatAtWork = "";
+  let selectedOptionHeatAtHome2 = document.querySelector('input[name="optionHeatMeal"]:checked');
+  if (selectedOptionHeatAtHome2) {
+    console.log('Selected option:', selectedOptionHeatAtHome2.value);
+    heatAtWork = selectedOptionHeatAtHome2.value;
+  } else {
+    console.log('No option selected');
+  }
+  // 12.
+  const bedTime= formData.get("toBedTime");
+
+  // 13. How many times a week is "Physical Activity" practiced?
+  let listOfActivities = "";
+  let selectedOptionActivities2 = document.querySelector('input[name="optionActivities"]:checked');
+  if (selectedOptionActivities2) {
+     console.log('Selected option:', selectedOptionActivities2.value);
+     listOfActivities = selectedOptionActivities2.value;
+  } else {
+     console.log('No option selected');
+  }
+
+
+ // 14. What kind of Food product's do You like best?
+
+ let checkedFavoriteFoodProducts = [];
+ function getCheckedItemsBestKindOfFoodProductFromTheList() {
+  // let checkedFavoriteFoodProducts = [];
+  document.querySelectorAll('input[name="optionBestProduct"]:checked').forEach((checkbox) => {
+      checkedFavoriteFoodProducts.push(checkbox.value);
+  });
+  console.log('Checked items:', checkedFavoriteFoodProducts);
+
+}
+getCheckedItemsBestKindOfFoodProductFromTheList()
+
+const favoriteFoodProducts = checkedFavoriteFoodProducts;
+
+
+
+// Have you some favorite product's that you would like to find in your diet?
+const favoriteProducts = formData.get("bodyFavoriteProducts"); // 15
+
+
+// Do You drink coffee or Tea with milk and sugar? If yes describe how many time per day.
+const teaOrCoffee = formData.get("bodyTeaOrCoffee"); // 16
+
+// 17. What type of meat or fish do You eat often?
+let checkedItemsMeatOrFish = [];
+function getCheckedMeatItems2() {
+  document.querySelectorAll('input[name="optionMeat"]:checked').forEach((checkbox) => {
+      checkedItemsMeatOrFish.push(checkbox.value);
+  });
+  console.log('Checked items:', checkedItemsMeatOrFish);
+}
+
+getCheckedMeatItems2();
+const meatItems = checkedItemsMeatOrFish;
+
+// 18. Does the client suffer from any chronic disease? ... if Yes please describe.
+const chronicDisease = formData.get("bodyChronicDisease");
+
+// 19. Food intolerance or allergies?
+const allergies = formData.get("bodyAllergies");
+
+// 20. What do You want to achieve with this program?
+let checkedItemsAchieveWithThisProgramList = [];
+function getCheckedAchieveWithThisProgram2() {
+  // let checkedItemsAchieveWithThisProgramList = [];
+  document.querySelectorAll('input[name="optionAchieveWithThisProgram"]:checked').forEach((checkbox) => {
+      checkedItemsAchieveWithThisProgramList.push(checkbox.value);
+  });
+  console.log('Checked items:', checkedItemsAchieveWithThisProgramList);
+}
+getCheckedAchieveWithThisProgram2();
+const whatUserWantToAchieve = checkedItemsAchieveWithThisProgramList;
+
+
+//21.  Time to achieve your goal?(bulking, reduction)
+const timeToAchieveGoal = formData.get("timeToAchieveYourGoal");
+
+ // 22. How many times a week is "Physical Activity" practiced?
+// Your physical activity
+
+let checkedItemsPhysicalActivity = [];
+function getCheckedActivities2() {
+  // let checkedItemsPhysicalActivity = [];
+  document.querySelectorAll('input[name="optionTypeActivities"]:checked').forEach((checkbox) => {
+      checkedItemsPhysicalActivity.push(checkbox.value);
+  });
+  console.log('Checked items:', checkedItemsPhysicalActivity);
+}
+getCheckedActivities2();
+const amountPhysicalActivity = checkedItemsPhysicalActivity;
+
+
+
+console.log("1  " + yourExpectation);
+console.log("2  " + name);
+console.log("3  "+surveyEmail);
+console.log("4  "+phoneNumber);
+console.log("5  "+sex);
+console.log("6  "+dateOfBirth);
+console.log("7  "+weight);
+console.log("8  "+hight);
+console.log("9  "+timeForFirstMeal);
+console.log("10 "+howManyDishesPerDay);
+console.log("11 "+heatAtWork);
+console.log("12 "+bedTime);
+console.log("13 "+listOfActivities);
+console.log("14 "+favoriteFoodProducts);
+console.log("15 "+favoriteProducts);
+console.log("16 "+teaOrCoffee);
+console.log("17 "+meatItems);
+console.log("18 "+chronicDisease);
+console.log("19 "+allergies);
+console.log("20 "+whatUserWantToAchieve);
+console.log("21 "+timeToAchieveGoal);
+console.log("22 "+amountPhysicalActivity);
+
+
+
+
+    //********************************************************* */
+    //Function to fetch data
 
 //   fetch("http://localhost:8080/api/v1/email", {
     fetch("https://go4eat.alwaysdata.net/api/v1/email", {
