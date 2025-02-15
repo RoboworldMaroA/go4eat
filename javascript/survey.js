@@ -144,7 +144,7 @@ formLogin.addEventListener("submit", (event) => {
   // 7.
   const weight = formData.get("toWeight");
   // 8.
-  const hight = formData.get("toHight");
+  const height = formData.get("toHight");
   // 9.
   const timeForFirstMeal = formData.get("toInputTimeForFirstMeal");
   // 10.
@@ -254,7 +254,7 @@ console.log("4  "+phoneNumber);
 console.log("5  "+sex);
 console.log("6  "+dateOfBirth);
 console.log("7  "+weight);
-console.log("8  "+hight);
+console.log("8  "+height);
 console.log("9  "+timeForFirstMeal);
 console.log("10 "+howManyDishesPerDay);
 console.log("11 "+heatAtWork);
@@ -277,12 +277,34 @@ console.log("22 "+amountPhysicalActivity);
     //Function to fetch data
 
 //   fetch("http://localhost:8080/api/v1/email", {
-    fetch("https://go4eat.alwaysdata.net/api/v1/email", {
+    fetch("https://go4eat.alwaysdata.net/api/v1/form", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({ toEmail, subject, body }),
+    body: JSON.stringify({ yourExpectation,
+      name,
+      surveyEmail,
+      phoneNumber,
+      sex,
+      dateOfBirth,
+      weight,
+      height,
+      timeForFirstMeal,
+      howManyDishesPerDay,
+      heatAtWork,
+      bedTime,
+      listOfActivities,
+      favoriteFoodProducts,
+      favoriteProducts,
+      teaOrCoffee,
+      meatItems,
+      chronicDisease,
+      allergies,
+      whatUserWantToAchieve,
+      timeToAchieveGoal,
+      amountPhysicalActivity
+     }),
   })
     // .then((res) => res.json())
     .then((res) => {
