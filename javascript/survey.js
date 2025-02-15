@@ -186,7 +186,7 @@ formLogin.addEventListener("submit", (event) => {
 }
 getCheckedItemsBestKindOfFoodProductFromTheList()
 
-const favoriteFoodProducts = checkedFavoriteFoodProducts;
+const favoriteFoodProducts = checkedFavoriteFoodProducts.toString();
 
 
 
@@ -207,7 +207,7 @@ function getCheckedMeatItems2() {
 }
 
 getCheckedMeatItems2();
-const meatItems = checkedItemsMeatOrFish;
+const meatItems = checkedItemsMeatOrFish.toString();
 
 // 18. Does the client suffer from any chronic disease? ... if Yes please describe.
 const chronicDisease = formData.get("bodyChronicDisease");
@@ -225,7 +225,7 @@ function getCheckedAchieveWithThisProgram2() {
   console.log('Checked items:', checkedItemsAchieveWithThisProgramList);
 }
 getCheckedAchieveWithThisProgram2();
-const whatUserWantToAchieve = checkedItemsAchieveWithThisProgramList;
+const whatUserWantToAchieve = checkedItemsAchieveWithThisProgramList.toString();
 
 
 //21.  Time to achieve your goal?(bulking, reduction)
@@ -243,7 +243,7 @@ function getCheckedActivities2() {
   console.log('Checked items:', checkedItemsPhysicalActivity);
 }
 getCheckedActivities2();
-const amountPhysicalActivity = checkedItemsPhysicalActivity;
+const amountPhysicalActivity = checkedItemsPhysicalActivity.toString();
 
 
 
