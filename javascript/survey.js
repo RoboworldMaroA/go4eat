@@ -42,19 +42,13 @@ formLogin.addEventListener("submit", (event) => {
     }
   
 
-    // Bed time
+    // 12. Bed time
     console.log(formData.get("toBedTime"));// 12
 
 
-  // 13. How many times a week is "Physical Activity" practiced?
-  let selectedOptionActivities = document.querySelector('input[name="optionActivities"]:checked');
-  if (selectedOptionActivities) {
-      console.log('Selected option:', selectedOptionActivities.value);
-  } else {
-      console.log('No option selected');
-  }
 
-  // 14. What kind of Food product's do You like best?
+
+  // 13. What kind of Food product's do You like best?
 
   function getCheckedItems() {
     let checkedItems = [];
@@ -67,13 +61,13 @@ formLogin.addEventListener("submit", (event) => {
   // Id display array of the items that was checked
   getCheckedItems();
 
-  // Have you some favorite product's that you would like to find in your diet?
+  // 14. Have you some favorite product's that you would like to find in your diet?
   console.log(formData.get("bodyFavoriteProducts")); // 15
 
-  // Do You drink coffee or Tea with milk and sugar? If yes describe how many time per day.
+  // 15. Do You drink coffee or Tea with milk and sugar? If yes describe how many time per day.
   console.log(formData.get("bodyTeaOrCoffee")); // 16
 
-  // 17. What type of meat or fish do You eat often?
+  // 16. What type of meat or fish do You eat often?
   function getCheckedMeatItems() {
     let checkedItems = [];
     document.querySelectorAll('input[name="optionMeat"]:checked').forEach((checkbox) => {
@@ -84,13 +78,13 @@ formLogin.addEventListener("submit", (event) => {
 
   getCheckedMeatItems();
 
-  // 18. Does the client suffer from any chronic disease? ... if Yes please describe.
+  // 17. Does the client suffer from any chronic disease? ... if Yes please describe.
   console.log(formData.get("bodyChronicDisease"));
 
-  // 19. Food intolerance or allergies?
+  // 18. Food intolerance or allergies?
   console.log(formData.get("bodyAllergies"));
 
-  // 20. What do You want to achieve with this program?
+  // 19. What do You want to achieve with this program?
   function getCheckedAchieveWithThisProgram() {
     let checkedItems = [];
     document.querySelectorAll('input[name="optionAchieveWithThisProgram"]:checked').forEach((checkbox) => {
@@ -102,11 +96,11 @@ formLogin.addEventListener("submit", (event) => {
   getCheckedAchieveWithThisProgram();
 
 
-  //21.  Time to achieve your goal?(bulking, reduction)
+  //20.  Time to achieve your goal?(bulking, reduction)
   console.log(formData.get("timeToAchieveYourGoal"));
 
-   // 22. How many times a week is "Physical Activity" practiced?
-  // Your physical activity
+  
+  //21. Your physical activity
   function getCheckedActivities() {
     let checkedItems = [];
     document.querySelectorAll('input[name="optionTypeActivities"]:checked').forEach((checkbox) => {
@@ -117,7 +111,17 @@ formLogin.addEventListener("submit", (event) => {
 
   getCheckedActivities();
 
- 
+  // 22. How many times a week is "Physical Activity" practiced?
+
+  let selectedOptionActivities = document.querySelector('input[name="optionActivities"]:checked');
+  if (selectedOptionActivities) {
+      console.log('How many activities:', selectedOptionActivities.value);
+  } else {
+      console.log('No option selected');
+  }
+
+
+
   //***************************************************** */
   //***************************************************** */
   // Save to the variable fetched data from the form 
@@ -162,18 +166,8 @@ formLogin.addEventListener("submit", (event) => {
   // 12.
   const bedTime= formData.get("toBedTime");
 
-  // 13. How many times a week is "Physical Activity" practiced?
-  let listOfActivities = "";
-  let selectedOptionActivities2 = document.querySelector('input[name="optionActivities"]:checked');
-  if (selectedOptionActivities2) {
-     console.log('Selected option:', selectedOptionActivities2.value);
-     listOfActivities = selectedOptionActivities2.value;
-  } else {
-     console.log('No option selected');
-  }
-
-
- // 14. What kind of Food product's do You like best?
+  
+ // 13. What kind of Food product's do You like best?
 
  let checkedFavoriteFoodProducts = [];
  function getCheckedItemsBestKindOfFoodProductFromTheList() {
@@ -190,14 +184,14 @@ const favoriteFoodProducts = checkedFavoriteFoodProducts.toString();
 
 
 
-// Have you some favorite product's that you would like to find in your diet?
+// 14 Have you some favorite product's that you would like to find in your diet?
 const favoriteProducts = formData.get("bodyFavoriteProducts"); // 15
 
 
-// Do You drink coffee or Tea with milk and sugar? If yes describe how many time per day.
+// 15 Do You drink coffee or Tea with milk and sugar? If yes describe how many time per day.
 const teaOrCoffee = formData.get("bodyTeaOrCoffee"); // 16
 
-// 17. What type of meat or fish do You eat often?
+// 16. What type of meat or fish do You eat often?
 let checkedItemsMeatOrFish = [];
 function getCheckedMeatItems2() {
   document.querySelectorAll('input[name="optionMeat"]:checked').forEach((checkbox) => {
@@ -209,13 +203,13 @@ function getCheckedMeatItems2() {
 getCheckedMeatItems2();
 const meatItems = checkedItemsMeatOrFish.toString();
 
-// 18. Does the client suffer from any chronic disease? ... if Yes please describe.
+// 17. Does the client suffer from any chronic disease? ... if Yes please describe.
 const chronicDisease = formData.get("bodyChronicDisease");
 
-// 19. Food intolerance or allergies?
+// 18. Food intolerance or allergies?
 const allergies = formData.get("bodyAllergies");
 
-// 20. What do You want to achieve with this program?
+// 19. What do You want to achieve with this program?
 let checkedItemsAchieveWithThisProgramList = [];
 function getCheckedAchieveWithThisProgram2() {
   // let checkedItemsAchieveWithThisProgramList = [];
@@ -228,11 +222,12 @@ getCheckedAchieveWithThisProgram2();
 const whatUserWantToAchieve = checkedItemsAchieveWithThisProgramList.toString();
 
 
-//21.  Time to achieve your goal?(bulking, reduction)
+//20.  Time to achieve your goal?(bulking, reduction)
 const timeToAchieveGoal = formData.get("timeToAchieveYourGoal");
 
- // 22. How many times a week is "Physical Activity" practiced?
-// Your physical activity
+
+
+ // 21. What type "Physical Activity" practiced?
 
 let checkedItemsPhysicalActivity = [];
 function getCheckedActivities2() {
@@ -243,7 +238,20 @@ function getCheckedActivities2() {
   console.log('Checked items:', checkedItemsPhysicalActivity);
 }
 getCheckedActivities2();
-const amountPhysicalActivity = checkedItemsPhysicalActivity.toString();
+
+const typePhysicalActivity = checkedItemsPhysicalActivity.toString();
+
+// 22. How many times a week is "Physical Activity" practiced?
+let howManyActivities = "";
+let selectedOptionActivities2 = document.querySelector('input[name="optionActivities"]:checked');
+if (selectedOptionActivities2) {
+   console.log('Selected option:', selectedOptionActivities2.value);
+   howManyActivities = selectedOptionActivities2.value;
+} else {
+   console.log('No option selected');
+}
+
+
 
 
 
@@ -259,16 +267,16 @@ console.log("9  "+timeForFirstMeal);
 console.log("10 "+howManyDishesPerDay);
 console.log("11 "+heatAtWork);
 console.log("12 "+bedTime);
-console.log("13 "+listOfActivities);
-console.log("14 "+favoriteFoodProducts);
-console.log("15 "+favoriteProducts);
-console.log("16 "+teaOrCoffee);
-console.log("17 "+meatItems);
-console.log("18 "+chronicDisease);
-console.log("19 "+allergies);
-console.log("20 "+whatUserWantToAchieve);
-console.log("21 "+timeToAchieveGoal);
-console.log("22 "+amountPhysicalActivity);
+console.log("13 "+favoriteFoodProducts);
+console.log("14 "+favoriteProducts);
+console.log("15 "+teaOrCoffee);
+console.log("16 "+meatItems);
+console.log("17 "+chronicDisease);
+console.log("18 "+allergies);
+console.log("19 "+whatUserWantToAchieve);
+console.log("20 "+timeToAchieveGoal);
+console.log("21 "+typePhysicalActivity);
+console.log("22 "+howManyActivities);
 
 
 
@@ -282,7 +290,8 @@ console.log("22 "+amountPhysicalActivity);
     headers: {
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({ yourExpectation,
+    body: JSON.stringify({ 
+      yourExpectation,
       name,
       surveyEmail,
       phoneNumber,
@@ -294,7 +303,6 @@ console.log("22 "+amountPhysicalActivity);
       howManyDishesPerDay,
       heatAtWork,
       bedTime,
-      listOfActivities,
       favoriteFoodProducts,
       favoriteProducts,
       teaOrCoffee,
@@ -303,7 +311,8 @@ console.log("22 "+amountPhysicalActivity);
       allergies,
       whatUserWantToAchieve,
       timeToAchieveGoal,
-      amountPhysicalActivity
+      typePhysicalActivity,
+      howManyActivities
      }),
   })
     // .then((res) => res.json())
