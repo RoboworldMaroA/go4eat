@@ -5,12 +5,12 @@
 //POST data to the backend 
 // then backend service send email to the user
 //and to the owner go4eat 
-const formLogin = document.querySelector(".form");
+const formSurvey = document.querySelector(".form");
 
-formLogin.addEventListener("submit", (event) => {
+formSurvey.addEventListener("submit", (event) => {
   event.preventDefault();
 
-  const formData = new FormData(formLogin);
+  const formData = new FormData(formSurvey);
   console.log(formData.get("bodyYourExpectation"));// 1.
   console.log(formData.get("toName"));// 2.
   console.log(formData.get("toSurveyEmail")); // 3.
@@ -125,6 +125,20 @@ formLogin.addEventListener("submit", (event) => {
   //***************************************************** */
   //***************************************************** */
   // Save to the variable fetched data from the form 
+  //0. Get a value from check bo honest survey
+  // 5. Get a value if customer is male or female
+  let honest = "";
+  let selectedOptionHonestOrNot = document.querySelector('input[name="honestlyAnswer"]:checked');
+    if (selectedOptionHonestOrNot) {
+        honest = "Yes";
+        // console.log('Honestly check box is:', honest);
+    } else {
+        
+        console.log('Honesty check box is nos selected');
+        // alert("Please check the honesty box");
+        // return false;
+    }
+
   // 1.
   const yourExpectation = formData.get("bodyYourExpectation");
   // 2.
@@ -277,6 +291,110 @@ console.log("19 "+whatUserWantToAchieve);
 console.log("20 "+timeToAchieveGoal);
 console.log("21 "+typePhysicalActivity);
 console.log("22 "+howManyActivities);
+
+
+
+// function validationSurveyForm(){
+  //validation survey form  
+
+  if (honest != "Yes"){
+    alert("Please check the honesty box");
+      return false;
+    }
+   
+  if(yourExpectation == ""){    
+    alert("Please enter your expectation");
+    return false;}
+  if(name == ""){
+    alert("Please enter your name");
+    return false;
+  }
+  if(surveyEmail == ""){
+    alert("Please enter your email"); 
+    return false;
+  }
+  if(phoneNumber == ""){
+    alert("Please enter your phone number");
+    return false;
+  }   
+  if(sex == ""){
+    alert("Please select Male or female");
+    return false; 
+  }
+  if(dateOfBirth == ""){
+    alert("Please enter your date of birth");
+    return false;
+  }   
+  if(weight == ""){
+    alert("Please enter your weight");  
+    return false;   
+  }
+  if(height == ""){ 
+    alert("Please enter your height");
+    return false; 
+  }
+  if(timeForFirstMeal == ""){ 
+    alert("Please enter time for first meal");
+    return false; 
+  }
+  if(howManyDishesPerDay == ""){    
+    alert("Please enter how many dishes per day");
+    return false; 
+  }
+  if(heatAtWork == ""){
+    alert("Please select if you can heat a meal at work");
+
+    return false;
+  }
+  if(bedTime == ""){    
+    alert("Please enter your bed time");
+    return false;
+  }   
+  if(favoriteFoodProducts == ""){
+    alert("Please select your favorite food products");
+    return false;
+  }
+  if(favoriteProducts == ""){
+    alert("Please enter your favorite products");
+    return false;
+  }   
+  if(teaOrCoffee == ""){
+    alert("Please enter if you drink coffee or tea with milk and sugar"); 
+    return false;
+  }
+  if(meatItems == ""){  
+    alert("Please select what type of meat or fish do You eat often");
+    return false;   
+  }
+  if(chronicDisease == ""){ 
+    alert("Please enter if you suffer from any chronic disease");
+    return false; 
+  }
+  if(allergies == ""){
+    alert("Please enter if you have any food intolerance or allergies");
+    return false;   
+  }
+  if(whatUserWantToAchieve == ""){
+    alert("Please select what do you want to achieve with this program");
+    return false;   
+  }
+  if(timeToAchieveGoal == ""){      
+    alert("Please enter time to achieve your goal");
+    return false;   
+  }
+  if(typePhysicalActivity == ""){   
+
+    alert("Please select what type of physical activity you practice");
+    return false; 
+  }
+  if(howManyActivities == ""){    
+    alert("Please select how many times a week is physical activity practiced");
+    return false;   
+  }       
+// }
+
+// validationSurveyForm();
+ 
 
 
 

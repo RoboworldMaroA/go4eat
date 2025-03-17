@@ -20,11 +20,7 @@
 
 	<!-- Fonts from google-->
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-	<!--SOCIAL MEDIA ICONS-->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<!-- Cookies used creator cookies from https://www.osano.com -->
-	<link rel="stylesheet" type="text/css"
-		href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
 
 </head>
 
@@ -39,29 +35,6 @@
 							alt="logo_go_for_eat">
 						<!-- Go 4 Eat -->
 					</a>
-					<!-- <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
-						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-						aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button> -->
-
-					<!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
-						<ul class="navbar-nav mr-auto">
-							<li class="nav-item active">
-								<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="about_us.html">About<span
-										style="color: #e8e1d9">_</span>Us</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="offer.html">Offer</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="contact.html">Contact</a>
-							</li>
-						</ul>
-					</div> -->
 				</nav>
 				<!-- End Navbar -->
 			</div>
@@ -80,16 +53,28 @@
 					<p id="contactUs"></p>
 					<h1>Welcome !</h1>
 					<p>Please fill out this form and submit </p>
-					<p>Nutrition is the basis in various sports. For this reason, filling out or answering the questions
-						in this section <span style="color: #ff8c00;">Honestly</span> will guarantee Your
-						expectations. </p>
-					<p>Make sure that the individual meals
-						are weighed and eaten accurately. This is an important detail that creates individual meals
-						balanced and tailored to you.</p>
+
 				</div>
 				<!-- contact form -->
 				<div>
 					<form class="form">
+						<p>Nutrition is the basis in various sports. For this reason, filling out or answering the
+							questions
+							in this section <span style="color: #ff8c00;">Honestly</span> will guarantee Your
+							expectations.
+						<div class="form-check">
+							<input class="form-check-input" name="honestlyAnswer" type="checkbox" value="Yes"
+								id="inputHonestlyAnswer">
+							<label class="form-check-label" for="inputHonestlyAnswer">
+								Confirm that you will answer honestly.
+							</label>
+						</div>
+						</p>
+						<p>Make sure that the individual meals
+							are weighed and eaten accurately. This is an important detail that creates individual meals
+							balanced and tailored to you.</p>
+
+
 
 						<p>What do You expect from this program?</p>
 						<textarea name="bodyYourExpectation" id="bodyYourExpectation" placeholder="Your goals"
@@ -489,6 +474,7 @@
 	<!-- <script src="js/cookies.js"></script> -->
 
 	<script src="javascript/survey.js?v=1.2"></script>
+	<!-- <script src="javascript/validateSurveyForm.js"></script> -->
 
 	<!-- Java script to JQUERY and BOOTSTRAP SCRIPT-->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
