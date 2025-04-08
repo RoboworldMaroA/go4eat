@@ -23,6 +23,7 @@
 
 @font-face {
   font-family: 'Snell Roundhand';
+  /* font-family: cursive; */
   src: url('../fonts/snell-roundhand/SnellBT-Regular.otf') format('opentype');
   font-weight:normal;
   font-style:normal;
@@ -30,13 +31,15 @@
 
 
 body{
-  font-family: 'Snell Roundhand', cursive;
+  /* font-family: 'Snell Roundhand', cursive; */
+  font-family: "Lato", sans-serif;
 }
 
 
 header{
 
-  font-family: 'Snell Roundhand', cursive;
+  /* font-family: 'Snell Roundhand', cursive; */
+  font-family: "Lato", sans-serif;
   font-size: 1.4em;
 }
 
@@ -54,7 +57,11 @@ h1{
 }
 p{
   color: var(--my-text-color);
-  font-family: 'Snell Roundhand', cursive;
+  /* font-family: 'Snell Roundhand', cursive; */
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  /* font-family: cursive; */
   padding-top: 5%;
   font-size: 1.4em;
  
@@ -468,7 +475,8 @@ body,td,th {
   padding-top: 30%;
   font-size: 2.4em;
   text-align: center;
-  font-family: 'Snell Roundhand', cursive;
+  /* font-family: 'Snell Roundhand', cursive; */
+  font-family: "Lato", sans-serif;
   /* color: azure; */
   color: var(--my-text-color);
   padding-bottom: 10%;
@@ -492,7 +500,8 @@ body,td,th {
 #addressContactUs{
   padding-top: 3%;
   font-size: 2.2em;
-  font-family: 'Snell Roundhand', cursive;
+  /* font-family: 'Snell Roundhand', cursive; */
+  font-family: "Lato", sans-serif;
   /* color: azure; */
   color: var(--my-text-color);
   padding-bottom: 3%;
