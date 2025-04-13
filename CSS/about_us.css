@@ -379,7 +379,7 @@ a.nav-link{
   font-size: 2.5em;
   text-align: center;
   color: #e45817;
-  padding-bottom: 25%;
+  padding-bottom: 5%;
 
 }
 
@@ -486,3 +486,18 @@ h1 {
 } */
 
 
+/* img.img-fluid {
+  position: center;
+} */
+
+
+.carousel-item img{
+  max-width: 55%;
+  margin-left: 5%;
+}
+
+.carousel-item img:hover{
+  max-width: 80%;
+  margin-left: 5%;
+  transform: scale(1.1);
+}
