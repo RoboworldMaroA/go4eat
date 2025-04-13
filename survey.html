@@ -65,14 +65,17 @@
 				<!-- contact form -->
 				<div>
 					<form class="form">
+
 						<p class="nutrition">Nutrition is the basis in various sports. For this reason, filling out or
 							answering the
 							questions
 							in this section <span style="color: #ff8c00;">Honestly</span> will guarantee Your
 							expectations.
+						<div class="error" id="statusHonestly"> </div>
 						<div class="form-check">
 							<input class="form-check-input" name="honestlyAnswer" type="checkbox" value="Yes"
-								id="inputHonestlyAnswer">
+								id="checkHonestlyBox">
+
 							<label class="form-check-label" for="inputHonestlyAnswer">
 								Confirm that you will answer honestly.
 							</label>
@@ -84,25 +87,30 @@
 
 
 
-						<p>What do You expect from this program?</p>
+						<p>
+						<div class="error" id="statusExpectations"> </div>
+						What do You expect from this program?</p>
 						<textarea name="bodyYourExpectation" id="bodyYourExpectation" placeholder="Your goals"
 							style="height:100px"></textarea>
 
 						<p>Contact data</p>
 
 						<div class="form-group">
+							<div class="error" id="statusName"> </div>
 							<label for="inputName">Name and Surname</label>
 							<textarea name="toName" type="text" id="inputName"
 								placeholder="Your name and surname"></textarea>
 						</div>
 
 						<div class="form-group">
+							<div class="error" id="statusEmail"> </div>
 							<label for="inputSurveyEmail">Email</label>
 							<input name="toSurveyEmail" type="email" class="form-control" id="inputSurveyEmail"
 								placeholder="Email">
 						</div>
 
 						<div class="form-group">
+							<div class="error" id="statusPhone"> </div>
 							<label for="inputPhoneNumber">Phone Number</label>
 							<input name="toPhoneNumber" type="number" class="form-control" id="inputPhoneNumber"
 								placeholder="PhoneNumber">
@@ -112,6 +120,7 @@
 						<!-- Pick gender male or female -->
 						<p>Personal data</p>
 						<label for="inputGender">Gender:</label>
+						<div class="error" id="statusMaleOrFemale"> </div>
 						<div class="form-check">
 
 							<input name="option" class="form-check-input" type="radio" id="inputMale" value="Male">
@@ -129,6 +138,7 @@
 
 						<!-- Date od birth -->
 						<div class="form-group" id="dateOfBirth">
+							<div class="error" id="statusDateOfBirth"> </div>
 							<label for="inputDateOfBirth">Date of Birth</label>
 							<input type="date" id="inputDateOfBirth" name="toDateOfBirth" class="form-control"
 								placeholder="Date of birth">
@@ -136,6 +146,7 @@
 
 						<!-- Weight -->
 						<div class="form-group">
+							<div class="error" id="statusWeight"> </div>
 							<label for="inputWeight">Weight</label>
 							<input name="toWeight" type="text" class="form-control" id="inputWeight"
 								placeholder="Weight should me in kg.">
@@ -143,6 +154,7 @@
 
 						<!-- Height -->
 						<div class="form-group">
+							<div class="error" id="statusHeight"> </div>
 							<label for="inputHight">Height</label>
 							<input name="toHight" type="text" class="form-control" id="inputHight"
 								placeholder=" Customer hight should me in cm">
@@ -150,6 +162,7 @@
 
 						<!-- Time of your first meal -->
 						<p>Time of your first meal</p>
+						<div class="error" id="statusTimeForFirstMeal"> </div>
 						<div class="form-group">
 							<!-- <label for="inputTimeForMeal">Time of your first meal</label> -->
 							<input name="toInputTimeForFirstMeal" type="time" class="form-control"
@@ -159,6 +172,7 @@
 
 
 						<p>How many dishes do You wish per day?</p>
+						<div class="error" id="statusHowManyDishesPerDay"> </div>
 						<div class="form-group">
 							<!-- <label for="inputHowManyDishesPerDay">How many dishes do You wish per day?</label> -->
 							<input name="toHowManyDishesPerDay" type="number" class="form-control"
@@ -172,7 +186,9 @@
 						 iCanHeatAMeatAtWork
 						 iCanNotHeatAMealAtWork 
 						-->
+
 						<p>Is it possible to heat your meal at work?</p>
+						<div class="error" id="statusHeatAtWork"> </div>
 
 						<div class="form-check">
 							<input class="form-check-input" type="radio" name="optionHeatMeal" id="inputYes"
@@ -192,6 +208,7 @@
 
 
 						<p>Bed time</p>
+						<div class="error" id="statusBedTime"> </div>
 						<div class="form-group">
 							<!-- <label for="inputBedTime">Bed time</label> -->
 							<input style="border:none" name="toBedTime" type="time" class="form-control"
@@ -201,6 +218,7 @@
 
 						<!-- What kind of Food product's do You like best? -->
 						<p>What kind of Food product's do You like best?</p>
+						<div class="error" id="statusFavoriteFoodProducts"> </div>
 						<div class="form-check">
 							<input class="form-check-input" name="optionBestProduct" type="checkbox" value="Rice"
 								id="inputRice">
@@ -257,6 +275,7 @@
 						<!-- Have you some favorite product's that you would like to find in your diet? -->
 						<p>Have you some favorite product's that you would like to find in your
 							diet?</p>
+						<div class="error" id="statusFavoriteProducts"> </div>
 						<textarea id="bodyFavoriteProducts" name="bodyFavoriteProducts"
 							placeholder="Write here your favorite products..." style="height:100px"></textarea>
 
@@ -264,12 +283,14 @@
 						<!-- Do You drink coffee or Tea with milk and sugar? If yes describe how many time per day. -->
 						<p>Do You drink coffee or Tea with milk and sugar? If yes describe how many time per day.
 						</p>
+						<div class="error" id="statusTeaOrCoffee"> </div>
 						<textarea id="body" name="bodyTeaOrCoffee" placeholder="Tea or Coffee?"
 							style="height:100px"></textarea>
 
 
 						<!-- What type of meat or fish do You eat often? -->
 						<p>What type of meat or fish do You eat often?</p>
+						<div class="error" id="statusMeatItems"> </div>
 						<div class="form-check">
 							<input class="form-check-input" name="optionMeat" type="checkbox" value="Chicken"
 								id="inputChicken">
@@ -324,18 +345,25 @@
 
 
 						<!-- Does the client suffer from any chronic disease? ... if Yes please describe. -->
+
 						<p>Does the client suffer from any chronic disease? ... if Yes please describe. </p>
+						<div class="error" id="statusChronicDisease"> </div>
 						<textarea id="bodyChronicDisease" name="bodyChronicDisease"
 							placeholder="Write if you have any if not type NO" style="height:100px"></textarea>
 
 						<!-- Food intolerance or allergies? -->
-						<p>Food intolerance or allergies? </p>
+
+						<p>Do you have any food intolerance or allergies? </p>
+						<div class="error" id="statusAllergies"> </div>
+						<!-- <p>Food intolerance or allergies? </p> -->
 						<textarea id="bodyAllergies" name="bodyAllergies" placeholder="Allergies?"
 							style="height:100px"></textarea>
 
 
 						<!-- What do You want to achieve with this program? -->
+
 						<p>What do You want to achieve with this program?</p>
+						<div class="error" id="statusAchieveWithThisProgram"> </div>
 						<div class="form-check">
 							<input class="form-check-input" name="optionAchieveWithThisProgram" type="checkbox"
 								value="Bulking" id="inputBulking">
@@ -360,7 +388,10 @@
 						</div>
 
 						<!-- Time to achieve your goal?(bulking, reduction) -->
+
+
 						<p>Time to achieve your goal?(bulking, reduction) </p>
+						<div class="error" id="statusTimeToAchieveGoal"> </div>
 						<div class="form-group">
 							<input type="text" id="timeToAchieveYourGoal" name="timeToAchieveYourGoal"
 								placeholder="Time to achieve you goal in days or months">
@@ -368,7 +399,9 @@
 
 
 						<!-- Your physical activity -->
+
 						<p>Your physical activity</p>
+						<div class="error" id="statusTypePhysicalActivity"> </div>
 						<div class="form-check">
 							<input class="form-check-input" name="optionTypeActivities" type="checkbox" value="Walking"
 								id="inputWalking">
@@ -424,8 +457,9 @@
 
 						<!-- How many times a week is "Physical Activity" practiced? -->
 						<!-- Ratio how many time a week customer has exercises (Activate) -->
-						<p>How many times a week is "Physical Activity" practiced?</p>
 
+						<p>How many times a week is "Physical Activity" practiced?</p>
+						<div class="error" id="statusHowManyActivities"> </div>
 						<div class="form-check">
 							<input class="form-check-input" type="radio" name="optionActivities"
 								id="inputOneToTwoTimesAWeek" value="One To Two Times A Week">

@@ -293,102 +293,149 @@ console.log("21 "+typePhysicalActivity);
 console.log("22 "+howManyActivities);
 
 
+const STATUS_HONESTLY = document.getElementById('statusHonestly');
+const STATUS_EXPECTATIONS = document.getElementById('statusExpectations');
+const STATUS_NAME = document.getElementById('statusName');
+const STATUS_EMAIL = document.getElementById('statusEmail');
+const STATUS_PHONE = document.getElementById('statusPhone');
+const STATUS_MALE_OR_FEMALE = document.getElementById('statusMaleOrFemale');
+const STATUS_DATE_OF_BIRTH = document.getElementById('statusDateOfBirth');
+const STATUS_WEIGHT = document.getElementById('statusWeight');
+const STATUS_HEIGHT = document.getElementById('statusHeight');
+const STATUS_TIME_FOR_FIRST_MEAL = document.getElementById('statusTimeForFirstMeal');
+const STATUS_HOW_MANY_DISHES_PER_DAY = document.getElementById('statusHowManyDishesPerDay');
+const STATUS_HEAT_AT_WORK = document.getElementById('statusHeatAtWork');
+const STATUS_BED_TIME = document.getElementById('statusBedTime');
+const STATUS_FAVORITE_FOOD_PRODUCTS = document.getElementById('statusFavoriteFoodProducts');
+const STATUS_FAVORITE_PRODUCTS = document.getElementById('statusFavoriteProducts');
+const STATUS_TEA_OR_COFFEE = document.getElementById('statusTeaOrCoffee');
+const STATUS_MEAT_ITEMS = document.getElementById('statusMeatItems');
+const STATUS_CHRONIC_DISEASE = document.getElementById('statusChronicDisease');
+const STATUS_ALLERGIES = document.getElementById('statusAllergies');
+const STATUS_ACHIEVE_WITH_THIS_PROGRAM = document.getElementById('statusAchieveWithThisProgram');
+const STATUS_TIME_TO_ACHIEVE_GOAL = document.getElementById('statusTimeToAchieveGoal');
+const STATUS_TYPE_PHYSICAL_ACTIVITY = document.getElementById('statusTypePhysicalActivity');
+const STATUS_HOW_MANY_ACTIVITIES = document.getElementById('statusHowManyActivities');
 
 // function validationSurveyForm(){
   //validation survey form  
 
   if (honest != "Yes"){
     alert("Please check the honesty box");
-      return false;
-    }
-   
+    STATUS_HONESTLY.innerText = 'Check Bock is not selected';
+    return false;
+  }
+
   if(yourExpectation == ""){    
     alert("Please enter your expectation");
+    STATUS_EXPECTATIONS.innerText = 'Expectation is empty';
     return false;}
   if(name == ""){
     alert("Please enter your name");
+    STATUS_NAME.innerText = 'Put your name';
     return false;
   }
   if(surveyEmail == ""){
-    alert("Please enter your email"); 
+    alert("Please enter your email");
+    STATUS_EMAIL.innerText = 'Email is not valid';
     return false;
   }
   if(phoneNumber == ""){
     alert("Please enter your phone number");
+    STATUS_PHONE.innerText = 'Phone number is not properly formatted';
     return false;
   }   
   if(sex == ""){
     alert("Please select Male or female");
+    STATUS_MALE_OR_FEMALE.innerText = 'Missing gender option';
     return false; 
   }
   if(dateOfBirth == ""){
     alert("Please enter your date of birth");
+    STATUS_DATE_OF_BIRTH.innerText = 'Date of birth is empty';
     return false;
   }   
   if(weight == ""){
-    alert("Please enter your weight");  
+    alert("Please enter your weight");
+    STATUS_WEIGHT.innerText = 'Please enter your weight';  
+
     return false;   
   }
   if(height == ""){ 
     alert("Please enter your height");
+    STATUS_HEIGHT.innerText = 'Please enter your height';
     return false; 
   }
   if(timeForFirstMeal == ""){ 
     alert("Please enter time for first meal");
+    STATUS_TIME_FOR_FIRST_MEAL.innerText = 'Time for first meal is empty';
     return false; 
   }
   if(howManyDishesPerDay == ""){    
     alert("Please enter how many dishes per day");
+    STATUS_HOW_MANY_DISHES_PER_DAY.innerText = 'Missing number of dishes per day';
     return false; 
   }
   if(heatAtWork == ""){
     alert("Please select if you can heat a meal at work");
+    STATUS_HEAT_AT_WORK.innerText = 'Pick your options';
 
     return false;
   }
   if(bedTime == ""){    
     alert("Please enter your bed time");
+    STATUS_BED_TIME.innerText = 'Bed time is not provided';
     return false;
   }   
   if(favoriteFoodProducts == ""){
     alert("Please select your favorite food products");
+    STATUS_FAVORITE_FOOD_PRODUCTS.innerText = 'Select your favorite food products';
     return false;
   }
   if(favoriteProducts == ""){
     alert("Please enter your favorite products");
+    STATUS_FAVORITE_PRODUCTS.innerText = 'Fill in your favorite products';
     return false;
   }   
   if(teaOrCoffee == ""){
-    alert("Please enter if you drink coffee or tea with milk and sugar"); 
+    alert("Please enter if you drink coffee or tea with milk and sugar");
+    STATUS_TEA_OR_COFFEE.innerText = 'Tea or coffee cannot be empty'; 
     return false;
   }
   if(meatItems == ""){  
     alert("Please select what type of meat or fish do You eat often");
+    STATUS_MEAT_ITEMS.innerText = 'Select your favorite meat or fish';
     return false;   
   }
   if(chronicDisease == ""){ 
     alert("Please enter if you suffer from any chronic disease");
+    STATUS_CHRONIC_DISEASE.innerText = 'Chronic disease cannot be empty';
     return false; 
   }
   if(allergies == ""){
     alert("Please enter if you have any food intolerance or allergies");
+    STATUS_ALLERGIES.innerText = 'Type No if you do not have any allergies';
     return false;   
   }
   if(whatUserWantToAchieve == ""){
     alert("Please select what do you want to achieve with this program");
+    STATUS_ACHIEVE_WITH_THIS_PROGRAM.innerText = 'Describe what you want to achieve';
     return false;   
   }
   if(timeToAchieveGoal == ""){      
     alert("Please enter time to achieve your goal");
+    STATUS_TIME_TO_ACHIEVE_GOAL.innerText = 'Time to achieve goal is needed';
     return false;   
   }
   if(typePhysicalActivity == ""){   
 
     alert("Please select what type of physical activity you practice");
+    STATUS_TYPE_PHYSICAL_ACTIVITY.innerText = 'Type of physical activity is empty';
     return false; 
   }
   if(howManyActivities == ""){    
     alert("Please select how many times a week is physical activity practiced");
+    STATUS_HOW_MANY_ACTIVITIES.innerText = 'How many activities is empty';
     return false;   
   }       
 // }
