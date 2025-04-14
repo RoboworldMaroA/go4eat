@@ -73,6 +73,31 @@
 // }
 
 
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const movingText = document.getElementById('movingText');
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                movingText.classList.add('animate');
+                observer.unobserve(movingText);
+            }
+        });
+    });
+
+    observer.observe(movingText);
+});
+
+
+
+
+
+
+
+
 //STay orange
 const text = document.getElementById('paragraphGo4Eat').innerText;
 const paragraph = document.getElementById('paragraphGo4Eat');

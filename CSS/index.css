@@ -17,16 +17,17 @@
   --my-text-color-white:  #e8e1d9; 
  
 }
-@font-face {
+/* @font-face {
   font-family: 'Snell Roundhand';
   src: url('../fonts/snell-roundhand/SnellBT-Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
-}
+} */
 
 
 body{
-  font-family: 'Snell Roundhand', cursive;
+  /* font-family: 'Snell Roundhand', cursive; */
+  font-family: "Lato", sans-serif;
 }
 
 /* photo on top page */
@@ -44,13 +45,15 @@ body{
 
 header{
   /* font-family: "Caveat", cursive; */
-  font-family: 'Snell Roundhand', cursive;
+  /* font-family: 'Snell Roundhand', cursive; */
+  font-family: "Lato", sans-serif;
   font-size: 1.4em;
 }
 
 p{
   color: var(--my-text-color);
-  font-family: 'Snell Roundhand', cursive;
+  /* font-family: 'Snell Roundhand', cursive; */
+  font-family: "Lato", sans-serif, cursive;
   /* font-family: "Caveat", cursive; */
 }
 
@@ -191,9 +194,12 @@ a.nav-link{
 }
 
 #welcomeToIndex{
-  font-size: 1.9em;
+  /* font-size: 1.9em; */
   text-align: center;
-  font-family: 'Snell Roundhand', cursive;
+  /* font-family: 'Snell Roundhand'; */
+  font-size: 1.7em;
+  font-family: "Lato", sans-serif, cursive;
+  
   /* padding: 0 0 0 0 !important; */
   /* margin: 0 0 0 0!important; */
   
@@ -212,14 +218,18 @@ a.nav-link{
 
 
 #secondParagrapthOnIndexPage {
-  font-family: 'Snell Roundhand', cursive;
+  /* font-family: 'Snell Roundhand', cursive; */
+  /* font-family: 'Snell Roundhand'; */
+  font-family: "Lato", sans-serif;
   font-size: 1.9em;
-  font-weight: 150; 
+  /* font-weight: 150;  */
+  font-weight: normal; 
   /* padding-top: 60%;  */
   color: var(--my-text-color-white);
   background-image: url(/images/index_page_in_the_middle.jpg);
   /* padding-bottom: 10%; */
-  width:100%;
+  /* width:100%; */
+  width:normal;
   /* height: Auto; */
   background-repeat:no-repeat;
   background-size:contain;
@@ -238,7 +248,8 @@ a.nav-link{
 #go4eatNutrition{
 
   padding-top: 10%;
-  font-size: 1.7em;
+  /* font-size: 1.7em; */
+  font-size: 1.6em;
   text-align: center;
 
 
@@ -246,7 +257,8 @@ a.nav-link{
 
 #go4eatLogoOnlineCoaching{
 
-  font-size: 1.5em;
+  /* font-size: 1.5em; */
+  font-size: 1.4em;
   text-align: center;
 
 }
@@ -262,7 +274,8 @@ a.nav-link{
 }
 
 #textInTheMiddle p {
-  font-size: 1.6em;
+  /* font-size: 1.6em; */
+  font-size: 1.5em;
   color: var(--my-text-color);
   /* color: #ffffff; */
  
@@ -288,7 +301,8 @@ a.nav-link{
 }
 
 #textAfterMiddle p {
-  font-size: 1.6em;
+  /* font-size: 1.6em; */
+  font-size: 1.5em;
   color: var(--my-text-color);
   /* color: #ffffff; */
  
@@ -363,17 +377,19 @@ img:focus {
   /* background-color: #060606; */
   background-color: var(--my-background-color);
   text-align: center;
-  font-size: 1.5em;
+  /* font-size: 1.5em; */
+  font-size: 1.4em;
   /* font-family: "Caveat", cursive; */
-  font-family: 'Snell Roundhand', cursive;
-
+  /* font-family: 'Snell Roundhand', cursive; */
+ font-family: "Lato", sans-serif;
 
 }
 
 
 
 #sectionMessageUs a {
-  font-size: 1.5em;
+  /* font-size: 1.5em; */
+  font-size: 1.4em;
   
  
 }
@@ -511,7 +527,8 @@ h1 {
 
 .default {
   color: #060606;
-  font-family: 'Snell Roundhand', cursive;
+  /* font-family: 'Snell Roundhand', cursive; */
+  font-family: "Lato", sans-serif;
   font-size: 2.1em;
 }
 
@@ -522,7 +539,9 @@ h1 {
 }
 
 #paragraphGo4Eat span{
-  font-family: 'Snell Roundhand', cursive;
+  /* font-family: 'Snell Roundhand', cursive; */
+  font-family: "Lato", sans-serif;
+  font-style: italic;
   font-size: 2.1em;
   margin: 0 0 0 0 !important;
   padding: 0 0 0 0 !important;
@@ -532,8 +551,38 @@ h1 {
 /* Changing color in the letter to orange */
 .highlight {
   color: #e45817;
-  font-family: 'Snell Roundhand', cursive;
+  /* font-family: 'Snell Roundhand', cursive; */
+  font-family: "Lato", sans-serif;
   font-size: 2.1em;
 }
 
 
+
+/* Moving text Go for eat */
+
+#movingText {
+  padding-top: 1%;
+  position: relative;
+  left: -100%;
+  /* font-size: 24px; */
+  animation: moveToCenter 8s forwards;
+}
+
+#movingText.animate {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@keyframes moveToCenter {
+  0% {
+      left: -100%;
+  }
+  50% {
+      left: 50%;
+      transform: translateX(-50%);
+  }
+  100% {
+      left: 50%;
+      transform: translateX(-50%);
+  }
+}
