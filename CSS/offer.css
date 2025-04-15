@@ -28,13 +28,17 @@
 
 
 body{
-  font-family: 'Snell Roundhand', cursive;
+  /* font-family: 'Snell Roundhand', cursive; */
+  font-family: "Lato", sans-serif;
+  font-style: italic;
 }
 
 
 header{
   /* font-family: "Caveat", cursive; */
-  font-family: 'Snell Roundhand', cursive;
+  /* font-family: 'Snell Roundhand', cursive; */
+  font-family: "Lato", sans-serif;
+  font-style: italic;
   font-size: 1.4em;
 }
 
@@ -50,7 +54,9 @@ header{
 
 p{
   color: var(--my-text-color);
-  font-family: 'Snell Roundhand', cursive;
+  /* font-family: 'Snell Roundhand', cursive; */
+  font-family: "Lato", sans-serif;
+  font-style: italic;
   /* font-family: "Caveat", cursive; */
 }
 
@@ -304,7 +310,9 @@ h1 {
 
   font-size: 2.1em;
   margin-left: 42%;
-  font-family: 'Snell Roundhand', cursive;
+  /* font-family: 'Snell Roundhand', cursive; */
+  font-family: "Lato", sans-serif;
+  font-style: italic;
   /* font-family: "Caveat", cursive; */
   /* color: azure; */
   color: var(--my-text-color);
@@ -312,9 +320,9 @@ h1 {
 }
 
 .panel-title p{
-  font-family: 'Snell Roundhand', cursive;
-  
-  font-style: normal;
+  /* font-family: 'Snell Roundhand', cursive; */
+  font-family: "Lato", sans-serif;
+  font-style: italic;
   text-align:left;
   padding-left: 13%;
 }
@@ -393,7 +401,7 @@ h1 {
 
   font-size: 1.1em;
   margin-left: 0%;
-  font-style:normal;
+  /* font-style:normal; */
   text-align: left;
   /* color: azure; */
   color: var(--my-text-color);
@@ -413,7 +421,7 @@ h1 {
 
   font-size: 1.1em;
   margin-left: 0%;
-  font-style:normal;
+  /* font-style:normal; */
   text-align: left;
   /* color: azure; */
   color: var(--my-text-color);
@@ -424,7 +432,7 @@ h1 {
 
   font-size: 1.1em;
   margin-left: 0%;
-  font-style:normal;
+  /* font-style:normal; */
   text-align: left;
   /* color: azure; */
   color: var(--my-text-color);
