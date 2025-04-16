@@ -209,7 +209,7 @@ a.nav-link{
 }
 
 #textInTheMiddle p {
-  font-size: 1.4em;
+  font-size: 1.3em;
   /* color: #ffffff; */
   color: var(--my-text-color);
 }
@@ -308,7 +308,7 @@ a:hover {
 
 h1 {
 
-  font-size: 2.1em;
+  font-size: 2.0em;
   margin-left: 42%;
   /* font-family: 'Snell Roundhand', cursive; */
   font-family: "Lato", sans-serif;
@@ -339,7 +339,7 @@ h1 {
 }
 
 #panelBodyFreeConsultation p {
-  font-size: 1.5em;
+  font-size: 1.4em;
   /* color: #ffffff; */
   color: var(--my-text-color);
  
@@ -356,7 +356,7 @@ h1 {
 }
 
 #panelBodyPtSesion p {
-  font-size: 1.5em;
+  font-size: 1.4em;
   /* color: #ffffff; */
   color: var(--my-text-color);
  
@@ -373,7 +373,7 @@ h1 {
 }
 
 #panelBodyDietCoaching p {
-  font-size: 1.5em;
+  font-size: 1.4em;
   /* color: #ffffff; */
   color: var(--my-text-color);
  
@@ -382,7 +382,7 @@ h1 {
 
 #panelBodyDietTrainingCoaching{
   padding-top: 4%;
-  margin-left: 20%;
+  margin-left: 18%;
   /* background-color: #060606; */
   background-color: var(--my-background-color);
   text-align: left;
@@ -390,7 +390,7 @@ h1 {
 }
 
 #panelBodyDietTrainingCoaching p {
-  font-size: 1.5em;
+  font-size: 1.4em;
   /* color: #ffffff; */
   color: var(--my-text-color);
  
@@ -399,7 +399,7 @@ h1 {
 
 #panelHeadingFreeConsultation{
 
-  font-size: 1.1em;
+  font-size: 1.0em;
   margin-left: 0%;
   /* font-style:normal; */
   text-align: left;
@@ -409,7 +409,7 @@ h1 {
 }
 
 #panelHeadingPtSession{
-  font-size: 1.1em;
+  font-size: 1.0em;
   margin-left: 0%;
   text-align: left;
   /* color: azure; */
@@ -419,7 +419,7 @@ h1 {
 
 #panelHeadingDietCoaching{
 
-  font-size: 1.1em;
+  font-size: 1.0em;
   margin-left: 0%;
   /* font-style:normal; */
   text-align: left;
@@ -430,7 +430,7 @@ h1 {
 
 #panelHeadingDietTrainingCoaching{
 
-  font-size: 1.1em;
+  font-size: 1.0em;
   margin-left: 0%;
   /* font-style:normal; */
   text-align: left;
@@ -439,15 +439,19 @@ h1 {
   padding-bottom: 3%;
 }
 
+#panelHeadingDietTrainingCoaching span{
+  font-size: 1.0em;
+
+}
 
 /* After Offers */
 
 footer {
-  padding-top: 5.5%;
+  padding-top: 23%;
   
   background-color: var(--my-background-color);
   text-align: center;
-  font-size: 1em;
+  font-size: 0.9em;
   padding-bottom: 0.1%;
 }
 
