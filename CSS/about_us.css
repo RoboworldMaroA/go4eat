@@ -81,6 +81,7 @@ p{
   /* font-family: "Caveat", cursive; */
   /* font-family: 'Snell Roundhand'; */
   font-family: "Lato", sans-serif;
+  font-style: italic;
 }
 
 
@@ -510,4 +511,8 @@ h1 {
   max-width: 90%;
   margin-left: 5%;
   transform: scale(1.02);
+}
+
+#certificatesCarousel{
+  margin-top: 17%;
 }
